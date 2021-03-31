@@ -1,203 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>byvoid</title>
-    <url>/2018/12/18/People%20that%20affect%20me/byvoid/</url>
-    <content><![CDATA[<p>我希望可以站在前人的肩膀上注目远望，看看这万里风光，是否如我所想的一般。</p>
-<span id="more"></span>
-
-<h2 id="时光易逝"><a href="#时光易逝" class="headerlink" title="时光易逝"></a>时光易逝</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">劝君莫惜金缕衣</span><br><span class="line">劝君惜取少年时</span><br><span class="line">花开堪折直须折</span><br><span class="line">莫待无花空折枝</span><br></pre></td></tr></table></figure>
-
-<p>曾经看过张昆玮学长的<a href="http://www.artofproblemsolving.com/blog/54270">一篇日志</a>。一个朋友在他29岁生日的时候，给过他年轻的朋友们一句话：「Gaudeāmus igitur, iuvenēs dum sumus（拉丁文）」，翻译是「在我们还年轻的时候，让我们快乐吧。」，换成一首诗就是「花开堪折直须折，莫待无花空折枝。」想想看，我们正当人生中最美好的岁月，为什么不去做自己喜欢的事情呢？不要被所谓的现实羁绊，试想人在年轻的时候如果还有如此多的「不能」，那么将来的「不能」祗会更多。所以，大胆去做吧，无需后悔。</p>
-]]></content>
-      <categories>
-        <category>People that affect me</category>
-      </categories>
-      <tags>
-        <tag>affect</tag>
-        <tag>people</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vczh</title>
-    <url>/2019/02/18/People%20that%20affect%20me/vczh/</url>
-    <content><![CDATA[<p>带逛，不需要刻意为之，听其言，观其行做到即可。</p>
-<span id="more"></span>
-
-<h2 id="成长"><a href="#成长" class="headerlink" title="成长"></a>成长</h2><p>直觉一半来自于举一反三，举一反三一半来自于那个一，而当你对很多问题都有那个一的时候显然是因为你这些问题都碰过，碰过问题跟只学会知识还不一样，你还要解决他们。那如何才能碰过并解决大量的问题呢？唯一的方法就是熬过那一大段时间，通常是十几二十年。你光是聪明，可以学会很多东西，但是由于实践的时间不够，仍然不足已成为一个牛逼的程序员。<strong>所以牛逼本身不是一个可以速成的东西，它是知识和经验的积累，然后是运用你的知识和经验的熟练程度。</strong></p>
-<p>整天搞windows，遇到需要用linux的时候也只是问问人看看说明书（不过linux好像没有说明书）的事情了。因为本质困难的东西你都会了，剩下的这些操作问题，只是熟练不熟练的区别而已。</p>
-<p>游戏做完了不能满足于做完，就要开始想模块化的问题了。怎么做一个游戏用的GUI库？怎么做一个游戏用的脚本引擎？怎么给他们制作工具？怎么写一个游戏引擎？怎么写一个RPG Maker？每一个问题想做简单也可以做简单，想做复杂也可以做的很复杂。于是当我问题一个一个的解决之后，都已经来了M$RA了，这也是我为什么后来会做<a href="https://link.zhihu.com/?target=http://www.gaclib.net">GacUI</a> 和各种奇怪的编译器研究各种奇怪的类型系统的原因了。当然现在做到这地步都不是仅仅为了游戏而做，当时当你做出一个游戏可以用得东西之后，你就要开始想怎么把它做成通用的，使得开发软件也可以用。<strong>每一个问题都最终上升了一个台阶，而你觉得容易的问题就不要浪费时间去解决了</strong>。</p>
-<p>你需要花时间做什么，取决于这个问题是不是够难，是不是刚刚好你可以做出来，再难一点点你就做不出来了</p>
-<p>从一个解决问题的程序员，变成一个研究编程本身的程序员了。</p>
-<ul>
-<li>学习编程语言，尽量挑选C++等很有用、不好学、不时髦的语言，避免自己分心，有利于克服人类的劣根性。</li>
-<li>算法数据结构设计模式编译原理，都有经典书籍。</li>
-<li>勤奋的练习。命令行刷几道题练练手感就好了，接下来就是从贪吃蛇和记事本开始抄，你可以一路抄到很远，譬如做一个vscode。</li>
-</ul>
-<p>自己做vscode的时候有一个要点，除了windows api以外不要使用任何其他东西，需要什么全都自己来，这才是练习。你的目标不是开发一个有用的编辑器，你的目标也不是学习对马上工作有用的技能，你的目标是练习编程。要是真的好用，你可以自己用。</p>
-<p>学习编程，就要从磨螺母到锤车床到风洞实验室到光速发动机都自己一路做过来，掌握的技能才扎实，你可以从22岁做到92岁，不管即使发生什么变化，都可以从容应对，轻松跟上世界的发展。只会用别人的工具而不会自己造工具的，只会疲于奔命，在35岁的时候还是只能干应届生的活，因为体力不支惨遭淘汰。</p>
-<p>变量名用英文的话，写代码的时候就不要用中文思考。你可以每天下班在家4小时，写自己的开源项目，文档全用英文，锻炼自己的语言能力。</p>
-<p>另外，设计模式也是一套词汇表，建议先掌握。这样写出来的代码，同样是懂设计模式的人来看，理解起来轻松很多。</p>
-<ul>
-<li>one man army</li>
-<li>There’s only one way to learn to program: writing a lot of code.</li>
-</ul>
-]]></content>
-      <categories>
-        <category>People that affect me</category>
-      </categories>
-      <tags>
-        <tag>affect</tag>
-        <tag>people</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>鲁迅</title>
-    <url>/2021/03/29/People%20that%20affect%20me/%E9%B2%81%E8%BF%85/</url>
-    <content><![CDATA[<p>“高山仰止，景行行止。虽不能至，然心向往之。”</p>
-<span id="more"></span>
-
-<h2 id="序文"><a href="#序文" class="headerlink" title="序文"></a>序文</h2><p>“行山阴道上，千岩竞秀，万壑争流，令人应接不暇”；有这种环境，所以历代有著名的文学家美术家，其中如王逸少的书，陆放翁的诗，尤为永久流行的作品。最近时期，为旧文学殿军的，有李越缦先生，为新文学开山的，有周豫才先生，即鲁迅先生。</p>
-<p>鲁迅先生本受清代学者的濡染，所以他杂集会稽郡故书，校嵇康集，辑谢承后汉书，编汉碑帖，六朝墓志目录，六朝造象目录等，完全用清儒家法。惟彼又深研科学，酷爱美术，故不为清儒所囿，而又有他方面的发展，例如科学小说的翻译，中国小说史略，小说旧闻钞，唐宋传奇集等，已打破清儒轻视小说之习惯；又金石学为自宋以来较发展之学，而未有注意于汉碑之图案者，鲁迅先生独注意于此项材料之搜罗；推而至于引玉集，木刻纪程，北平笺谱等等，均为旧时代的考据家赏鉴家所未曾著手。</p>
-<p>先生阅世既深，有种种不忍见不忍闻的事实，而自己又有一种理想的世界，蕴积既久，非一吐不快。但彼既博览而又虚衷，对于世界文学家之作品，有所见略同者，尽量的迻译，理论的有卢那卡尔斯基，蒲力汗诺夫之艺术论等；写实的有阿尔志跋绥夫之工人绥惠略夫，果戈理之死魂灵等，描写理想的有爱罗先珂及其他作者之童话等，占全集之半，真是谦而勤了。</p>
-<p>“借他人之酒杯，浇自己的块垒”，虽也痛快，但人心不同如其面，环境的触发，时间的经过，必有种种蕴积的思想，不能得到一种相当的译本，可以发舒的，于是有创作。鲁迅先生的创作，除坟，呐喊，野草数种外，均成于一九二五至一九三六年中，其文体除小说三种，散文诗一种，书信一种外，均为杂文与短评，以十二年光阴成此多许的作品，他的感想之丰富，观察之深刻，意境之隽永，字句之正确，他人所苦思力索而不易得当的，他就很自然的写出来，这是何等天才！又是何等学力！</p>
-<p>综观鲁迅先生全集，虽亦有几种工作，与越缦先生相类似的；但方面较多，蹊径独辟，为后学开示无数法门，所以鄙人敢以新文学开山目之。然欤否欤，质诸读者。</p>
-<p>民国二十七年六月一日蔡元培</p>
-]]></content>
-      <categories>
-        <category>People that affect me</category>
-      </categories>
-      <tags>
-        <tag>affect</tag>
-        <tag>people</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>推荐</title>
-    <url>/2018/10/18/People%20that%20affect%20me/%E6%8E%A8%E8%8D%90/</url>
-    <content><![CDATA[<p>许多事情并不是立竿见影的影响，而是不断经历失败后再次看到之后才发觉原来如此。</p>
-<span id="more"></span>
-
-<h2 id="Why-Functional-Programming-Matters-阅读笔记"><a href="#Why-Functional-Programming-Matters-阅读笔记" class="headerlink" title="Why Functional Programming Matters 阅读笔记"></a>Why Functional Programming Matters 阅读笔记</h2><blockquote>
-<p>本文是 Why Functional Programming Matters（为什么函数式编程很重要）的阅读笔记，用相对通俗的语言解读了这篇论文，并对我觉得重要的一些点做了一些解释。</p>
-</blockquote>
-<p>为什么函数式编程很重要?随着软件变得越来越复杂，良好地组织软件也越来越重要。一个组织良好的软件更容易编写调试，这种软件提供了一组可以复用的模块（module），这也降低了未来编写代码的代价。本文将说明，函数式编程语言的特色，尤其是高阶函数和惰性求值（high-order function and lazy evaluation），将会对模块化非常有利。<strong>因为模块化是软件开发成功的关键，所以函数式编程会在软件开发过程中具备很大的优势。</strong></p>
-<p>模块化的过程是将问题分解成子问题，求解子问题，再将子问题的解结合（glue）起来的过程。怎么分解直接依赖于编程语言提供了怎样的结合方法。所以要增强模块化能力，需要提供新的结合方法。</p>
-<p>模块化对编程很重要，模块化（modularity）不仅仅是模块（module）。</p>
-<h2 id="Teach-Yourself-Programming-in-Ten-Years"><a href="#Teach-Yourself-Programming-in-Ten-Years" class="headerlink" title="Teach Yourself Programming in Ten Years"></a>Teach Yourself Programming in Ten Years</h2><p>为什么每个人都这么着急？走进任何书店，您将看到如何<em>在24小时内自学Java，</em>以及无穷无尽的变体，可以在几天或几小时内教授C，SQL，Ruby，算法等。</p>
-<p>结论是要么人们急于学习编程，要么编程比其他任何东西都更容易学习。Felleisen <em>等。</em> 在他们的书《*<a href="http://www.ccs.neu.edu/home/matthias/HtDP2e/index.html">如何设计程序</a><em>》中对这种趋势表示</em><a href="http://www.ccs.neu.edu/home/matthias/HtDP2e/index.html">赞同</a><em>，当他们说“错误的编程很容易。</em>白痴<em>可以在</em>21天内<em>学习它，即使他们是</em>傻瓜*。” <a href="http://abstrusegoose.com/249">Abtruse Goose漫画</a>也受到了欢迎。</p>
-<ul>
-<li><p>自学：</p>
-<p>  在24小时内，您将没有时间编写几个重要的程序，并从它们的成功和失败中学习。您将没有时间与经验丰富的程序员一起工作，也不了解在C ++环境中生活的感觉。简而言之，您将没有时间学习很多东西。因此，这本书只能说是肤浅的熟悉，而不是深刻的理解。正如亚历山大·波普（Alexander Pope）所说，学一点东西是一件危险的事情。</p>
-</li>
-<li><p>C++：<br>  在24小时内，您可能可以学习C ++的某些语法（如果您已经知道另一种语言），但是您对如何使用该语言的了解却不多。简而言之，如果您是一名Basic程序员，则可以学习使用C ++语法以Basic风格编写程序，但是您将无法了解C ++的优点（或缺点）。那有什么意义呢？</p>
-</li>
-</ul>
-<p>艾伦·珀利斯（Alan Perlis）曾经说过：“一种不影响您对编程的思考方式的语言，是不值得了解的”。一个可能的观点是，您必须学习一小部分C ++（或更可能是JavaScript或Processing之类的东西），因为您需要与现有工具交互以完成特定任务。但是，那时您不会学习编程。您正在学习完成该任务。</p>
-<h2 id="十年自学编程"><a href="#十年自学编程" class="headerlink" title="十年自学编程"></a>十年自学编程</h2><p>在下棋，音乐等众多领域中发展专业知识大约需要十年的时间。写作，电报操作，绘画，钢琴演奏，游泳，网球以及神经心理学和拓扑学研究。关键是<em>商议</em> 练习：不仅要一遍又一遍地做，还要挑战一项超越您当前能力的任务来挑战自己，尝试一下，分析执行前后的表现，并纠正任何错误。然后重复。再重复一次。似乎没有真正的捷径：即使是4岁的音乐天才莫扎特，也花了13年的时间才开始创作世界一流的音乐。在另一种类型中，甲壳虫乐队似乎爆出一连串的＃1热门歌曲，并在1964年的埃德·沙利文（Ed Sullivan）演出中露面。但是自1957年以来，他们一直在利物浦和汉堡的小型俱乐部里打球，尽管他们颇具吸引力在早期，他们的第一个重大成功就是<em>Sgt。Peppers</em>于1967年发行。</p>
-<p><a href="http://www.amazon.com/Outliers-Story-Success-Malcolm-Gladwell/dp/0316017922">马尔科姆·格拉德威尔</a>尽管他专注于10,000小时（而不是10年），但他已经推广了这个想法。亨利·卡蒂埃·布雷森（Henri Cartier-Bresson，1908-2004年）的另一个标准是：“您的前10,000张照片是最糟糕的。” （他没想到数码相机会在一个星期内达到这个目标。）真正的专业知识可能需要一辈子：塞缪尔·约翰逊（Samuel Johnson（1709-1784））说：“任何部门的出色表现，只有靠一生；不应以较低的价格购买。” 乔uc（1340-1400）抱怨说：“莱夫（lyf）太短了，手工艺品那么久了。” 希波克拉底（约公元前400年）以“ ars longa，vita brevis”的摘录而闻名，它是“ Ars longa，vita brevis，occasio praeceps，experimentum perculosum，iudicium difficile”较长引语的一部分，在英语中译为“生命”。是短， 当然，没有一个数字可以作为最终答案：假设所有技能（例如编程，下棋，下棋和玩音乐）可能都需要完全相同的时间来掌握，这似乎是不合理的，也不会所有人都花费完全相同的时间。正如K.Anders Ericsson教授所说：“在大多数领域，即使是最有才华的个人也需要多少时间才能达到最高水平。令人难以置信的是，10,000小时的小时数使您感觉我们正在谈论多年每周10至20个小时，有些人会说这些是天赋最才华的人，仍然需要达到最高水平。”</p>
-<h2 id="我想成为一名程序员"><a href="#我想成为一名程序员" class="headerlink" title="我想成为一名程序员"></a>我想成为一名程序员</h2><ul>
-<li>获取感兴趣的，因为他很有趣，确保保持足够的乐趣，以便令我愿意投入十年/10,000小时的时间。</li>
-<li>程序学习的最好方法就是边做边学。从技术上讲，“在一定范围内，个人的最高绩效不会根据扩展的经验而自动获得，但是，即使是经验丰富的个人，也可以通过有意改进来提高绩效水平。 ”</li>
-<li>最有效的学习需要对特定个体具有适当难度级别的明确定义的任务，信息反馈以及重复和纠正错误的机会。</li>
-<li>与程序员交流，阅读其他程序，这比任何书籍或培训课程都重要。</li>
-<li>如果需要，可以在大学学习期间获得一些实习，无论如何，仅靠书籍学习是不够的。“计算机科学教育不能使任何人成为专业程序员，就像学习画笔和颜料怎么可能使某人成为专家画家一样。”</li>
-<li>缺乏创意吗？与其他程序一起从事项目。在某些项目中成为最好的程序员；在其他人身上最糟糕。当您处于最佳状态时，就可以测试自己领导项目的能力，并用自己的远见激发他人。在最坏的情况下，您将学习大师的所作所为，并了解他们不喜欢做的事情（因为他们让您为他们做）。</li>
-<li>了解别人编写的程序。看看当原始程序员不在时需要理解和修复它的过程。考虑如何设计您的程序，使那些在您之后维护它们的人更轻松。</li>
-<li>学习至少六种编程语言，包括一种强调类抽象的语言（例如Java或C ++），一种强调功能抽象的语言（例如Lisp或ML或Haskell），一种支持语法抽象的语言（例如Lisp），一种支持声明性规范的语言（例如Prolog或C ++模板）。 ，并且强调并行性（例如Clojure或Go）。</li>
-<li>计算机科学，了解计算机执行一条指令，从内存中获取一个单词（有或没有缓存未命中），从磁盘读取连续的单词以及在磁盘上寻找新位置需要多长时间。</li>
-<li>语言的标准化，良好的意识，尽快开始语言标准化工作。考虑到所有这些，仅通过学习书籍就能取得多大的成绩值得怀疑。在我的第一个孩子出生之前，我阅读了所有“ <em>如何做”</em>书，仍然感到自己是一个笨手笨手的新手。30个月后，当我的第二个孩子到期时，我是否又回到书店复习了？否。相反，我依靠自己的个人经验，事实证明，与专家撰写的成千上万页相比，这对我来说更加有用和令人放心。</li>
-</ul>
-<p>弗雷德·布鲁克斯（Fred Brooks）在他的论文《*<a href="http://en.wikipedia.org/wiki/No_Silver_Bullet">无银子弹》中</a>* 确定了一个由三部分组成的计划，以寻找优秀的软件设计师：</p>
-<ul>
-<li>尽早系统地确定顶级设计师。</li>
-<li>指派职业指导者负责潜在客户的发展，并仔细保存职业档案。</li>
-<li>为成长中的设计师提供互动和相互刺激的机会。</li>
-</ul>
-<p>假设某些人已经具备成为优秀设计师所需的素质；工作是适当地哄骗他们。更简洁地说：“每个人都可以雕刻：米开朗基罗必须被教导如何不做。伟大的程序员也是如此。” 佩利斯（Perlis）说，伟人的内在素质超越了他们的训练。但是质量从何而来？是天生的吗？还是他们通过勤奋发展？正如奥古斯特·古斯托（<em>Ratatouille</em>的虚构厨师 ）所说，“任何人都可以做饭，但只有无所畏惧的人才能做得好。” 我将其更多地视为愿意将一生的大部分时间投入到思考实践中。但也许 <em>无所畏惧</em>是一种概括的方式。或者，正如古斯托（Gusteau）的批评家安东·埃戈（Anton Ego）所说：“并非每个人都能成为一名伟大的艺术家，但是伟大的艺术家可以来自任何地方。”</p>
-<p>因此，继续购买那本Java / Ruby / Javascript / PHP书；您可能会从中受益。但是您不会在24小时或21天内改变自己的生活，也不会改变自己真正的整体专业知识。如何努力在24个月内不断改进？好吧，现在您开始有所建树…</p>
-<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ul>
-<li>本杰明·布鲁姆（ed）*<a href="http://www.amazon.com/exec/obidos/ASIN/034531509X">《年轻人的发展才能》</a>*，巴兰廷，1985年。</li>
-<li>布鲁克斯，弗雷德，《*<a href="http://citeseer.nj.nec.com/context/7718/0">无银子弹》</a>*，IEEE计算机，第1卷。20号 1987年第4期，第4页。10-19。</li>
-<li>Bryan，WL＆Harter，N.“关于电报语言的研究：习性等级的习得。Psychology <em>Review</em>，1899，8，345-375</li>
-<li>海斯（John Hayes），《*<a href="http://www.amazon.com/exec/obidos/ASIN/0805803092">完成问题解决者》（</a>* Lawrence Erlbaum），1989年。</li>
-<li>Lave，Jean，《<a href="http://www.amazon.com/exec/obidos/ASIN/0521357349">实践中的认知：日常生活中的思维，数学和文化》</a>，剑桥大学出版社，1988年。</li>
-</ul>
-<h2 id="附录：语言选择"><a href="#附录：语言选择" class="headerlink" title="附录：语言选择"></a>附录：语言选择</h2><p>先学习哪种编程语言。是没有答案，但可以考虑以下几点：</p>
-<ul>
-<li>使用你的朋友*。当被问及“我应该使用哪种操作系统，Windows，Unix或Mac？”时，我的回答通常是：“使用您的朋友使用的任何软件”。从朋友那里学习所获得的优势将抵消操作系统之间或编程语言之间的任何内在差异。还请考虑您的未来朋友：如果继续，您将成为程序员社区的一部分。您选择的语言是一个正在成长的大型社区还是一个濒临灭绝的社区？是否有书籍，网站和在线论坛可提供答案？您喜欢那些论坛中的人吗？</li>
-<li>保持简单*。诸如C ++和Java之类的编程语言是由经验丰富的程序员组成的大型团队设计的，这些团队关心其代码的运行时效率。结果，这些语言具有针对这些情况设计的复杂部分。您担心要学习编程。您不需要那种麻烦。您需要一种被设计为易于由单个新程序员学习和记住的语言。</li>
-<li>玩。宁愿学习弹钢琴的方式：通常的互动方式，即敲击琴键后便会听到每个音符，或者是“批处理”模式，即在完成整首歌曲后才听到音符？显然，交互式模式使钢琴和编程学习变得更加容易。坚持使用交互式模式的语言并使用它。</li>
-</ul>
-<p>给定这些条件，我对第一种编程语言的建议是**<a href="http://python.org/">Python</a>**或 **<a href="http://www.schemers.org/">Scheme</a>**。另一个选择是Javascript，不是因为它是为初学者精心设计的，而是因为有许多在线教程供您使用，例如 <a href="https://www.khanacademy.org/computing/cs/programming">Khan Academy的教程</a>。但是您的情况可能会有所不同，还有其他不错的选择。如果您的年龄是个位数，则您可能更喜欢 <a href="http://alice.org/">Alice</a>或<a href="http://www.squeak.org/">Squeak</a> 或<a href="https://blockly-demo.appspot.com/static/apps/index.html">Blockly</a>（年龄较大的学习者可能会喜欢）。重要的是您选择并开始。</p>
-<h2 id="书籍和其他资源"><a href="#书籍和其他资源" class="headerlink" title="书籍和其他资源"></a>书籍和其他资源</h2><p> <a href="http://www.amazon.com/gp/product/0262011530">计算机程序的结构和解释（Abelson和Sussman）</a>可能是计算机科学的最好入门，它确实教授编程作为理解计算机科学的一种方式。您可以在本书中<a href="http://www.swiss.ai.mit.edu/classes/6.001/abelson-sussman-lectures/">在线观看讲座视频</a>，以及<a href="http://mitpress.mit.edu/sicp/full-text/book/book.html">在线全文</a>。这本书具有挑战性，将淘汰一些可能通过另一种方法成功的人。</p>
-<p> <a href="http://www.amazon.com/gp/product/0262062186">如何设计程序（Felleisen <em>等人</em>）</a>是有关如何以优雅和实用的方式实际设计程序的最佳书籍之一。</p>
-<p>Python：<a href="http://www.amazon.com/gp/product/1887902996">Python编程：CS</a>入门<a href="http://www.amazon.com/gp/product/1887902996">（Zelle）</a>是使用Python的不错的入门。</p>
-<p>Python：<a href="http://python.org/">Python.org</a> 上提供了一些在线<a href="http://wiki.python.org/moin/BeginnersGuide">教程</a>。</p>
-<p><a href="http://www.amazon.com/gp/product/0262220695">计算机编程的概念，技术和模型（Van Roy和Haridi）</a> 被某些人视为Abelson＆Sussman的现代继任者。这是一门编程的大创意，涵盖了比Abelson＆Sussman更大的范围，同时也许更易于阅读和遵循。它使用一种广泛使用的语言Oz，但它是学习其他语言的基础。</p>
-]]></content>
-      <categories>
-        <category>People that affect me</category>
-      </categories>
-      <tags>
-        <tag>affect</tag>
-        <tag>people</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>硅胖语录集合</title>
-    <url>/2018/09/01/People%20that%20affect%20me/%E7%A1%85%E8%83%96/</url>
-    <content><![CDATA[<p>磨练心智，开阔视野，了解彼岸的信息。</p>
-<span id="more"></span>
-
-<h2 id="了解论坛"><a href="#了解论坛" class="headerlink" title="了解论坛"></a>了解论坛</h2><blockquote>
-<p>最早期获取未知信息的来源，知道了一亩三分论坛的，快速高效，隐私保护是个难题。收费变现，让大量人员流失。毕竟社交平台的程序和服务器谁都会弄，其真正价值还在于贡献者和内容——Google所以伟大，不是因为Google只有搜索引擎，还是因为它的搜索引擎可以index世界上所有的网页，那些网页才是真正的贡献者。</p>
-</blockquote>
-<ul>
-<li>真正的贡献者其实是发面经和帖子的人。</li>
-<li>严格来讲，发面经是违反NDA的。</li>
-<li>从商业角度，这就是个建设“平台”还是“产品”的问题</li>
-<li>英文平台的崛起。可以参考Levelsfyi；公司小道消息和八卦，可以看Blind</li>
-</ul>
-<p>大趋势上，论坛逐渐被公众号和知乎以及各种知识分享的App所取代。长远来讲，留学、移民话题也可能如此，被新方式取代。</p>
-<p>用硅谷商业模式碾压“躺在技术壁垒中不思进取只想着割韭菜的臃肿缓慢官僚保守的传统车厂”，这才是电动汽车的根本优势所在。</p>
-<h2 id="专业and职业"><a href="#专业and职业" class="headerlink" title="专业and职业"></a>专业and职业</h2><p>供需始终在动态变化，每个人的路都是要自己孤独去走的。但我一直认为，如今改行学计算机，依然是正道之一，无论国内国外。只不过，暂时可能会面临经济危机、疫情危机、人数过多等问题，可能要有几年的低谷了。</p>
-<p>经济危机往往是谷底，也就是上升的开始。而且，这世界上的事情被说得很复杂，有时候却简单得残酷：没有别的选择，尤其是某些人。</p>
-<p>出国考个GRE,学CS都是顺理成章的事情，没什么可纠结的。</p>
-<p>那么多培训机构和专业人员，全职教学尚且困难，讲的东西很多也只是皮毛，又何德何能，靠业余时间一个人筑起一座城市.</p>
-<p>很多东西，“懂”和能把人“教懂”是两个概念，“教懂”是需要大量而长期的实践的，是我暂时所不具备的。如果能够面对面说话、有白板，还更好一些，通过文字，表达力就更差一层了。</p>
-<p>现实也是个问题。中文互联网的现实状况，使得原创并没有太多的直接利益，所以缺乏内在驱动力。</p>
-<p>大量垃圾信息流的出现也就是在那段野蛮时期。由针对问题和现实，到针对个人和立场。太快了。</p>
-<h2 id="自我变化"><a href="#自我变化" class="headerlink" title="自我变化"></a>自我变化</h2><p>曾经的文学梦，现在也做到了每天码字。可以说某种意义上已经开始了。</p>
-<p>这次疫情，被迫尝试了不同的生活和工作方式，也有时间思考，恍如隔世，仿佛昨日还是意气风发。</p>
-<p>发现自己总是有很强的心理暗示和心理依赖效应。就像我总暗示自己在家上班效率不高，但事实上是错的，这不过是一种心理上的舒适区而已。真被迫在家上班，我也可以工作得非常好。</p>
-<p>对社交网络的依赖感越来越轻了，</p>
-<h2 id="码农工作本身"><a href="#码农工作本身" class="headerlink" title="码农工作本身"></a>码农工作本身</h2><p>从最初拥有自己的个人计算机开始，就有一种感觉，一定要进入这个行业。不管是为了更好的技术，创作的成就感。一切的前提就是对于一切未知的求知欲“这玩意到底怎么回事，我得搞清楚。我不是加班，只是好奇而已。”</p>
-<p>对整个行业的态度，我当然没有改变多少：计算机过去是、现在是、未来也一直是会解决实际问题的创新行业，因此给勤劳好学能吃苦的人以更多的机会，能够改变自己阶层和环境的机会。我完全支持很多人拿计算机作为跳板和谋生手段的做法，至于能否喜爱不必奢求。</p>
-<p>非常有趣，不会觉得乏味和单调。日复一日，年复一年。</p>
-]]></content>
-      <categories>
-        <category>People that affect me</category>
-      </categories>
-      <tags>
-        <tag>affect</tag>
-        <tag>people</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Song</title>
     <url>/2019/07/18/Tang%20and%20Song/Song/</url>
     <content><![CDATA[<p>复杂感叹的时代，有太多的遗憾。</p>
+<p>少年不识愁滋味，爱上层楼。爱上层楼，为赋新诗强说愁。</p>
+<p>而今识尽愁滋味，欲说还休。欲说还休，却道“天凉好个秋”！</p>
 <span id="more"></span>
 
 <h2 id="江城子·乙卯正月二十日夜记梦"><a href="#江城子·乙卯正月二十日夜记梦" class="headerlink" title="江城子·乙卯正月二十日夜记梦"></a><a href="https://so.gushiwen.org/shiwenv_567fcf6ffefb.aspx"><strong>江城子·乙卯正月二十日夜记梦</strong></a></h2><p><a href="https://so.gushiwen.org/shiwen/default.aspx?cstr=%E5%AE%8B%E4%BB%A3">宋代</a>：<a href="https://so.gushiwen.org/search.aspx?value=%E8%8B%8F%E8%BD%BC">苏轼</a></p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">十年生死两茫茫，不思量，自难忘。千里孤坟，无处话凄凉。纵使相逢应不识，尘满面，鬓如霜。</span><br><span class="line">夜来幽梦忽还乡，小轩窗，正梳妆。相顾无言，惟有泪千行。料得年年肠断处，明月夜，短松冈。(肠断 一作：断肠)</span><br></pre></td></tr></table></figure>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">十年生死两茫茫，不思量，自难忘。千里孤坟，无处话凄凉。纵使相逢应不识，尘满面，鬓如霜。</span><br><span class="line"></span><br><span class="line">夜来幽梦忽还乡，小轩窗，正梳妆。相顾无言，惟有泪千行。料得年年肠断处，明月夜，短松冈。(肠断 一作：断肠)</span><br></pre></td></tr></table></figure>
 
 <h2 id="念奴娇·中秋"><a href="#念奴娇·中秋" class="headerlink" title="念奴娇·中秋"></a><a href="https://so.gushiwen.org/shiwenv_f0640b25bfea.aspx"><strong>念奴娇·中秋</strong></a></h2><p><a href="https://so.gushiwen.org/shiwen/default.aspx?cstr=%E5%AE%8B%E4%BB%A3">宋代</a>：<a href="https://so.gushiwen.org/search.aspx?value=%E8%8B%8F%E8%BD%BC">苏轼</a></p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">凭高眺远，见长空万里，云无留迹。桂魄飞来，光射处，冷浸一天秋碧。玉宇琼楼，乘鸾来去，人在清凉国。江山如画，望中烟树历历。</span><br><span class="line">我醉拍手狂歌，举杯邀月，对影成三客。起舞徘徊风露下，今夕不知何夕？便欲乘风，翻然归去，何用骑鹏翼。水晶宫里，一声吹断横笛。</span><br></pre></td></tr></table></figure>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">凭高眺远，见长空万里，云无留迹。桂魄飞来，光射处，冷浸一天秋碧。玉宇琼楼，乘鸾来去，人在清凉国。江山如画，望中烟树历历。</span><br><span class="line"></span><br><span class="line">我醉拍手狂歌，举杯邀月，对影成三客。起舞徘徊风露下，今夕不知何夕？便欲乘风，翻然归去，何用骑鹏翼。水晶宫里，一声吹断横笛。</span><br></pre></td></tr></table></figure>
 
 <h2 id="於潜僧绿筠轩"><a href="#於潜僧绿筠轩" class="headerlink" title="於潜僧绿筠轩"></a><a href="https://so.gushiwen.org/shiwenv_62b5d8ce8eb3.aspx"><strong>於潜僧绿筠轩</strong></a></h2><p><a href="https://so.gushiwen.org/shiwen/default.aspx?cstr=%E5%AE%8B%E4%BB%A3">宋代</a>：<a href="https://so.gushiwen.org/search.aspx?value=%E8%8B%8F%E8%BD%BC">苏轼</a></p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">宁可食无肉，不可居无竹。</span><br><span class="line">无肉令人瘦，无竹令人俗。</span><br><span class="line">人瘦尚可肥，士俗不可医。</span><br><span class="line">旁人笑此言，似高还似痴。</span><br><span class="line">若对此君仍大嚼，世间那有扬州鹤？</span><br></pre></td></tr></table></figure>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">宁可食无肉，不可居无竹。</span><br><span class="line">无肉令人瘦，无竹令人俗。</span><br><span class="line">人瘦尚可肥，士俗不可医。</span><br><span class="line">旁人笑此言，似高还似痴。</span><br><span class="line">若对此君仍大嚼，世间那有扬州鹤？</span><br></pre></td></tr></table></figure>
+
+<p>唐多令 芦叶满汀洲</p>
+<p>刘过</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">芦叶满汀洲，寒沙带浅流。二十年重过南楼。柳下系船犹未稳，能几日，又中秋。</span><br><span class="line"></span><br><span class="line">黄鹤断矶头，故人今在否？旧江山浑是新愁。欲买桂花同载酒，终不似，少年游。</span><br></pre></td></tr></table></figure>
+
+<p>摸鱼儿 雁丘词</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">问世间，情是何物，直教生死相许？</span><br><span class="line"></span><br><span class="line">天南地北双飞客，老翅几回寒暑。</span><br><span class="line"></span><br><span class="line">欢乐趣，离别苦，就中更有痴儿女。</span><br><span class="line"></span><br><span class="line">君应有语：渺万里层云，千山暮雪，只影向谁去？</span><br><span class="line"></span><br><span class="line">横汾路，寂寞当年箫鼓，荒烟依旧平楚。</span><br><span class="line"></span><br><span class="line">招魂楚些何嗟及，山鬼暗啼风雨。</span><br><span class="line"></span><br><span class="line">天也妒，未信与，莺儿燕子俱黄土。</span><br><span class="line"></span><br><span class="line">千秋万古，为留待骚人，狂歌痛饮，来访雁丘处。</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>Tang and Song</category>
@@ -336,6 +161,205 @@
       </tags>
   </entry>
   <entry>
+    <title>byvoid</title>
+    <url>/2018/12/18/People%20that%20affect%20me/byvoid/</url>
+    <content><![CDATA[<p>我希望可以站在前人的肩膀上注目远望，看看这万里风光，是否如我所想的一般。</p>
+<span id="more"></span>
+
+<h2 id="时光易逝"><a href="#时光易逝" class="headerlink" title="时光易逝"></a>时光易逝</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">劝君莫惜金缕衣</span><br><span class="line">劝君惜取少年时</span><br><span class="line">花开堪折直须折</span><br><span class="line">莫待无花空折枝</span><br></pre></td></tr></table></figure>
+
+<p>曾经看过张昆玮学长的<a href="http://www.artofproblemsolving.com/blog/54270">一篇日志</a>。一个朋友在他29岁生日的时候，给过他年轻的朋友们一句话：「Gaudeāmus igitur, iuvenēs dum sumus（拉丁文）」，翻译是「在我们还年轻的时候，让我们快乐吧。」，换成一首诗就是「花开堪折直须折，莫待无花空折枝。」想想看，我们正当人生中最美好的岁月，为什么不去做自己喜欢的事情呢？不要被所谓的现实羁绊，试想人在年轻的时候如果还有如此多的「不能」，那么将来的「不能」祗会更多。所以，大胆去做吧，无需后悔。</p>
+]]></content>
+      <categories>
+        <category>People that affect me</category>
+      </categories>
+      <tags>
+        <tag>affect</tag>
+        <tag>people</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vczh</title>
+    <url>/2019/02/18/People%20that%20affect%20me/vczh/</url>
+    <content><![CDATA[<p>带逛，不需要刻意为之，听其言，观其行做到即可。</p>
+<span id="more"></span>
+
+<h2 id="成长"><a href="#成长" class="headerlink" title="成长"></a>成长</h2><p>直觉一半来自于举一反三，举一反三一半来自于那个一，而当你对很多问题都有那个一的时候显然是因为你这些问题都碰过，碰过问题跟只学会知识还不一样，你还要解决他们。那如何才能碰过并解决大量的问题呢？唯一的方法就是熬过那一大段时间，通常是十几二十年。你光是聪明，可以学会很多东西，但是由于实践的时间不够，仍然不足已成为一个牛逼的程序员。<strong>所以牛逼本身不是一个可以速成的东西，它是知识和经验的积累，然后是运用你的知识和经验的熟练程度。</strong></p>
+<p>整天搞windows，遇到需要用linux的时候也只是问问人看看说明书（不过linux好像没有说明书）的事情了。因为本质困难的东西你都会了，剩下的这些操作问题，只是熟练不熟练的区别而已。</p>
+<p>游戏做完了不能满足于做完，就要开始想模块化的问题了。怎么做一个游戏用的GUI库？怎么做一个游戏用的脚本引擎？怎么给他们制作工具？怎么写一个游戏引擎？怎么写一个RPG Maker？每一个问题想做简单也可以做简单，想做复杂也可以做的很复杂。于是当我问题一个一个的解决之后，都已经来了M$RA了，这也是我为什么后来会做<a href="https://link.zhihu.com/?target=http://www.gaclib.net">GacUI</a> 和各种奇怪的编译器研究各种奇怪的类型系统的原因了。当然现在做到这地步都不是仅仅为了游戏而做，当时当你做出一个游戏可以用得东西之后，你就要开始想怎么把它做成通用的，使得开发软件也可以用。<strong>每一个问题都最终上升了一个台阶，而你觉得容易的问题就不要浪费时间去解决了</strong>。</p>
+<p>你需要花时间做什么，取决于这个问题是不是够难，是不是刚刚好你可以做出来，再难一点点你就做不出来了</p>
+<p>从一个解决问题的程序员，变成一个研究编程本身的程序员了。</p>
+<ul>
+<li>学习编程语言，尽量挑选C++等很有用、不好学、不时髦的语言，避免自己分心，有利于克服人类的劣根性。</li>
+<li>算法数据结构设计模式编译原理，都有经典书籍。</li>
+<li>勤奋的练习。命令行刷几道题练练手感就好了，接下来就是从贪吃蛇和记事本开始抄，你可以一路抄到很远，譬如做一个vscode。</li>
+</ul>
+<p>自己做vscode的时候有一个要点，除了windows api以外不要使用任何其他东西，需要什么全都自己来，这才是练习。你的目标不是开发一个有用的编辑器，你的目标也不是学习对马上工作有用的技能，你的目标是练习编程。要是真的好用，你可以自己用。</p>
+<p>学习编程，就要从磨螺母到锤车床到风洞实验室到光速发动机都自己一路做过来，掌握的技能才扎实，你可以从22岁做到92岁，不管即使发生什么变化，都可以从容应对，轻松跟上世界的发展。只会用别人的工具而不会自己造工具的，只会疲于奔命，在35岁的时候还是只能干应届生的活，因为体力不支惨遭淘汰。</p>
+<p>变量名用英文的话，写代码的时候就不要用中文思考。你可以每天下班在家4小时，写自己的开源项目，文档全用英文，锻炼自己的语言能力。</p>
+<p>另外，设计模式也是一套词汇表，建议先掌握。这样写出来的代码，同样是懂设计模式的人来看，理解起来轻松很多。</p>
+<ul>
+<li>one man army</li>
+<li>There’s only one way to learn to program: writing a lot of code.</li>
+</ul>
+]]></content>
+      <categories>
+        <category>People that affect me</category>
+      </categories>
+      <tags>
+        <tag>affect</tag>
+        <tag>people</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Learn-Linux</title>
+    <url>/2021/03/26/Program/Linux/Learn-Linux/</url>
+    <content><![CDATA[<p>基础学习<a href="https://linuxjourney.com/">learning</a></p>
+<p><a href="https://mirrors.edge.kernel.org/pub/linux/kernel/Historic/old-versions/">kernel</a></p>
+<span id="more"></span>
+]]></content>
+      <categories>
+        <category>Program</category>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>System</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>推荐</title>
+    <url>/2018/10/18/People%20that%20affect%20me/%E6%8E%A8%E8%8D%90/</url>
+    <content><![CDATA[<p>许多事情并不是立竿见影的影响，而是不断经历失败后再次看到之后才发觉原来如此。</p>
+<span id="more"></span>
+
+<h2 id="Why-Functional-Programming-Matters-阅读笔记"><a href="#Why-Functional-Programming-Matters-阅读笔记" class="headerlink" title="Why Functional Programming Matters 阅读笔记"></a>Why Functional Programming Matters 阅读笔记</h2><blockquote>
+<p>本文是 Why Functional Programming Matters（为什么函数式编程很重要）的阅读笔记，用相对通俗的语言解读了这篇论文，并对我觉得重要的一些点做了一些解释。</p>
+</blockquote>
+<p>为什么函数式编程很重要?随着软件变得越来越复杂，良好地组织软件也越来越重要。一个组织良好的软件更容易编写调试，这种软件提供了一组可以复用的模块（module），这也降低了未来编写代码的代价。本文将说明，函数式编程语言的特色，尤其是高阶函数和惰性求值（high-order function and lazy evaluation），将会对模块化非常有利。<strong>因为模块化是软件开发成功的关键，所以函数式编程会在软件开发过程中具备很大的优势。</strong></p>
+<p>模块化的过程是将问题分解成子问题，求解子问题，再将子问题的解结合（glue）起来的过程。怎么分解直接依赖于编程语言提供了怎样的结合方法。所以要增强模块化能力，需要提供新的结合方法。</p>
+<p>模块化对编程很重要，模块化（modularity）不仅仅是模块（module）。</p>
+<h2 id="Teach-Yourself-Programming-in-Ten-Years"><a href="#Teach-Yourself-Programming-in-Ten-Years" class="headerlink" title="Teach Yourself Programming in Ten Years"></a>Teach Yourself Programming in Ten Years</h2><p>为什么每个人都这么着急？走进任何书店，您将看到如何<em>在24小时内自学Java，</em>以及无穷无尽的变体，可以在几天或几小时内教授C，SQL，Ruby，算法等。</p>
+<p>结论是要么人们急于学习编程，要么编程比其他任何东西都更容易学习。Felleisen <em>等。</em> 在他们的书《*<a href="http://www.ccs.neu.edu/home/matthias/HtDP2e/index.html">如何设计程序</a><em>》中对这种趋势表示</em><a href="http://www.ccs.neu.edu/home/matthias/HtDP2e/index.html">赞同</a><em>，当他们说“错误的编程很容易。</em>白痴<em>可以在</em>21天内<em>学习它，即使他们是</em>傻瓜*。” <a href="http://abstrusegoose.com/249">Abtruse Goose漫画</a>也受到了欢迎。</p>
+<ul>
+<li><p>自学：</p>
+<p>  在24小时内，您将没有时间编写几个重要的程序，并从它们的成功和失败中学习。您将没有时间与经验丰富的程序员一起工作，也不了解在C ++环境中生活的感觉。简而言之，您将没有时间学习很多东西。因此，这本书只能说是肤浅的熟悉，而不是深刻的理解。正如亚历山大·波普（Alexander Pope）所说，学一点东西是一件危险的事情。</p>
+</li>
+<li><p>C++：<br>  在24小时内，您可能可以学习C ++的某些语法（如果您已经知道另一种语言），但是您对如何使用该语言的了解却不多。简而言之，如果您是一名Basic程序员，则可以学习使用C ++语法以Basic风格编写程序，但是您将无法了解C ++的优点（或缺点）。那有什么意义呢？</p>
+</li>
+</ul>
+<p>艾伦·珀利斯（Alan Perlis）曾经说过：“一种不影响您对编程的思考方式的语言，是不值得了解的”。一个可能的观点是，您必须学习一小部分C ++（或更可能是JavaScript或Processing之类的东西），因为您需要与现有工具交互以完成特定任务。但是，那时您不会学习编程。您正在学习完成该任务。</p>
+<h2 id="十年自学编程"><a href="#十年自学编程" class="headerlink" title="十年自学编程"></a>十年自学编程</h2><p>在下棋，音乐等众多领域中发展专业知识大约需要十年的时间。写作，电报操作，绘画，钢琴演奏，游泳，网球以及神经心理学和拓扑学研究。关键是<em>商议</em> 练习：不仅要一遍又一遍地做，还要挑战一项超越您当前能力的任务来挑战自己，尝试一下，分析执行前后的表现，并纠正任何错误。然后重复。再重复一次。似乎没有真正的捷径：即使是4岁的音乐天才莫扎特，也花了13年的时间才开始创作世界一流的音乐。在另一种类型中，甲壳虫乐队似乎爆出一连串的＃1热门歌曲，并在1964年的埃德·沙利文（Ed Sullivan）演出中露面。但是自1957年以来，他们一直在利物浦和汉堡的小型俱乐部里打球，尽管他们颇具吸引力在早期，他们的第一个重大成功就是<em>Sgt。Peppers</em>于1967年发行。</p>
+<p><a href="http://www.amazon.com/Outliers-Story-Success-Malcolm-Gladwell/dp/0316017922">马尔科姆·格拉德威尔</a>尽管他专注于10,000小时（而不是10年），但他已经推广了这个想法。亨利·卡蒂埃·布雷森（Henri Cartier-Bresson，1908-2004年）的另一个标准是：“您的前10,000张照片是最糟糕的。” （他没想到数码相机会在一个星期内达到这个目标。）真正的专业知识可能需要一辈子：塞缪尔·约翰逊（Samuel Johnson（1709-1784））说：“任何部门的出色表现，只有靠一生；不应以较低的价格购买。” 乔uc（1340-1400）抱怨说：“莱夫（lyf）太短了，手工艺品那么久了。” 希波克拉底（约公元前400年）以“ ars longa，vita brevis”的摘录而闻名，它是“ Ars longa，vita brevis，occasio praeceps，experimentum perculosum，iudicium difficile”较长引语的一部分，在英语中译为“生命”。是短， 当然，没有一个数字可以作为最终答案：假设所有技能（例如编程，下棋，下棋和玩音乐）可能都需要完全相同的时间来掌握，这似乎是不合理的，也不会所有人都花费完全相同的时间。正如K.Anders Ericsson教授所说：“在大多数领域，即使是最有才华的个人也需要多少时间才能达到最高水平。令人难以置信的是，10,000小时的小时数使您感觉我们正在谈论多年每周10至20个小时，有些人会说这些是天赋最才华的人，仍然需要达到最高水平。”</p>
+<h2 id="我想成为一名程序员"><a href="#我想成为一名程序员" class="headerlink" title="我想成为一名程序员"></a>我想成为一名程序员</h2><ul>
+<li>获取感兴趣的，因为他很有趣，确保保持足够的乐趣，以便令我愿意投入十年/10,000小时的时间。</li>
+<li>程序学习的最好方法就是边做边学。从技术上讲，“在一定范围内，个人的最高绩效不会根据扩展的经验而自动获得，但是，即使是经验丰富的个人，也可以通过有意改进来提高绩效水平。 ”</li>
+<li>最有效的学习需要对特定个体具有适当难度级别的明确定义的任务，信息反馈以及重复和纠正错误的机会。</li>
+<li>与程序员交流，阅读其他程序，这比任何书籍或培训课程都重要。</li>
+<li>如果需要，可以在大学学习期间获得一些实习，无论如何，仅靠书籍学习是不够的。“计算机科学教育不能使任何人成为专业程序员，就像学习画笔和颜料怎么可能使某人成为专家画家一样。”</li>
+<li>缺乏创意吗？与其他程序一起从事项目。在某些项目中成为最好的程序员；在其他人身上最糟糕。当您处于最佳状态时，就可以测试自己领导项目的能力，并用自己的远见激发他人。在最坏的情况下，您将学习大师的所作所为，并了解他们不喜欢做的事情（因为他们让您为他们做）。</li>
+<li>了解别人编写的程序。看看当原始程序员不在时需要理解和修复它的过程。考虑如何设计您的程序，使那些在您之后维护它们的人更轻松。</li>
+<li>学习至少六种编程语言，包括一种强调类抽象的语言（例如Java或C ++），一种强调功能抽象的语言（例如Lisp或ML或Haskell），一种支持语法抽象的语言（例如Lisp），一种支持声明性规范的语言（例如Prolog或C ++模板）。 ，并且强调并行性（例如Clojure或Go）。</li>
+<li>计算机科学，了解计算机执行一条指令，从内存中获取一个单词（有或没有缓存未命中），从磁盘读取连续的单词以及在磁盘上寻找新位置需要多长时间。</li>
+<li>语言的标准化，良好的意识，尽快开始语言标准化工作。考虑到所有这些，仅通过学习书籍就能取得多大的成绩值得怀疑。在我的第一个孩子出生之前，我阅读了所有“ <em>如何做”</em>书，仍然感到自己是一个笨手笨手的新手。30个月后，当我的第二个孩子到期时，我是否又回到书店复习了？否。相反，我依靠自己的个人经验，事实证明，与专家撰写的成千上万页相比，这对我来说更加有用和令人放心。</li>
+</ul>
+<p>弗雷德·布鲁克斯（Fred Brooks）在他的论文《*<a href="http://en.wikipedia.org/wiki/No_Silver_Bullet">无银子弹》中</a>* 确定了一个由三部分组成的计划，以寻找优秀的软件设计师：</p>
+<ul>
+<li>尽早系统地确定顶级设计师。</li>
+<li>指派职业指导者负责潜在客户的发展，并仔细保存职业档案。</li>
+<li>为成长中的设计师提供互动和相互刺激的机会。</li>
+</ul>
+<p>假设某些人已经具备成为优秀设计师所需的素质；工作是适当地哄骗他们。更简洁地说：“每个人都可以雕刻：米开朗基罗必须被教导如何不做。伟大的程序员也是如此。” 佩利斯（Perlis）说，伟人的内在素质超越了他们的训练。但是质量从何而来？是天生的吗？还是他们通过勤奋发展？正如奥古斯特·古斯托（<em>Ratatouille</em>的虚构厨师 ）所说，“任何人都可以做饭，但只有无所畏惧的人才能做得好。” 我将其更多地视为愿意将一生的大部分时间投入到思考实践中。但也许 <em>无所畏惧</em>是一种概括的方式。或者，正如古斯托（Gusteau）的批评家安东·埃戈（Anton Ego）所说：“并非每个人都能成为一名伟大的艺术家，但是伟大的艺术家可以来自任何地方。”</p>
+<p>因此，继续购买那本Java / Ruby / Javascript / PHP书；您可能会从中受益。但是您不会在24小时或21天内改变自己的生活，也不会改变自己真正的整体专业知识。如何努力在24个月内不断改进？好吧，现在您开始有所建树…</p>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ul>
+<li>本杰明·布鲁姆（ed）*<a href="http://www.amazon.com/exec/obidos/ASIN/034531509X">《年轻人的发展才能》</a>*，巴兰廷，1985年。</li>
+<li>布鲁克斯，弗雷德，《*<a href="http://citeseer.nj.nec.com/context/7718/0">无银子弹》</a>*，IEEE计算机，第1卷。20号 1987年第4期，第4页。10-19。</li>
+<li>Bryan，WL＆Harter，N.“关于电报语言的研究：习性等级的习得。Psychology <em>Review</em>，1899，8，345-375</li>
+<li>海斯（John Hayes），《*<a href="http://www.amazon.com/exec/obidos/ASIN/0805803092">完成问题解决者》（</a>* Lawrence Erlbaum），1989年。</li>
+<li>Lave，Jean，《<a href="http://www.amazon.com/exec/obidos/ASIN/0521357349">实践中的认知：日常生活中的思维，数学和文化》</a>，剑桥大学出版社，1988年。</li>
+</ul>
+<h2 id="附录：语言选择"><a href="#附录：语言选择" class="headerlink" title="附录：语言选择"></a>附录：语言选择</h2><p>先学习哪种编程语言。是没有答案，但可以考虑以下几点：</p>
+<ul>
+<li>使用你的朋友*。当被问及“我应该使用哪种操作系统，Windows，Unix或Mac？”时，我的回答通常是：“使用您的朋友使用的任何软件”。从朋友那里学习所获得的优势将抵消操作系统之间或编程语言之间的任何内在差异。还请考虑您的未来朋友：如果继续，您将成为程序员社区的一部分。您选择的语言是一个正在成长的大型社区还是一个濒临灭绝的社区？是否有书籍，网站和在线论坛可提供答案？您喜欢那些论坛中的人吗？</li>
+<li>保持简单*。诸如C ++和Java之类的编程语言是由经验丰富的程序员组成的大型团队设计的，这些团队关心其代码的运行时效率。结果，这些语言具有针对这些情况设计的复杂部分。您担心要学习编程。您不需要那种麻烦。您需要一种被设计为易于由单个新程序员学习和记住的语言。</li>
+<li>玩。宁愿学习弹钢琴的方式：通常的互动方式，即敲击琴键后便会听到每个音符，或者是“批处理”模式，即在完成整首歌曲后才听到音符？显然，交互式模式使钢琴和编程学习变得更加容易。坚持使用交互式模式的语言并使用它。</li>
+</ul>
+<p>给定这些条件，我对第一种编程语言的建议是**<a href="http://python.org/">Python</a>**或 **<a href="http://www.schemers.org/">Scheme</a>**。另一个选择是Javascript，不是因为它是为初学者精心设计的，而是因为有许多在线教程供您使用，例如 <a href="https://www.khanacademy.org/computing/cs/programming">Khan Academy的教程</a>。但是您的情况可能会有所不同，还有其他不错的选择。如果您的年龄是个位数，则您可能更喜欢 <a href="http://alice.org/">Alice</a>或<a href="http://www.squeak.org/">Squeak</a> 或<a href="https://blockly-demo.appspot.com/static/apps/index.html">Blockly</a>（年龄较大的学习者可能会喜欢）。重要的是您选择并开始。</p>
+<h2 id="书籍和其他资源"><a href="#书籍和其他资源" class="headerlink" title="书籍和其他资源"></a>书籍和其他资源</h2><p> <a href="http://www.amazon.com/gp/product/0262011530">计算机程序的结构和解释（Abelson和Sussman）</a>可能是计算机科学的最好入门，它确实教授编程作为理解计算机科学的一种方式。您可以在本书中<a href="http://www.swiss.ai.mit.edu/classes/6.001/abelson-sussman-lectures/">在线观看讲座视频</a>，以及<a href="http://mitpress.mit.edu/sicp/full-text/book/book.html">在线全文</a>。这本书具有挑战性，将淘汰一些可能通过另一种方法成功的人。</p>
+<p> <a href="http://www.amazon.com/gp/product/0262062186">如何设计程序（Felleisen <em>等人</em>）</a>是有关如何以优雅和实用的方式实际设计程序的最佳书籍之一。</p>
+<p>Python：<a href="http://www.amazon.com/gp/product/1887902996">Python编程：CS</a>入门<a href="http://www.amazon.com/gp/product/1887902996">（Zelle）</a>是使用Python的不错的入门。</p>
+<p>Python：<a href="http://python.org/">Python.org</a> 上提供了一些在线<a href="http://wiki.python.org/moin/BeginnersGuide">教程</a>。</p>
+<p><a href="http://www.amazon.com/gp/product/0262220695">计算机编程的概念，技术和模型（Van Roy和Haridi）</a> 被某些人视为Abelson＆Sussman的现代继任者。这是一门编程的大创意，涵盖了比Abelson＆Sussman更大的范围，同时也许更易于阅读和遵循。它使用一种广泛使用的语言Oz，但它是学习其他语言的基础。</p>
+]]></content>
+      <categories>
+        <category>People that affect me</category>
+      </categories>
+      <tags>
+        <tag>affect</tag>
+        <tag>people</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>硅胖语录集合</title>
+    <url>/2018/09/01/People%20that%20affect%20me/%E7%A1%85%E8%83%96/</url>
+    <content><![CDATA[<p>磨练心智，开阔视野，了解彼岸的信息。</p>
+<span id="more"></span>
+
+<h2 id="了解论坛"><a href="#了解论坛" class="headerlink" title="了解论坛"></a>了解论坛</h2><blockquote>
+<p>最早期获取未知信息的来源，知道了一亩三分论坛的，快速高效，隐私保护是个难题。收费变现，让大量人员流失。毕竟社交平台的程序和服务器谁都会弄，其真正价值还在于贡献者和内容——Google所以伟大，不是因为Google只有搜索引擎，还是因为它的搜索引擎可以index世界上所有的网页，那些网页才是真正的贡献者。</p>
+</blockquote>
+<ul>
+<li>真正的贡献者其实是发面经和帖子的人。</li>
+<li>严格来讲，发面经是违反NDA的。</li>
+<li>从商业角度，这就是个建设“平台”还是“产品”的问题</li>
+<li>英文平台的崛起。可以参考Levelsfyi；公司小道消息和八卦，可以看Blind</li>
+</ul>
+<p>大趋势上，论坛逐渐被公众号和知乎以及各种知识分享的App所取代。长远来讲，留学、移民话题也可能如此，被新方式取代。</p>
+<p>用硅谷商业模式碾压“躺在技术壁垒中不思进取只想着割韭菜的臃肿缓慢官僚保守的传统车厂”，这才是电动汽车的根本优势所在。</p>
+<h2 id="专业and职业"><a href="#专业and职业" class="headerlink" title="专业and职业"></a>专业and职业</h2><p>供需始终在动态变化，每个人的路都是要自己孤独去走的。但我一直认为，如今改行学计算机，依然是正道之一，无论国内国外。只不过，暂时可能会面临经济危机、疫情危机、人数过多等问题，可能要有几年的低谷了。</p>
+<p>经济危机往往是谷底，也就是上升的开始。而且，这世界上的事情被说得很复杂，有时候却简单得残酷：没有别的选择，尤其是某些人。</p>
+<p>出国考个GRE,学CS都是顺理成章的事情，没什么可纠结的。</p>
+<p>那么多培训机构和专业人员，全职教学尚且困难，讲的东西很多也只是皮毛，又何德何能，靠业余时间一个人筑起一座城市.</p>
+<p>很多东西，“懂”和能把人“教懂”是两个概念，“教懂”是需要大量而长期的实践的，是我暂时所不具备的。如果能够面对面说话、有白板，还更好一些，通过文字，表达力就更差一层了。</p>
+<p>现实也是个问题。中文互联网的现实状况，使得原创并没有太多的直接利益，所以缺乏内在驱动力。</p>
+<p>大量垃圾信息流的出现也就是在那段野蛮时期。由针对问题和现实，到针对个人和立场。太快了。</p>
+<h2 id="自我变化"><a href="#自我变化" class="headerlink" title="自我变化"></a>自我变化</h2><p>曾经的文学梦，现在也做到了每天码字。可以说某种意义上已经开始了。</p>
+<p>这次疫情，被迫尝试了不同的生活和工作方式，也有时间思考，恍如隔世，仿佛昨日还是意气风发。</p>
+<p>发现自己总是有很强的心理暗示和心理依赖效应。就像我总暗示自己在家上班效率不高，但事实上是错的，这不过是一种心理上的舒适区而已。真被迫在家上班，我也可以工作得非常好。</p>
+<p>对社交网络的依赖感越来越轻了，</p>
+<h2 id="码农工作本身"><a href="#码农工作本身" class="headerlink" title="码农工作本身"></a>码农工作本身</h2><p>从最初拥有自己的个人计算机开始，就有一种感觉，一定要进入这个行业。不管是为了更好的技术，创作的成就感。一切的前提就是对于一切未知的求知欲“这玩意到底怎么回事，我得搞清楚。我不是加班，只是好奇而已。”</p>
+<p>对整个行业的态度，我当然没有改变多少：计算机过去是、现在是、未来也一直是会解决实际问题的创新行业，因此给勤劳好学能吃苦的人以更多的机会，能够改变自己阶层和环境的机会。我完全支持很多人拿计算机作为跳板和谋生手段的做法，至于能否喜爱不必奢求。</p>
+<p>非常有趣，不会觉得乏味和单调。日复一日，年复一年。</p>
+]]></content>
+      <categories>
+        <category>People that affect me</category>
+      </categories>
+      <tags>
+        <tag>affect</tag>
+        <tag>people</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>鲁迅</title>
+    <url>/2021/03/29/People%20that%20affect%20me/%E9%B2%81%E8%BF%85/</url>
+    <content><![CDATA[<p>“高山仰止，景行行止。虽不能至，然心向往之。”</p>
+<span id="more"></span>
+
+<h2 id="序文"><a href="#序文" class="headerlink" title="序文"></a>序文</h2><p>“行山阴道上，千岩竞秀，万壑争流，令人应接不暇”；有这种环境，所以历代有著名的文学家美术家，其中如王逸少的书，陆放翁的诗，尤为永久流行的作品。最近时期，为旧文学殿军的，有李越缦先生，为新文学开山的，有周豫才先生，即鲁迅先生。</p>
+<p>鲁迅先生本受清代学者的濡染，所以他杂集会稽郡故书，校嵇康集，辑谢承后汉书，编汉碑帖，六朝墓志目录，六朝造象目录等，完全用清儒家法。惟彼又深研科学，酷爱美术，故不为清儒所囿，而又有他方面的发展，例如科学小说的翻译，中国小说史略，小说旧闻钞，唐宋传奇集等，已打破清儒轻视小说之习惯；又金石学为自宋以来较发展之学，而未有注意于汉碑之图案者，鲁迅先生独注意于此项材料之搜罗；推而至于引玉集，木刻纪程，北平笺谱等等，均为旧时代的考据家赏鉴家所未曾著手。</p>
+<p>先生阅世既深，有种种不忍见不忍闻的事实，而自己又有一种理想的世界，蕴积既久，非一吐不快。但彼既博览而又虚衷，对于世界文学家之作品，有所见略同者，尽量的迻译，理论的有卢那卡尔斯基，蒲力汗诺夫之艺术论等；写实的有阿尔志跋绥夫之工人绥惠略夫，果戈理之死魂灵等，描写理想的有爱罗先珂及其他作者之童话等，占全集之半，真是谦而勤了。</p>
+<p>“借他人之酒杯，浇自己的块垒”，虽也痛快，但人心不同如其面，环境的触发，时间的经过，必有种种蕴积的思想，不能得到一种相当的译本，可以发舒的，于是有创作。鲁迅先生的创作，除坟，呐喊，野草数种外，均成于一九二五至一九三六年中，其文体除小说三种，散文诗一种，书信一种外，均为杂文与短评，以十二年光阴成此多许的作品，他的感想之丰富，观察之深刻，意境之隽永，字句之正确，他人所苦思力索而不易得当的，他就很自然的写出来，这是何等天才！又是何等学力！</p>
+<p>综观鲁迅先生全集，虽亦有几种工作，与越缦先生相类似的；但方面较多，蹊径独辟，为后学开示无数法门，所以鄙人敢以新文学开山目之。然欤否欤，质诸读者。</p>
+<p>民国二十七年六月一日蔡元培</p>
+]]></content>
+      <categories>
+        <category>People that affect me</category>
+      </categories>
+      <tags>
+        <tag>affect</tag>
+        <tag>people</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>一百天</title>
     <url>/2021/03/27/Program/CF%E8%AE%A1%E5%88%92/%E9%A1%B9%E7%9B%AE%E5%90%AF%E5%8A%A8/</url>
     <content><![CDATA[<p>想知道到底能做到什么程度！</p>
@@ -362,6 +386,11 @@
 <p>“为学日益,为道日损,损之又损,以至于无为,无为而无不为”</p>
 <p>the spoken word the writer word 语言与文字存在紧密联系。</p>
 <h2 id="第三天2021-03-30"><a href="#第三天2021-03-30" class="headerlink" title="第三天2021-03-30"></a>第三天2021-03-30</h2><p>整理往期的内容，学习造轮子了</p>
+<h2 id="第四天2021-03-31"><a href="#第四天2021-03-31" class="headerlink" title="第四天2021-03-31"></a>第四天2021-03-31</h2><p>继续整理，开始英文播客</p>
+<p>每天读点历史，让思路清晰</p>
+<p>剑桥中国史</p>
+<p>哈佛中国史</p>
+<p>中国近代史</p>
 ]]></content>
       <categories>
         <category>Program</category>
@@ -369,20 +398,6 @@
       </categories>
       <tags>
         <tag>writing</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>JS学习工具</title>
-    <url>/2021/03/26/Program/JS/JS%E5%AD%A6%E4%B9%A0%E5%B7%A5%E5%85%B7/</url>
-    <content><![CDATA[<p><a href="https://nodejs.org/api/">node</a>用这个来搭建博客<br><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript">JavaScript参考文档</a></p>
-<span id="more"></span>]]></content>
-      <categories>
-        <category>Program</category>
-        <category>JS</category>
-      </categories>
-      <tags>
-        <tag>program</tag>
-        <tag>Tool</tag>
       </tags>
   </entry>
   <entry>
@@ -397,52 +412,6 @@
       </categories>
       <tags>
         <tag>program</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Learn-Linux</title>
-    <url>/2021/03/26/Program/Linux/Learn-Linux/</url>
-    <content><![CDATA[<p>基础学习<a href="https://linuxjourney.com/">learning</a></p>
-<p><a href="https://mirrors.edge.kernel.org/pub/linux/kernel/Historic/old-versions/">kernel</a></p>
-<span id="more"></span>
-]]></content>
-      <categories>
-        <category>Program</category>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>System</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>硬件开发</title>
-    <url>/2021/03/26/Program/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/%E7%A1%AC%E4%BB%B6%E5%BC%80%E5%8F%91/</url>
-    <content><![CDATA[<p><a href="https://phodal.github.io/make/">硬件编程</a><br><a href="http://www.lumit.org/LASO/">源码开放学ARM</a></p>
-<span id="more"></span>]]></content>
-      <categories>
-        <category>Program</category>
-        <category>硬件编程</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>Program</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>FQA</title>
-    <url>/2021/03/25/Program/Python/FQA/</url>
-    <content><![CDATA[<p> 列出在使用Pythonh中解决的问题</p>
-<span id="more"></span>
-
-<h2 id="Python-设立虚拟环境"><a href="#Python-设立虚拟环境" class="headerlink" title="Python 设立虚拟环境"></a>Python <a href="https://docs.python.org/zh-tw/3/tutorial/venv.html">设立虚拟环境</a></h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">python3 -m venv tutorial-env</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Program</category>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>program</tag>
-        <tag>FQA</tag>
       </tags>
   </entry>
   <entry>
@@ -500,6 +469,149 @@
 <p>大学之道，在明德，在亲民，在止于至善。 知止而后有定，定而后能静，静而后能安，安而后能虑，虑而后能得。</p>
 <p>你对一个领域的热情可以反映在写论文、玩博客、出书、也可以体现在主动揽活，业余时间自学。热情是骗不了人的：</p>
 <p>去阅读一本书或一篇paper肯定是带着问题驱动型读，不会是为读而读，这样挺水的。也会阅后即忘。</p>
+]]></content>
+      <categories>
+        <category>Random Thoughts</category>
+        <category>2018</category>
+      </categories>
+      <tags>
+        <tag>Essay</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JS学习工具</title>
+    <url>/2021/03/26/Program/JS/JS%E5%AD%A6%E4%B9%A0%E5%B7%A5%E5%85%B7/</url>
+    <content><![CDATA[<p><a href="https://nodejs.org/api/">node</a>用这个来搭建博客<br><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript">JavaScript参考文档</a></p>
+<span id="more"></span>]]></content>
+      <categories>
+        <category>Program</category>
+        <category>JS</category>
+      </categories>
+      <tags>
+        <tag>program</tag>
+        <tag>Tool</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>硬件开发</title>
+    <url>/2021/03/26/Program/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/%E7%A1%AC%E4%BB%B6%E5%BC%80%E5%8F%91/</url>
+    <content><![CDATA[<p><a href="https://phodal.github.io/make/">硬件编程</a><br><a href="http://www.lumit.org/LASO/">源码开放学ARM</a></p>
+<span id="more"></span>]]></content>
+      <categories>
+        <category>Program</category>
+        <category>硬件编程</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>Program</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>FQA</title>
+    <url>/2021/03/25/Program/Python/FQA/</url>
+    <content><![CDATA[<p> 列出在使用Pythonh中解决的问题</p>
+<span id="more"></span>
+
+<h2 id="Python-设立虚拟环境"><a href="#Python-设立虚拟环境" class="headerlink" title="Python 设立虚拟环境"></a>Python <a href="https://docs.python.org/zh-tw/3/tutorial/venv.html">设立虚拟环境</a></h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">python3 -m venv tutorial-env</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Program</category>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>program</tag>
+        <tag>FQA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Random-Thoughts</title>
+    <url>/2018/12/01/Random%20Thoughts/2018/2018-12/</url>
+    <content><![CDATA[<p>当你真正的去制造一个轮子,就能真正明白了,而不是看多少书,这就是学和做的区别.</p>
+<span id="more"></span>
+
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2018-12-01</span><br></pre></td></tr></table></figure>
+
+<p>学校之外地东西,才是真正区分一个程序员地水平地关键</p>
+<p>作为一个改行者，一定要牢记：<strong>学校最多只能教你不到30%的知识，剩下70%完全要靠自己。</strong></p>
+<p>其实在公司工作的模式就是这样的：很少有公司有详尽的文档或是培训——因为公司发展太快，大多数是自己看看文档，然后就直接看代码去理解，不明白的稍微请人问下，但主要还是靠自己学习和查询，不太可能有系统和长时间的培训。</p>
+<p>所以这种看似短促的突击式学法，其实是大公司工作所常用的。“知其然”就足够了然后就去做事，“知其所以然”是在做完事情、经验慢慢积累后再逐渐跟进的。公司出钱养人是为了做事情，并不是给机会学习。</p>
+<p>换句话说，衡量程序员的最有效的标准就是代码。那么能写出代码的，就是好程序员，“我知道这题这么做，但我不知道为什么”是完全没问题的甚至是高效率的一种表现；涉及到一个知识或是技能，即使不知道它的来龙去脉和理论，但却能用代码表述，这就足够了。</p>
+<p>在计算机这个行业,自身的素质和努力是非常非常关键地,面试时几道题一刷,几句话一说,功力深浅在老司机面前立刻无所遁形.</p>
+<p>很多行业，眼光、情商、方向更重要，计算机不是说这些不重要，而是拥有这些更多地能走得远走得好甚至完成从一个穷小子到大富翁的逆袭。但决定一个人是否能够走出第一步的，却是自身的硬功夫，也就是静下心来学习、准备面试枯燥无聊的过程。</p>
+<p>每个人成长不是固定的,认识自我</p>
+<p>单位时间内，主动性越高的人，行动次数越多。</p>
+<p>书籍问题在于精深而失于大略, 不知整体为何物, 培训班相反, 只讲究大概,不求甚解</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2018-12-11</span><br></pre></td></tr></table></figure>
+
+<p>精通,从来都是读书+实践地,工业界地代码和设计,其实跟书本不太一样,长期闭门造车尤其是纯理论学习,收效不高.</p>
+<p>一类比一下通了,CS就如学乐器,观看别人,和理论书,怎么可能学会呢</p>
+<p>我在建立（Build）简历。看看sample（例子），别人是怎么写简历的，UI Developer的简历是怎样的，人会的什么，怎么形容自己的project的；后端的简历是怎样的，机器学习方向的简历是怎样的之类。</p>
+<p>技术上，可以说真的是一分积累，一分耕耘，一分收获，半点马虎不得——过去的120年里，总有人试图用刀枪不入这种“邪术”抵抗洋枪洋炮的“正道”。</p>
+<p>大部分人没做过具体的large-scale的项目，因为只有互联网公司有large-scale的生态环境，所以大部分人不会；但互联网公司又考察这些，所以就过不了面试。越是不会，越进不去，越进不去，越是不会；而在互联网公司工作的人，却每天在积累这种系统经验。</p>
+<p>导致只有少数工程师，越来越精通系统设计；大部分人，因为没有机会，还处于纸上谈兵阶段。</p>
+<p>看文档,看开源项目 这就是一个变化</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2018-12-22</span><br></pre></td></tr></table></figure>
+
+<p>人生苦难重重。</p>
+<p>这是个伟大的真理，是世界上最伟大的真理之一。它的伟大之处在于，一旦我们领悟了这句话的真谛，就能从苦难中解脱出来，实现人生的超越。只要我们真正理解并接受了人生苦难重重的事实，那么我们就会释然，再也不会对人生的苦难耿耿于怀了。</p>
+<p><strong>生活中遇到问题，这本身就是一种痛苦，解决它们的过程又会带来新的痛苦。各种各样的问题接踵而至，使我们疲于奔命，不断经受沮丧、悲哀、痛苦、寂寞、内疚、懊丧、恼怒、恐惧、焦虑和绝望的打击，从而不知道自由和幸福为何物</strong>。这种心灵的痛苦通常和肉体的痛苦一样剧烈，甚至令人更加难以承受。正是由于人生的矛盾和冲突带来的痛苦如此强烈，我们才把它们视为问题；也正是因为各种问题接连不断，我们才觉得人生苦难重重。</p>
+<p>躺平就好。</p>
+]]></content>
+      <categories>
+        <category>Random Thoughts</category>
+        <category>2018</category>
+      </categories>
+      <tags>
+        <tag>Essay</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Random-Thoughts</title>
+    <url>/2018/10/01/Random%20Thoughts/2018/2018-10/</url>
+    <content><![CDATA[<p>你对一个领域的热情可以反映在写论文、玩博客、出书、也可以体现在主动揽活，业余时间自学。热情是骗不了人的：</p>
+<span id="more"></span>
+
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2018-10-01</span><br></pre></td></tr></table></figure>
+
+<p>避免焦虑的最佳方法不是担心市场饱和，而是把自己从低端向中端，甚至高端提升。</p>
+<p>大学之道，在明德，在亲民，在止于至善。 知止而后有定，定而后能静，静而后能安，安而后能虑，虑而后能得。</p>
+<p>你对一个领域的热情可以反映在写论文、玩博客、出书、也可以体现在主动揽活，业余时间自学。热情是骗不了人的：</p>
+<p>去阅读一本书或一篇paper肯定是带着问题驱动型读，不会是为读而读，这样挺水的。也会阅后即忘</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2018-10-9</span><br></pre></td></tr></table></figure>
+
+<p>重复制造轮子和重复发明轮子是不一样的。发明是researching，制造是engineering，不能混为一谈。我们说，不要重复发明轮子，但是没有说，不要重复制造轮子。</p>
+<p>重复制造它的意义有两个</p>
+<p>1：你的到了锻炼</p>
+<p>2：你牛逼的话可以比前人造的更好，间接造福了全世界</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2018-10-10</span><br></pre></td></tr></table></figure>
+
+<p>绝大部分人真的很水,这也算是得益于国内网络环境的越来越糟糕,使得如果我能够用到我一半的热情于主要的学科之中,那么剩下的热情我可以全身心的投入到我所喜欢的内容了,谢谢,这是最好的时代,这是最差的时代.非常感谢.</p>
+<p>学习一种和以往不同的思考方式。<br>你会的思考方式越多。你就越可以自由的思考。<br>不会被以往接触过的某些东西禁锢住。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2018-10-14</span><br></pre></td></tr></table></figure>
+
+<p>函数式程序员生产力比传统程序员高一个数量级,因为函数式程序要短一个数量级,传统的程序由90%的幅值语句构成,在功能性程序这些可以省略,没有质量标准,因此没有理想的目标,只有这些不够,必须找到一些东西来代替,不仅仅是强大功能,还要有乐趣所在,结构化程序是以模块化方式设计的,极大提高了生产率,小模块编码快速,通用模块可以重复使用,可以独立测试,减少调试时间,有助于”小心编程”</p>
+<p>分解原始问题的方法直接取决于粘合的方式,提高一个人模块化问题的能力,从概念上,必须在编程语言中提供新的粘合剂,复杂的范围规则和单独编制的规定只能帮助文书细节ーー他们永远不可能对模块化做出重大贡献。</p>
+<p>程序可以以新的方式模块化，从而可以简化。</p>
+<p>这是函数式编程能力的关键ーー它允许改进的模块化。 这也是函数式程序员必须为之奋斗的目标ー更小、更简单、更通用的模块，与新的模块粘在一起我们要描述的胶水。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2018-10-24</span><br></pre></td></tr></table></figure>
+
+<h2 id="高校计算机教育"><a href="#高校计算机教育" class="headerlink" title="高校计算机教育"></a>高校计算机教育</h2><ul>
+<li>意义不明确</li>
+<li>目的不明确</li>
+<li>课后作业少</li>
+<li>教材太差劲</li>
+</ul>
+<p>很多大学的教学大纲上来就是C语言，汇编，一堆概念先来一套，不管你是否理解，先背下来再说。导致一门理工科课程沦为了像文科一样把背概念作为考核标准。很多高校的考试试卷至今还在考：计算机由哪几部分组成，到底是填由显示器主机组成呢，还是填由CPU，内存，输入输出设备呢？考这种东西的意义是什么？考背书能力吗？</p>
+<p>计算机组成原理这门课程是很多CS专业的必修课程，但是打开这些专业的书本的前几章，基本上都是给几个公式，反码，补码的计算公式，浮点数计算公式等等。如果问一个刚刚学完补码计算规则的人：补码有什么用？为什么补码是这样计算的？不知道能有多少人回答出来呢？看看国外的一本名书《编码》是如何阐述这些问题的吧。先从最简单的开灯关灯电路，然后是继电器电路，多个继电器组成逻辑门电路，多个门电路组成单位加法器，多个单位加法器组成一个多位加法器。他的目的非常明确，告诉你最简单的电灯是如何工作的，告诉你继电器是如何工作的，顺着这个目的一步一步下去，最后就能了解CPU是如何工作的，了解为什么计算机的运算需要补码来参与，而不是正常人所用的原码。他的每一个步骤都带着一个很有趣但是也很明确的目的性来学习。</p>
+<p>仔细看一下国内的计算机组成原理教材和国外的CSAPP，你会发现国内的书的习题以及引用资料可以说是少得可怜。本来大学生经过高考之后就已经很松懈了，大学本身又是放羊式的教学和管理，课后作业要么copy代码，要么网上抄，作业难度和质量也不高。</p>
+<p>很多大学老师为了评职称，过考核，自己水平不够还强行写一堆学术垃圾，最后还在校内强制推广。这个就不说了，其实大家心里都有个数。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2018-10-30</span><br></pre></td></tr></table></figure>
+
+<p>现在要做的是站在前人的肩膀上制造轮子,加深理解了</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">第五条　任何单位和个人不得利用国际联网制作、复制、**查阅**和传播下列信息：</span><br><span class="line">（一）煽动抗拒、破坏宪法和法律、行政法规实施的；</span><br><span class="line">（二）煽动颠覆国家政权，推翻社会主义制度的；</span><br><span class="line">（三）煽动分裂国家、破坏国家统一的；</span><br><span class="line">（四）煽动民族仇恨、民族歧视，破坏民族团结的；</span><br><span class="line">（五）捏造或者歪曲事实，散布谣言，扰乱社会秩序的；</span><br><span class="line">（六）宣扬封建迷信、淫秽、色情、赌博、暴力、凶杀、恐怖，教唆犯罪的；</span><br><span class="line">（七）公然侮辱他人或者捏造事实诽谤他人的；</span><br><span class="line">（八）损害国家机关信誉的；</span><br><span class="line">（九）其他违反宪法和法律、行政法规的</span><br></pre></td></tr></table></figure>
+
+<p>制作、复制、传播我就不说了。查阅是什么意思知道吧？「找出来阅读」。说白了就是，不准看。</p>
+<p><a href="http://www.gov.cn/gongbao/content/2011/content_1860856.htm">《计算机信息网络国际联网安全保护管理办法》</a>的这个第五条，称得上是魔幻科幻迷幻玄幻，单这一条就为我国贡献了<strong>数以亿计</strong>的违法人员。</p>
 ]]></content>
       <categories>
         <category>Random Thoughts</category>
@@ -586,252 +698,6 @@
       <categories>
         <category>Random Thoughts</category>
         <category>2018</category>
-      </categories>
-      <tags>
-        <tag>Essay</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Random-Thoughts</title>
-    <url>/2018/10/01/Random%20Thoughts/2018/2018-10/</url>
-    <content><![CDATA[<p>你对一个领域的热情可以反映在写论文、玩博客、出书、也可以体现在主动揽活，业余时间自学。热情是骗不了人的：</p>
-<span id="more"></span>
-
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2018-10-01</span><br></pre></td></tr></table></figure>
-
-<p>避免焦虑的最佳方法不是担心市场饱和，而是把自己从低端向中端，甚至高端提升。</p>
-<p>大学之道，在明德，在亲民，在止于至善。 知止而后有定，定而后能静，静而后能安，安而后能虑，虑而后能得。</p>
-<p>你对一个领域的热情可以反映在写论文、玩博客、出书、也可以体现在主动揽活，业余时间自学。热情是骗不了人的：</p>
-<p>去阅读一本书或一篇paper肯定是带着问题驱动型读，不会是为读而读，这样挺水的。也会阅后即忘</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2018-10-9</span><br></pre></td></tr></table></figure>
-
-<p>重复制造轮子和重复发明轮子是不一样的。发明是researching，制造是engineering，不能混为一谈。我们说，不要重复发明轮子，但是没有说，不要重复制造轮子。</p>
-<p>重复制造它的意义有两个</p>
-<p>1：你的到了锻炼</p>
-<p>2：你牛逼的话可以比前人造的更好，间接造福了全世界</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2018-10-10</span><br></pre></td></tr></table></figure>
-
-<p>绝大部分人真的很水,这也算是得益于国内网络环境的越来越糟糕,使得如果我能够用到我一半的热情于主要的学科之中,那么剩下的热情我可以全身心的投入到我所喜欢的内容了,谢谢,这是最好的时代,这是最差的时代.非常感谢.</p>
-<p>学习一种和以往不同的思考方式。<br>你会的思考方式越多。你就越可以自由的思考。<br>不会被以往接触过的某些东西禁锢住。</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2018-10-14</span><br></pre></td></tr></table></figure>
-
-<p>函数式程序员生产力比传统程序员高一个数量级,因为函数式程序要短一个数量级,传统的程序由90%的幅值语句构成,在功能性程序这些可以省略,没有质量标准,因此没有理想的目标,只有这些不够,必须找到一些东西来代替,不仅仅是强大功能,还要有乐趣所在,结构化程序是以模块化方式设计的,极大提高了生产率,小模块编码快速,通用模块可以重复使用,可以独立测试,减少调试时间,有助于”小心编程”</p>
-<p>分解原始问题的方法直接取决于粘合的方式,提高一个人模块化问题的能力,从概念上,必须在编程语言中提供新的粘合剂,复杂的范围规则和单独编制的规定只能帮助文书细节ーー他们永远不可能对模块化做出重大贡献。</p>
-<p>程序可以以新的方式模块化，从而可以简化。</p>
-<p>这是函数式编程能力的关键ーー它允许改进的模块化。 这也是函数式程序员必须为之奋斗的目标ー更小、更简单、更通用的模块，与新的模块粘在一起我们要描述的胶水。</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2018-10-24</span><br></pre></td></tr></table></figure>
-
-<h2 id="高校计算机教育"><a href="#高校计算机教育" class="headerlink" title="高校计算机教育"></a>高校计算机教育</h2><ul>
-<li>意义不明确</li>
-<li>目的不明确</li>
-<li>课后作业少</li>
-<li>教材太差劲</li>
-</ul>
-<p>很多大学的教学大纲上来就是C语言，汇编，一堆概念先来一套，不管你是否理解，先背下来再说。导致一门理工科课程沦为了像文科一样把背概念作为考核标准。很多高校的考试试卷至今还在考：计算机由哪几部分组成，到底是填由显示器主机组成呢，还是填由CPU，内存，输入输出设备呢？考这种东西的意义是什么？考背书能力吗？</p>
-<p>计算机组成原理这门课程是很多CS专业的必修课程，但是打开这些专业的书本的前几章，基本上都是给几个公式，反码，补码的计算公式，浮点数计算公式等等。如果问一个刚刚学完补码计算规则的人：补码有什么用？为什么补码是这样计算的？不知道能有多少人回答出来呢？看看国外的一本名书《编码》是如何阐述这些问题的吧。先从最简单的开灯关灯电路，然后是继电器电路，多个继电器组成逻辑门电路，多个门电路组成单位加法器，多个单位加法器组成一个多位加法器。他的目的非常明确，告诉你最简单的电灯是如何工作的，告诉你继电器是如何工作的，顺着这个目的一步一步下去，最后就能了解CPU是如何工作的，了解为什么计算机的运算需要补码来参与，而不是正常人所用的原码。他的每一个步骤都带着一个很有趣但是也很明确的目的性来学习。</p>
-<p>仔细看一下国内的计算机组成原理教材和国外的CSAPP，你会发现国内的书的习题以及引用资料可以说是少得可怜。本来大学生经过高考之后就已经很松懈了，大学本身又是放羊式的教学和管理，课后作业要么copy代码，要么网上抄，作业难度和质量也不高。</p>
-<p>很多大学老师为了评职称，过考核，自己水平不够还强行写一堆学术垃圾，最后还在校内强制推广。这个就不说了，其实大家心里都有个数。</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2018-10-30</span><br></pre></td></tr></table></figure>
-
-<p>现在要做的是站在前人的肩膀上制造轮子,加深理解了</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">第五条　任何单位和个人不得利用国际联网制作、复制、**查阅**和传播下列信息：</span><br><span class="line">（一）煽动抗拒、破坏宪法和法律、行政法规实施的；</span><br><span class="line">（二）煽动颠覆国家政权，推翻社会主义制度的；</span><br><span class="line">（三）煽动分裂国家、破坏国家统一的；</span><br><span class="line">（四）煽动民族仇恨、民族歧视，破坏民族团结的；</span><br><span class="line">（五）捏造或者歪曲事实，散布谣言，扰乱社会秩序的；</span><br><span class="line">（六）宣扬封建迷信、淫秽、色情、赌博、暴力、凶杀、恐怖，教唆犯罪的；</span><br><span class="line">（七）公然侮辱他人或者捏造事实诽谤他人的；</span><br><span class="line">（八）损害国家机关信誉的；</span><br><span class="line">（九）其他违反宪法和法律、行政法规的</span><br></pre></td></tr></table></figure>
-
-<p>制作、复制、传播我就不说了。查阅是什么意思知道吧？「找出来阅读」。说白了就是，不准看。</p>
-<p><a href="http://www.gov.cn/gongbao/content/2011/content_1860856.htm">《计算机信息网络国际联网安全保护管理办法》</a>的这个第五条，称得上是魔幻科幻迷幻玄幻，单这一条就为我国贡献了<strong>数以亿计</strong>的违法人员。</p>
-]]></content>
-      <categories>
-        <category>Random Thoughts</category>
-        <category>2018</category>
-      </categories>
-      <tags>
-        <tag>Essay</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Random-Thoughts</title>
-    <url>/2018/12/01/Random%20Thoughts/2018/2018-12/</url>
-    <content><![CDATA[<p>当你真正的去制造一个轮子,就能真正明白了,而不是看多少书,这就是学和做的区别.</p>
-<span id="more"></span>
-
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2018-12-01</span><br></pre></td></tr></table></figure>
-
-<p>学校之外地东西,才是真正区分一个程序员地水平地关键</p>
-<p>作为一个改行者，一定要牢记：<strong>学校最多只能教你不到30%的知识，剩下70%完全要靠自己。</strong></p>
-<p>其实在公司工作的模式就是这样的：很少有公司有详尽的文档或是培训——因为公司发展太快，大多数是自己看看文档，然后就直接看代码去理解，不明白的稍微请人问下，但主要还是靠自己学习和查询，不太可能有系统和长时间的培训。</p>
-<p>所以这种看似短促的突击式学法，其实是大公司工作所常用的。“知其然”就足够了然后就去做事，“知其所以然”是在做完事情、经验慢慢积累后再逐渐跟进的。公司出钱养人是为了做事情，并不是给机会学习。</p>
-<p>换句话说，衡量程序员的最有效的标准就是代码。那么能写出代码的，就是好程序员，“我知道这题这么做，但我不知道为什么”是完全没问题的甚至是高效率的一种表现；涉及到一个知识或是技能，即使不知道它的来龙去脉和理论，但却能用代码表述，这就足够了。</p>
-<p>在计算机这个行业,自身的素质和努力是非常非常关键地,面试时几道题一刷,几句话一说,功力深浅在老司机面前立刻无所遁形.</p>
-<p>很多行业，眼光、情商、方向更重要，计算机不是说这些不重要，而是拥有这些更多地能走得远走得好甚至完成从一个穷小子到大富翁的逆袭。但决定一个人是否能够走出第一步的，却是自身的硬功夫，也就是静下心来学习、准备面试枯燥无聊的过程。</p>
-<p>每个人成长不是固定的,认识自我</p>
-<p>单位时间内，主动性越高的人，行动次数越多。</p>
-<p>书籍问题在于精深而失于大略, 不知整体为何物, 培训班相反, 只讲究大概,不求甚解</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2018-12-11</span><br></pre></td></tr></table></figure>
-
-<p>精通,从来都是读书+实践地,工业界地代码和设计,其实跟书本不太一样,长期闭门造车尤其是纯理论学习,收效不高.</p>
-<p>一类比一下通了,CS就如学乐器,观看别人,和理论书,怎么可能学会呢</p>
-<p>我在建立（Build）简历。看看sample（例子），别人是怎么写简历的，UI Developer的简历是怎样的，人会的什么，怎么形容自己的project的；后端的简历是怎样的，机器学习方向的简历是怎样的之类。</p>
-<p>技术上，可以说真的是一分积累，一分耕耘，一分收获，半点马虎不得——过去的120年里，总有人试图用刀枪不入这种“邪术”抵抗洋枪洋炮的“正道”。</p>
-<p>大部分人没做过具体的large-scale的项目，因为只有互联网公司有large-scale的生态环境，所以大部分人不会；但互联网公司又考察这些，所以就过不了面试。越是不会，越进不去，越进不去，越是不会；而在互联网公司工作的人，却每天在积累这种系统经验。</p>
-<p>导致只有少数工程师，越来越精通系统设计；大部分人，因为没有机会，还处于纸上谈兵阶段。</p>
-<p>看文档,看开源项目 这就是一个变化</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2018-12-22</span><br></pre></td></tr></table></figure>
-
-<p>人生苦难重重。</p>
-<p>这是个伟大的真理，是世界上最伟大的真理之一。它的伟大之处在于，一旦我们领悟了这句话的真谛，就能从苦难中解脱出来，实现人生的超越。只要我们真正理解并接受了人生苦难重重的事实，那么我们就会释然，再也不会对人生的苦难耿耿于怀了。</p>
-<p><strong>生活中遇到问题，这本身就是一种痛苦，解决它们的过程又会带来新的痛苦。各种各样的问题接踵而至，使我们疲于奔命，不断经受沮丧、悲哀、痛苦、寂寞、内疚、懊丧、恼怒、恐惧、焦虑和绝望的打击，从而不知道自由和幸福为何物</strong>。这种心灵的痛苦通常和肉体的痛苦一样剧烈，甚至令人更加难以承受。正是由于人生的矛盾和冲突带来的痛苦如此强烈，我们才把它们视为问题；也正是因为各种问题接连不断，我们才觉得人生苦难重重。</p>
-<p>躺平就好。</p>
-]]></content>
-      <categories>
-        <category>Random Thoughts</category>
-        <category>2018</category>
-      </categories>
-      <tags>
-        <tag>Essay</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Random-Thoughts</title>
-    <url>/2019/01/01/Random%20Thoughts/2019/2019-01/</url>
-    <content><![CDATA[<p>这个世界需要英雄,</p>
-<p>知道今日事未毕,自然晚睡.</p>
-<p>不知明日事何去,自然晚起。</p>
-<span id="more"></span>
-
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-01-01</span><br></pre></td></tr></table></figure>
-
-<p>新生你最好从c（pure pp）java（pure oop）haskell（pure fp）这三个语言同时入手，一起学，而不是局限于某一个paradigm，最理想的是把lisp也给搞一下，这四门语言几乎构成了后续所有语言的基础，这四门语言相差甚大，互相之间几乎是正交的，就不存在一个语言能替代另外一个语言的情况，因为写的时候思路是完全不一样的（虽然不是完全不可能，但是你用c的思路去写java或者用java的思路去写haskell，蛋疼异常，可以试试）</p>
-<p>大多数所谓的业务，都没有太过于复杂的算法，大多数目前所谓的业务，都是crud，你会发现，这些业务，都没有太复杂的数学在里面，业务部门给你的需求，基本上都能用小学甚至初中的数学表达出来，比如把这个数据放到那边去，把那个数据从那边搬运到这边来，把这个界面给变得红一点等等，为什么会这样？</p>
-<p>因为现阶段光是伺候这些需求，都已经耗费了编程师们大部分时间了，你嘴巴上说把一个数据从这里搬运到那边去，说起来简单，但其实因为类型的不一致，会有大量对字段等很傻逼的工作要去做，当然我们可以简化，但是这里面会有不少问题，不同系统之间的数据搬运甚至产生了两个单独的专业，ee的通信和cs的网络工程，就光解决这些数据搬运问题，都有专门的专业来做这事，你就能想出来这里面有多少门道了，当然最理想的状态就是我们写一行代码，机器就按照我们想的方式执行了，但是这不现实，因为现在生产力还没有发展到这个阶段，我们还是需要人去伺候一下机器</p>
-<p>底层需要的人会越来越少，不是不需要，只是随着封装程度的加强，需要的人越来越少，但是应用层需要的人会越来越多，就像以前开发游戏机上的游戏，任天堂时候，你需要懂点电子元件你才能开发，还记得任天堂游戏机最早的载体是卡带嘛？后来就变成光盘了，那你不懂电子其实也没啥关系，再后来变成unity那种了，你不造引擎的话，你完全可以选择高层语言来实现</p>
-<p>对于<strong>多数</strong>人来说，java甚至python等脚本够用了，我们也发现了，java学得好的人，c很快，相反，如果不会java，只会c的人，往往是上个世纪的毕业生</p>
-<p>如果一个人又会java又会c，优秀，可以寄希望于他能贡献openjdk这些开源，可担大任</p>
-<p>如果只会java，那这个人可用，技术可用，有发展前景，能满足业务需要，毕业生有这个起点很好</p>
-<p>但是一个人如果不会java，那c再好也没啥用，这个人技术多半已经落伍了，对于工业界真正的发展，几乎没有什么概念，多半在闭门造车。</p>
-<p>上个世纪的毕业生，很多只会c，拒绝甚至仇视使用java，为什么？因为它需要学习oop的那些理论，它不理解的时候就会愤怒，把自己的无能归咎于社会对他的不公平，我只会c，你凭什么要求我会java，我不会，社会不公平……一些极端的结果就是去跳楼了，了解掉自己的生命，所以技术如果不能适应时代，那结果往往是比较恐怖的，尤其是国内的基本福利还没有充分建立起来的前提下</p>
-<p>但这种极端做法于事无补，你应该适应社会，而不是让社会适应你，同样道理，你会发现很多只会spring的java开发，对于fp等毫无概念，让他们学习也往往面临着比较大的阻力，反复论证了前面说的，人是习惯动物，所以你的老师做法有他的道理，就是保底，你会java，至少保证你有了oop的思维方式，至少能满足社会的需要，成为一个对社会有用的人，然后再来谈发展，可能你对于数学的悟性比较高，就可以搞fp语言，可能你对底层比较感兴趣，那可以贡献一下openjdk等等</p>
-<p>满足社会需要，把你自己养活了之后，再考虑其他的</p>
-<p>oop 重要过 fp 重要过 pp</p>
-<p>java 重要过 haskell 重要过 c，lisp可学可不学</p>
-<p>三种都会最好</p>
-<p>如果三选一，选java（oop）</p>
-<p>如果三选二，选java和haskell（oop和fp）//scala微笑着点点头。</p>
-<p>社会需要你会java，你就先把java搞定，然后再谈其他的，其他的也是未来优先于过去，fp重要过pp，因为未来更有发展，你选fp的话，就是发文章你也有的写，pp关联的东西，都被人搞烂了，发文章的难度要大得多，你更容易成为炮灰</p>
-<p>最后说一下什么时候需要投入c，这个是总理需要操的心，需要政府扶持了，一般是政府扶持下，大企业投入，如果党政军都不支持的话，那光靠情怀这事也很难，毕竟人家做了那么多年了，所以说什么os，芯片这些，还是要看政府的支持力度</p>
-<p>其实很多行业都一样，比如基础建设，都是如此，政府如果不扶持高铁，航空航天，民营企业家去搞这些？不可能的事。</p>
-<p>oop的话，企业主导，企业自身就有大量的需求</p>
-<p>fp的话，大学主导，现在研究机构都在搞人工智能研究</p>
-<p>pp的话，政府主导，政府需要考虑摆脱对国外的技术依赖和封锁</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-01-11</span><br></pre></td></tr></table></figure>
-
-<p>这么多年来，无论国内国外，为找工作学java的，就没遇到过后悔的</p>
-<p>use it or lose it</p>
-<p>计算机只是工具而已, 如果真感兴趣,学就是了,学完用就是了,没有多高级的,去大学里面上几门课就会了, cs 不用转,感兴趣的话,跟英语是一样的技能; 不需要花多少时间.学完Java ,各种东西就可以开始做了,甚至在学习的过程中,就已经开始做各种软件了,学就是,学完用工具这种东西,use it or lose it</p>
-<p>大多数程序员并没有在创造世界,很多人连新技术都不敢使用,连升级都不敢升级,还创造什么世界. 为了生存在翔山上继续铲翔而已.</p>
-<p>真创造世界，应该有独立自主的意识，就我要做这事，我要按照我的想法去塑造这个软件，这种叫做创造世界，但是大多数程序员并没有这个权力，他们只是在产品等业务方的要求下，去完成一个任务以换取报酬，从这一点上说，比起程序员，产品更有资格说他们在创造世界，因为被创造的软件世界是按照他们的想法去塑造的</p>
-<p>都tm0202年了, 技术人员应该尽可能多的解决问题,而不是把自己能做的事情局限在一个小范围内,如果有一天,自己给自己画的边界被人破坏了呢?</p>
-<p>如果满大街都是各种全栈,桌面能做的,移动能做,云端也能做的年轻人的时候,我只会后端,前途堪忧啊</p>
-<p>绝大部分程序员并不具备这种能力</p>
-<p>以前的会计,律师,它们都有事务所,很容易就做到合伙人了,但程序员不是,程序员反而更接近流水线的工人,只懂自己那一小块,对整个流程并不了解,我们认为一般程序员,应该你让他做啥,他都能做,写个游戏,写个网站,使用云计算,写个手机app这种才对嘛；这种才符合我们对于一个程序员的认知</p>
-<p>感觉遇到的很少，它们很多人也都没有这个意愿去承担责任，　这个有点危险，资本吃人不吐骨头；四大的家伙从来不认为自己能在四大里面呆一辈子；　意识到了根本不可能在公司里面混一辈子</p>
-<p>自己如何搞；我们必须真全栈；像会计师，律师那样去写代码，去主动承担责任；我们是编程师；不是程序员</p>
-<p>不以流水线为目的，提升编程师单兵作战能力；　这是设计问题，做到独立开发者.</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-01-16</span><br></pre></td></tr></table></figure>
-
-<p>软件开发的核心就是：技术+艺术 -&gt; 软件产品，渠道都建好了</p>
-<p>程序员不要每天埋头码,抬头看看码的意义何在,知识是我们的工具你要用工具来武装自己,然后最重要的是,要用工具来产生结果,否则再好的工具,也就是个摆设</p>
-<ul>
-<li><p><del>微服务框架</del> 进化架构</p>
-</li>
-<li><p><del>新的编程语言</del> 干净代码，设计模式，DDD</p>
-</li>
-<li><p><del>最小二乘</del> 精益生产原则</p>
-</li>
-<li><p><del>Hystrix</del> 容错模式</p>
-</li>
-<li><p><del>码头工人</del> 持续交付</p>
-</li>
-<li><p><del>角度的</del> Web，HTTP和REST</p>
-</li>
-<li><p>编程语言是不同的，但是设计气味是相同的。</p>
-</li>
-<li><p>框架是不同的，但是相同的设计模式也可以照耀。</p>
-</li>
-<li><p>开发人员不同，但是与人打交道的规则是统一的。</p>
-</li>
-<li><p><a href="https://www.amazon.com/gp/product/020161622X/?tag=mustr-20">实用程序员</a></p>
-</li>
-<li><p><a href="https://www.amazon.com/gp/product/0132350882/?tag=mustr-20">清洁代码</a></p>
-</li>
-<li><p><a href="https://www.amazon.com/gp/product/0137081073/?tag=mustr-20">清洁编码器</a></p>
-</li>
-<li><p><a href="https://www.amazon.com/gp/product/0321125215/?tag=mustr-20">域驱动设计</a></p>
-</li>
-<li><p><a href="https://www.amazon.com/gp/product/0321503627/?tag=mustr-20">不断增长的面向对象软件，以测试为指导</a></p>
-</li>
-<li><p><a href="https://www.amazon.com/gp/product/0321601912/?tag=mustr-20">持续交付</a></p>
-</li>
-</ul>
-<p>编程师要真的成为一个职业，最重要的还是全栈化，而不是流水线化,一旦有什么东西一个人搞不定，比如前端不会后端，不会数据库，后端不会移动开发,那出产品就需要找别人一起做，那人一多就需要大量的沟通.那想不来坐班，嗯，估计是不可能的，在家里没法沟通</p>
-<p>经验就是,学的越多,学得越快.自己需要思考和规划问题</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-01-21</span><br></pre></td></tr></table></figure>
-
-<h2 id="多写文档少些注释"><a href="#多写文档少些注释" class="headerlink" title="多写文档少些注释"></a>多写文档少些注释</h2><ul>
-<li>文档：是和代码相分离的，文档通常包括主要的业务逻辑、系统架构、配置、名词解释、核心类使用说明等这些宏观性的东西。</li>
-<li>注释：直接写在代码中的，通常都是变量赋值分支循环之类微观的介绍说明。</li>
-</ul>
-<p>文档能够帮助一个新人尽快的了解项目的整体情况。而且这些东西通常是比较恒定的，变化较少的。写和读都没啥大毛病。</p>
-<p>但是注释，滥用的话，问题很多代码质量不够，注释来凑，注释和代码不一致，最坑爹的是因为改动，一开始注释和代码通常都是一致的，但是经不住改啊。太多项目，改来改去就改了代码忘了注释，一旦代码和注释不同步，后面的同学：你觉得是注释错了呢，还是代码错了？¯_(ツ)_/¯</p>
-<p>高估了你们的汉语/英语表达能力，写的注释还没有代码好理解哈哈。</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-01-30</span><br></pre></td></tr></table></figure>
-
-<h2 id="神逻辑"><a href="#神逻辑" class="headerlink" title="神逻辑"></a>神逻辑</h2><ol>
-<li><p>实验做的不好就不吃饭了。(人是铁饭是钢)</p>
-</li>
-<li><p>以为理论水平高，实验水平就高。(二者至少在前期没有特别明显的相关性)</p>
-</li>
-<li><p>自以为理论水平高，理论水平就高。(跨一个领域就吃瘪)</p>
-</li>
-<li><p>以为只要实验做的好一切都会好。(家人好吗？和老板关系好吗？和同学关系好吗？赚钱吗？有对象吗？总有不如意的地方。)</p>
-</li>
-<li><p>觉得自己是名校毕业生，就一定比双非学生做的好。(前期没区别，后期好像也没什么区别)</p>
-</li>
-<li><p>觉得文章发的多的PI水平就高。(可能他们更适合学“术”，而不是“学”术)</p>
-</li>
-<li><p>存在某种迷之鄙视链。如全合成和方法学的人互相鄙视，做化学生物学的和做化学的互相鄙视。(都是小白鼠，应该抱团取暖而不是互相砸饭碗)</p>
-</li>
-<li><p>摆不正自己学生的位置，觉得自己是博士(候选人)很厉害。(学生就是学生，别掺和的事情太多了。但是那些真正为大家谋福祉的人，请尊重他们做的一切)</p>
-</li>
-<li><p>对某些事情过于热情。比如第一次学过柱子就喜欢过柱子，结果过了三天柱子过恶心了之后该过柱子的时候反而不去过柱子了(绕口令，雾……要平常心，以后不缺过柱子的时候)</p>
-</li>
-<li><p>对于某些人过于热情。比如，没有比如，不想比如了。</p>
-</li>
-<li><p>以为自己可以和导师正面对抗，讨价还价。(你看看你的蛋蛋捏在谁的手里)</p>
-</li>
-<li><p>对于一些小的新现象就沾沾自喜，结果发现已经被别人报道了就怒不可遏。(心态不端正容易把自己气死)</p>
-</li>
-<li><p>以为测试中心的技术员，行政部门的公职人员，各大公司的试剂销售商，都是给自己服务的，谁让他们有工资。(他们给你服务的原因，有的是想赚钱，有的是不想得罪你的老板。)</p>
-</li>
-<li><p>一个问题非要辩倒别人才心甘。(留点唾沫咽下去暖和暖和肠胃不好么)</p>
-</li>
-<li><p>吃饭的时候聊学术。(不一定所有人都热衷于学术)</p>
-</li>
-<li><p>和非学术圈的人聊学术。(会让别人觉得无聊)</p>
-</li>
-<li><p>觉得自己太菜。(其实大家都很菜)</p>
-</li>
-<li><p>觉得老板太菜。(老板只不过是懒得理你)</p>
-</li>
-<li><p>一开始就把毕业的事想好了。(变数太大，说不准以后你去扫厕所了呢)</p>
-</li>
-<li><p>喜欢用一些结论性的语句。如这个肯定发不了好文章，这个肯定是xxx的原理。(打脸可快了，不信你试试)</p>
-</li>
-<li><p>以为在知乎上看万粉的V的回答能学到经验，其实他只是在吐槽……</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Random Thoughts</category>
-        <category>2019</category>
       </categories>
       <tags>
         <tag>Essay</tag>
@@ -1017,6 +883,782 @@
 <p>线性无关= 不压缩</p>
 <p>线性相关= 压缩</p>
 <p>建立一种感觉，面对那些理所当然的想象时，要能够理所当然做出判断。理解矩阵的秩。</p>
+]]></content>
+      <categories>
+        <category>Random Thoughts</category>
+        <category>2019</category>
+      </categories>
+      <tags>
+        <tag>Essay</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Random-Thoughts</title>
+    <url>/2019/01/01/Random%20Thoughts/2019/2019-01/</url>
+    <content><![CDATA[<p>这个世界需要英雄,</p>
+<p>知道今日事未毕,自然晚睡.</p>
+<p>不知明日事何去,自然晚起。</p>
+<span id="more"></span>
+
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-01-01</span><br></pre></td></tr></table></figure>
+
+<p>新生你最好从c（pure pp）java（pure oop）haskell（pure fp）这三个语言同时入手，一起学，而不是局限于某一个paradigm，最理想的是把lisp也给搞一下，这四门语言几乎构成了后续所有语言的基础，这四门语言相差甚大，互相之间几乎是正交的，就不存在一个语言能替代另外一个语言的情况，因为写的时候思路是完全不一样的（虽然不是完全不可能，但是你用c的思路去写java或者用java的思路去写haskell，蛋疼异常，可以试试）</p>
+<p>大多数所谓的业务，都没有太过于复杂的算法，大多数目前所谓的业务，都是crud，你会发现，这些业务，都没有太复杂的数学在里面，业务部门给你的需求，基本上都能用小学甚至初中的数学表达出来，比如把这个数据放到那边去，把那个数据从那边搬运到这边来，把这个界面给变得红一点等等，为什么会这样？</p>
+<p>因为现阶段光是伺候这些需求，都已经耗费了编程师们大部分时间了，你嘴巴上说把一个数据从这里搬运到那边去，说起来简单，但其实因为类型的不一致，会有大量对字段等很傻逼的工作要去做，当然我们可以简化，但是这里面会有不少问题，不同系统之间的数据搬运甚至产生了两个单独的专业，ee的通信和cs的网络工程，就光解决这些数据搬运问题，都有专门的专业来做这事，你就能想出来这里面有多少门道了，当然最理想的状态就是我们写一行代码，机器就按照我们想的方式执行了，但是这不现实，因为现在生产力还没有发展到这个阶段，我们还是需要人去伺候一下机器</p>
+<p>底层需要的人会越来越少，不是不需要，只是随着封装程度的加强，需要的人越来越少，但是应用层需要的人会越来越多，就像以前开发游戏机上的游戏，任天堂时候，你需要懂点电子元件你才能开发，还记得任天堂游戏机最早的载体是卡带嘛？后来就变成光盘了，那你不懂电子其实也没啥关系，再后来变成unity那种了，你不造引擎的话，你完全可以选择高层语言来实现</p>
+<p>对于<strong>多数</strong>人来说，java甚至python等脚本够用了，我们也发现了，java学得好的人，c很快，相反，如果不会java，只会c的人，往往是上个世纪的毕业生</p>
+<p>如果一个人又会java又会c，优秀，可以寄希望于他能贡献openjdk这些开源，可担大任</p>
+<p>如果只会java，那这个人可用，技术可用，有发展前景，能满足业务需要，毕业生有这个起点很好</p>
+<p>但是一个人如果不会java，那c再好也没啥用，这个人技术多半已经落伍了，对于工业界真正的发展，几乎没有什么概念，多半在闭门造车。</p>
+<p>上个世纪的毕业生，很多只会c，拒绝甚至仇视使用java，为什么？因为它需要学习oop的那些理论，它不理解的时候就会愤怒，把自己的无能归咎于社会对他的不公平，我只会c，你凭什么要求我会java，我不会，社会不公平……一些极端的结果就是去跳楼了，了解掉自己的生命，所以技术如果不能适应时代，那结果往往是比较恐怖的，尤其是国内的基本福利还没有充分建立起来的前提下</p>
+<p>但这种极端做法于事无补，你应该适应社会，而不是让社会适应你，同样道理，你会发现很多只会spring的java开发，对于fp等毫无概念，让他们学习也往往面临着比较大的阻力，反复论证了前面说的，人是习惯动物，所以你的老师做法有他的道理，就是保底，你会java，至少保证你有了oop的思维方式，至少能满足社会的需要，成为一个对社会有用的人，然后再来谈发展，可能你对于数学的悟性比较高，就可以搞fp语言，可能你对底层比较感兴趣，那可以贡献一下openjdk等等</p>
+<p>满足社会需要，把你自己养活了之后，再考虑其他的</p>
+<p>oop 重要过 fp 重要过 pp</p>
+<p>java 重要过 haskell 重要过 c，lisp可学可不学</p>
+<p>三种都会最好</p>
+<p>如果三选一，选java（oop）</p>
+<p>如果三选二，选java和haskell（oop和fp）//scala微笑着点点头。</p>
+<p>社会需要你会java，你就先把java搞定，然后再谈其他的，其他的也是未来优先于过去，fp重要过pp，因为未来更有发展，你选fp的话，就是发文章你也有的写，pp关联的东西，都被人搞烂了，发文章的难度要大得多，你更容易成为炮灰</p>
+<p>最后说一下什么时候需要投入c，这个是总理需要操的心，需要政府扶持了，一般是政府扶持下，大企业投入，如果党政军都不支持的话，那光靠情怀这事也很难，毕竟人家做了那么多年了，所以说什么os，芯片这些，还是要看政府的支持力度</p>
+<p>其实很多行业都一样，比如基础建设，都是如此，政府如果不扶持高铁，航空航天，民营企业家去搞这些？不可能的事。</p>
+<p>oop的话，企业主导，企业自身就有大量的需求</p>
+<p>fp的话，大学主导，现在研究机构都在搞人工智能研究</p>
+<p>pp的话，政府主导，政府需要考虑摆脱对国外的技术依赖和封锁</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-01-11</span><br></pre></td></tr></table></figure>
+
+<p>这么多年来，无论国内国外，为找工作学java的，就没遇到过后悔的</p>
+<p>use it or lose it</p>
+<p>计算机只是工具而已, 如果真感兴趣,学就是了,学完用就是了,没有多高级的,去大学里面上几门课就会了, cs 不用转,感兴趣的话,跟英语是一样的技能; 不需要花多少时间.学完Java ,各种东西就可以开始做了,甚至在学习的过程中,就已经开始做各种软件了,学就是,学完用工具这种东西,use it or lose it</p>
+<p>大多数程序员并没有在创造世界,很多人连新技术都不敢使用,连升级都不敢升级,还创造什么世界. 为了生存在翔山上继续铲翔而已.</p>
+<p>真创造世界，应该有独立自主的意识，就我要做这事，我要按照我的想法去塑造这个软件，这种叫做创造世界，但是大多数程序员并没有这个权力，他们只是在产品等业务方的要求下，去完成一个任务以换取报酬，从这一点上说，比起程序员，产品更有资格说他们在创造世界，因为被创造的软件世界是按照他们的想法去塑造的</p>
+<p>都tm0202年了, 技术人员应该尽可能多的解决问题,而不是把自己能做的事情局限在一个小范围内,如果有一天,自己给自己画的边界被人破坏了呢?</p>
+<p>如果满大街都是各种全栈,桌面能做的,移动能做,云端也能做的年轻人的时候,我只会后端,前途堪忧啊</p>
+<p>绝大部分程序员并不具备这种能力</p>
+<p>以前的会计,律师,它们都有事务所,很容易就做到合伙人了,但程序员不是,程序员反而更接近流水线的工人,只懂自己那一小块,对整个流程并不了解,我们认为一般程序员,应该你让他做啥,他都能做,写个游戏,写个网站,使用云计算,写个手机app这种才对嘛；这种才符合我们对于一个程序员的认知</p>
+<p>感觉遇到的很少，它们很多人也都没有这个意愿去承担责任，　这个有点危险，资本吃人不吐骨头；四大的家伙从来不认为自己能在四大里面呆一辈子；　意识到了根本不可能在公司里面混一辈子</p>
+<p>自己如何搞；我们必须真全栈；像会计师，律师那样去写代码，去主动承担责任；我们是编程师；不是程序员</p>
+<p>不以流水线为目的，提升编程师单兵作战能力；　这是设计问题，做到独立开发者.</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-01-16</span><br></pre></td></tr></table></figure>
+
+<p>软件开发的核心就是：技术+艺术 -&gt; 软件产品，渠道都建好了</p>
+<p>程序员不要每天埋头码,抬头看看码的意义何在,知识是我们的工具你要用工具来武装自己,然后最重要的是,要用工具来产生结果,否则再好的工具,也就是个摆设</p>
+<ul>
+<li><p><del>微服务框架</del> 进化架构</p>
+</li>
+<li><p><del>新的编程语言</del> 干净代码，设计模式，DDD</p>
+</li>
+<li><p><del>最小二乘</del> 精益生产原则</p>
+</li>
+<li><p><del>Hystrix</del> 容错模式</p>
+</li>
+<li><p><del>码头工人</del> 持续交付</p>
+</li>
+<li><p><del>角度的</del> Web，HTTP和REST</p>
+</li>
+<li><p>编程语言是不同的，但是设计气味是相同的。</p>
+</li>
+<li><p>框架是不同的，但是相同的设计模式也可以照耀。</p>
+</li>
+<li><p>开发人员不同，但是与人打交道的规则是统一的。</p>
+</li>
+<li><p><a href="https://www.amazon.com/gp/product/020161622X/?tag=mustr-20">实用程序员</a></p>
+</li>
+<li><p><a href="https://www.amazon.com/gp/product/0132350882/?tag=mustr-20">清洁代码</a></p>
+</li>
+<li><p><a href="https://www.amazon.com/gp/product/0137081073/?tag=mustr-20">清洁编码器</a></p>
+</li>
+<li><p><a href="https://www.amazon.com/gp/product/0321125215/?tag=mustr-20">域驱动设计</a></p>
+</li>
+<li><p><a href="https://www.amazon.com/gp/product/0321503627/?tag=mustr-20">不断增长的面向对象软件，以测试为指导</a></p>
+</li>
+<li><p><a href="https://www.amazon.com/gp/product/0321601912/?tag=mustr-20">持续交付</a></p>
+</li>
+</ul>
+<p>编程师要真的成为一个职业，最重要的还是全栈化，而不是流水线化,一旦有什么东西一个人搞不定，比如前端不会后端，不会数据库，后端不会移动开发,那出产品就需要找别人一起做，那人一多就需要大量的沟通.那想不来坐班，嗯，估计是不可能的，在家里没法沟通</p>
+<p>经验就是,学的越多,学得越快.自己需要思考和规划问题</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-01-21</span><br></pre></td></tr></table></figure>
+
+<h2 id="多写文档少些注释"><a href="#多写文档少些注释" class="headerlink" title="多写文档少些注释"></a>多写文档少些注释</h2><ul>
+<li>文档：是和代码相分离的，文档通常包括主要的业务逻辑、系统架构、配置、名词解释、核心类使用说明等这些宏观性的东西。</li>
+<li>注释：直接写在代码中的，通常都是变量赋值分支循环之类微观的介绍说明。</li>
+</ul>
+<p>文档能够帮助一个新人尽快的了解项目的整体情况。而且这些东西通常是比较恒定的，变化较少的。写和读都没啥大毛病。</p>
+<p>但是注释，滥用的话，问题很多代码质量不够，注释来凑，注释和代码不一致，最坑爹的是因为改动，一开始注释和代码通常都是一致的，但是经不住改啊。太多项目，改来改去就改了代码忘了注释，一旦代码和注释不同步，后面的同学：你觉得是注释错了呢，还是代码错了？¯_(ツ)_/¯</p>
+<p>高估了你们的汉语/英语表达能力，写的注释还没有代码好理解哈哈。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-01-30</span><br></pre></td></tr></table></figure>
+
+<h2 id="神逻辑"><a href="#神逻辑" class="headerlink" title="神逻辑"></a>神逻辑</h2><ol>
+<li><p>实验做的不好就不吃饭了。(人是铁饭是钢)</p>
+</li>
+<li><p>以为理论水平高，实验水平就高。(二者至少在前期没有特别明显的相关性)</p>
+</li>
+<li><p>自以为理论水平高，理论水平就高。(跨一个领域就吃瘪)</p>
+</li>
+<li><p>以为只要实验做的好一切都会好。(家人好吗？和老板关系好吗？和同学关系好吗？赚钱吗？有对象吗？总有不如意的地方。)</p>
+</li>
+<li><p>觉得自己是名校毕业生，就一定比双非学生做的好。(前期没区别，后期好像也没什么区别)</p>
+</li>
+<li><p>觉得文章发的多的PI水平就高。(可能他们更适合学“术”，而不是“学”术)</p>
+</li>
+<li><p>存在某种迷之鄙视链。如全合成和方法学的人互相鄙视，做化学生物学的和做化学的互相鄙视。(都是小白鼠，应该抱团取暖而不是互相砸饭碗)</p>
+</li>
+<li><p>摆不正自己学生的位置，觉得自己是博士(候选人)很厉害。(学生就是学生，别掺和的事情太多了。但是那些真正为大家谋福祉的人，请尊重他们做的一切)</p>
+</li>
+<li><p>对某些事情过于热情。比如第一次学过柱子就喜欢过柱子，结果过了三天柱子过恶心了之后该过柱子的时候反而不去过柱子了(绕口令，雾……要平常心，以后不缺过柱子的时候)</p>
+</li>
+<li><p>对于某些人过于热情。比如，没有比如，不想比如了。</p>
+</li>
+<li><p>以为自己可以和导师正面对抗，讨价还价。(你看看你的蛋蛋捏在谁的手里)</p>
+</li>
+<li><p>对于一些小的新现象就沾沾自喜，结果发现已经被别人报道了就怒不可遏。(心态不端正容易把自己气死)</p>
+</li>
+<li><p>以为测试中心的技术员，行政部门的公职人员，各大公司的试剂销售商，都是给自己服务的，谁让他们有工资。(他们给你服务的原因，有的是想赚钱，有的是不想得罪你的老板。)</p>
+</li>
+<li><p>一个问题非要辩倒别人才心甘。(留点唾沫咽下去暖和暖和肠胃不好么)</p>
+</li>
+<li><p>吃饭的时候聊学术。(不一定所有人都热衷于学术)</p>
+</li>
+<li><p>和非学术圈的人聊学术。(会让别人觉得无聊)</p>
+</li>
+<li><p>觉得自己太菜。(其实大家都很菜)</p>
+</li>
+<li><p>觉得老板太菜。(老板只不过是懒得理你)</p>
+</li>
+<li><p>一开始就把毕业的事想好了。(变数太大，说不准以后你去扫厕所了呢)</p>
+</li>
+<li><p>喜欢用一些结论性的语句。如这个肯定发不了好文章，这个肯定是xxx的原理。(打脸可快了，不信你试试)</p>
+</li>
+<li><p>以为在知乎上看万粉的V的回答能学到经验，其实他只是在吐槽……</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Random Thoughts</category>
+        <category>2019</category>
+      </categories>
+      <tags>
+        <tag>Essay</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Random-Thoughts</title>
+    <url>/2019/04/01/Random%20Thoughts/2019/2019-04/</url>
+    <content><![CDATA[<p>一切问题都是利益问题，一切冲突都是利益冲突。</p>
+<span id="more"></span>
+
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-04-01</span><br></pre></td></tr></table></figure>
+
+<p>为什么大公司愿意招募基础扎实，知识完备的科班出身者，哪怕这人“只会刷题，没有实际经验”，而不去招募“10年工作经验”的人——很多看似工作经验很多的人，如果只是重复低级劳动，或是了解技术层面非常浅薄的话，进入公司后工作经验并没有太大用处，成长性可能还真不如基础扎实的人</p>
+<p>这年头木匠都会sketchup了，而有些人还沉醉在翻字典当文化人的梦想当中，</p>
+<p>因特网是政府，学校，工业界合作的最成功的示例之一。两点因素最重要：美国政府30年持续不变的投资，以及充满激情的研究人员对麻省理工学院的提出的“粗略一致和能用的代码”的投入。目标是星辰和大海</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-04-11</span><br></pre></td></tr></table></figure>
+
+<p>letter-writing 任何书信的种类、内容和口吻都取决于写信的场合、写信人和收信人的身份。随意还是正式、朴实还是华丽、轻松还是严肃、开心还是沉重、宣泄情感还是就事论事，都取决于这三个条件。</p>
+<p>写信最首要、最重要的要求是自然和简单。一封信不应带给读者紧张的阅读感，而应是写信人思想的自然倾泻。我们不喜欢聊天时刻板呆滞的人，同样，读者也不喜欢刻板呆滞的信，如果一封信的口吻如聊天般轻松的话，那么它立马就能吸引读者的注意力。</p>
+<p>I beg you will acknowledge receipt and should the owner be found I trust you will notify me, so that I may claim some reward for my honesty.</p>
+<p>书信可以分为以下种类：友人和熟人之间的信件、商业关系的信函、公职人员的官方信、教师的教诲信以及那些讲述每日要闻的信，即新闻简报。</p>
+<p>语言得体，letters of friendship</p>
+<p>business letters</p>
+<p>诚信永远是最好的原则</p>
+<p>official letters 正式文件</p>
+<p>letter designed to teach didactic letter 强调</p>
+<p>无他唯熟尔 newsletter　诙谐幽默</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-04-21</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p><strong>对你的源码负责</strong></p>
+</li>
+<li><p><strong>不要容忍破窗</strong>，它们会增大你软件的熵（这个也是要结合实际情况看的）</p>
+</li>
+<li><p><strong>记住大图景</strong>，注意方向是否有误，不要光低头做事</p>
+</li>
+<li><p><strong>知道在何时打住</strong>，你不可能做到完美</p>
+</li>
+<li><p>定期为你的知识资产投资</p>
+<p>，就像经济投资一样</p>
+<ul>
+<li>定期投资</li>
+<li>多元化</li>
+<li>管理风险，不要把所有技术放在一个篮子里</li>
+<li>低买高卖，能看清形势</li>
+</ul>
+</li>
+<li><p>为此，你需要</p>
+<ul>
+<li><strong>每年至少学习一种新语言</strong></li>
+<li><strong>每季度阅读一本技术书籍</strong></li>
+<li>也要阅读非技术书籍</li>
+</ul>
+</li>
+<li><p><strong>批判地思考你读到和听到的</strong></p>
+</li>
+<li><p>如何表达自己很重要</p>
+<p>，这会增加你的影响力</p>
+<ul>
+<li>你想让谁知道</li>
+<li>你想让他们知道什么</li>
+<li>他们是否感兴趣</li>
+<li>他们需要知道细节么</li>
+<li>如何促使他们与你交流</li>
+</ul>
+</li>
+<li><p>DRY，不要重复自己</p>
+<ul>
+<li>强加的重复 =&gt; 使用自动生成，减少是信息冗知识</li>
+<li>无意的重复 =&gt; 优良的设计</li>
+<li>无耐心的重复 =&gt; 考虑长远</li>
+<li>开发者间的重复 =&gt; 加强组内交流，制定代码规范，<strong>制造更容易复用的环境</strong></li>
+</ul>
+</li>
+<li><p>减少无关事物的影响</p>
+<p>，非正交 =&gt; 次级效应 =&gt; 补偿行为 =&gt; 经验依赖</p>
+<ul>
+<li>好处：提高生产率（促进复用）、降低风险（风险隔离，易测试）</li>
+<li>分层设计、抽象和接口约定</li>
+<li>避免使用全局变量</li>
+<li>考虑使用库的代码侵入性</li>
+<li>文档和认同正交性</li>
+</ul>
+</li>
+<li><p><em>不存在最终决策</em>，当需求变动频繁的时候，不仅要思考程序架构如何适应这种变动，也要反思是否是设计者没想清楚到底要做什么</p>
+</li>
+<li><p>使用曳光弹找到目标</p>
+<p>，即MVP + 快速迭代 + 即时的反馈</p>
+<ul>
+<li>逐步逼近，摸着石头过河</li>
+<li>曳光弹模式永远包含着一个可用的软件版本</li>
+</ul>
+</li>
+<li><p><strong>原型和便笺</strong>，使用原型去表达和快速验证项目的可行性</p>
+</li>
+<li><p>靠近问题领域编程</p>
+<ul>
+<li>使用DSL（Domain Specified Language）</li>
+</ul>
+</li>
+<li><p>估算，以避免意外</p>
+<p>，主要用来估计工期、分析风险</p>
+<ul>
+<li>适当地降低估算速度，慎重思考隐藏的风险</li>
+</ul>
+</li>
+</ul>
+<p>工具成为双手和大脑的延伸，优秀的工具可以放大你的才干。</p>
+<ul>
+<li><p><strong>纯文本以其自解释能力几乎可以永久保存</strong>，XML、JSON就是利用此成为通用的数据表现形式</p>
+</li>
+<li><p><strong>利用shell的力量</strong>，它是自动化任务避不开的工具</p>
+</li>
+<li><p>要能烂熟地使用你的编辑器</p>
+<p>要使用高级的编辑器</p>
+<p>，由于你的所有开发工作都建立在它上面，做好这两点可以节省你大量时间</p>
+<ul>
+<li>反思一下，在用你的编辑器时，你有遇到过到比较繁琐的操作吗？</li>
+<li>是因为你不会高级使用方式，还是编辑器本身不支持？</li>
+</ul>
+</li>
+<li><p><em>总是使用源码控制</em>（这一点早已成为共识）</p>
+</li>
+<li><p>调试，debug</p>
+<ul>
+<li><strong>通常认为匪夷所思的bug，都来自健忘、自大和愚蠢</strong></li>
+<li>QA角色的重要性之一：帮助复现、找到规律性</li>
+<li>橡皮鸭调试法</li>
+<li><strong>二分查找法</strong></li>
+<li>如果bug来自某人的错误假设，那么需要清除团队其他人的相同误解</li>
+</ul>
+</li>
+<li><p><strong>学习一种文本操纵语言或工具</strong>，例如awk，sed，处理数据和结果时一定能用上</p>
+</li>
+<li><p>编写代码生成器</p>
+<ul>
+<li>开发者手动触发，如模板代码</li>
+<li>程序自动出发，如scheme to idl，idl to code</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-04-30</span><br></pre></td></tr></table></figure>
+
+<h2 id="偏执编程"><a href="#偏执编程" class="headerlink" title="偏执编程"></a>偏执编程</h2><ul>
+<li><p>通过合约设计</p>
+<p>，约定好接口，合作方基于接口开发</p>
+<ul>
+<li>强类型语言更容易实现这一点</li>
+</ul>
+</li>
+<li><p><strong>早崩溃</strong>，这在需要编译的软件开发上比较科学，对于web应用来说却不是这样</p>
+</li>
+<li><p>使用断言确保某事不会发生</p>
+<p>，减少预设条件代理的隐藏bug</p>
+<ul>
+<li>不要滥用断言</li>
+</ul>
+</li>
+<li><p><strong>只在异常处用异常</strong></p>
+</li>
+<li><p><strong>一定记住释放请求的资源</strong>，如内存、句柄等，可以通过封装统一的资源类实现自动的资源释放</p>
+</li>
+</ul>
+<h2 id="时间的魔力"><a href="#时间的魔力" class="headerlink" title="时间的魔力"></a>时间的魔力</h2><ul>
+<li><p>德墨忒尔法则</p>
+<p>，使模块间的依赖减少到最小</p>
+<ul>
+<li>物理解耦</li>
+</ul>
+</li>
+<li><p>要配置不要hardcode</p>
+<p>，使用元数据动态描述你的程序</p>
+<ul>
+<li><strong>抽象放进代码，细节放进元数据</strong></li>
+</ul>
+</li>
+<li><p>时间耦合：考虑并发和事件的发生顺序</p>
+<ul>
+<li>在异步代码中，总考虑并发</li>
+</ul>
+</li>
+<li><p>一些GUI的设计模式</p>
+<ul>
+<li>发布订阅</li>
+<li>MVC</li>
+</ul>
+</li>
+<li><p>基于规则/规则集的黑板系统</p>
+<ul>
+<li>黑板给出统一接口</li>
+<li>耦合方通过调用黑板接口避免耦合</li>
+<li>黑板通过规则给出输出</li>
+</ul>
+</li>
+</ul>
+<h2 id="编码时"><a href="#编码时" class="headerlink" title="编码时"></a>编码时</h2><ul>
+<li><p>不要靠巧合编程</p>
+<ul>
+<li>改动要有文档沉淀</li>
+<li>只依靠文档中记录的行为</li>
+<li>把你的假设记入文档</li>
+</ul>
+</li>
+<li><p>在大数据量时</p>
+<p>，考虑算法数量级</p>
+<ul>
+<li>兼顾效率和可读性</li>
+</ul>
+</li>
+<li><p>早重构，常重构</p>
+<p>，代码是业务设计的近似同构体，常重构才能保证代码完美贴合需求设计</p>
+<ul>
+<li>重构和功能开发分开进行</li>
+<li>重构一定要有测试</li>
+</ul>
+</li>
+<li><p>优秀的代码不是看新增了多少行，而是看删除了多少行</p>
+</li>
+<li><p>编写易于测试的代码</p>
+<ul>
+<li>测试你的软件，否则你的用户会代你做测试</li>
+</ul>
+</li>
+</ul>
+<h2 id="项目开始前"><a href="#项目开始前" class="headerlink" title="项目开始前"></a>项目开始前</h2><blockquote>
+<p>完美，不是在没有什么需要增加，而是在没有什么需要去掉的时候达到的。</p>
+</blockquote>
+<ul>
+<li><p>去挖掘需求，思考用户做特定事情的原因，和如何去做的方式，</p>
+<p>让需求成为一种一般性的陈述</p>
+<ul>
+<li><strong>制作需求文档时的一大危险是太过具体，好的需求文档会保持抽象</strong></li>
+<li>经常性复盘</li>
+<li>鼓励文档分享和交流</li>
+</ul>
+</li>
+<li><p>巧妙解决看似不能解决的难题</p>
+<p>，关键要找到</p>
+<p>真正的约束</p>
+<p>，去思考</p>
+<ul>
+<li>有更容易的方法么</li>
+<li>你是在解决真正的问题，还是被外围的技术问题转移了注意力</li>
+<li>这件事为什么是一个问题</li>
+<li>是什么让它难以解决</li>
+<li>它必须这么做么</li>
+<li>它必须完成么</li>
+</ul>
+</li>
+<li><p><strong>准备好再开始，但不要让它成为你懈怠的借口</strong></p>
+</li>
+<li><p><strong>不要成为方法学的奴隶</strong></p>
+</li>
+</ul>
+<h2 id="实效项目"><a href="#实效项目" class="headerlink" title="实效项目"></a>实效项目</h2><ul>
+<li><p>团队建设</p>
+<ul>
+<li>不留破窗户（考验leader的管理能力）</li>
+<li>经常性的复盘和例会</li>
+<li>减少团队成员分工的冗余</li>
+<li>自动化项目流程 =&gt; 效率工程团队开发内部工具</li>
+<li>制造context，给成员足够空间</li>
+</ul>
+</li>
+<li><p>不要使用手动流程</p>
+<p>，它不可控且难以复制</p>
+<ul>
+<li>shell、crontab</li>
+<li>CI和自动化持续集成</li>
+<li>代码生成</li>
+<li>自动化测试</li>
+<li>代码review和源码版本控制流程</li>
+</ul>
+</li>
+<li><p>常测试，早测试，自动化测试</p>
+<ul>
+<li>单元测试/集成测试/压力测试/回归测试</li>
+<li><strong>测试状态覆盖，而不是代码覆盖</strong>，代码覆盖率提供的意义有限</li>
+</ul>
+</li>
+<li><p>关于如何生产文本</p>
+<ul>
+<li>所有文档都是代码的反映</li>
+<li>源码注释应该去把项目里那些难以描述、容易忘记、不能记录在其他地方的东西记载下来</li>
+<li>比无意义的名称更糟糕的是<strong>有误导性</strong>的名称</li>
+<li>除非有程序或人工维护，否则任何形式的文档都只是<strong>快照</strong></li>
+</ul>
+</li>
+<li><p>温和地超出用户期望</p>
+<p>，如</p>
+<ul>
+<li>友好的新手指引</li>
+<li>快捷键</li>
+<li>自动化安装</li>
+</ul>
+</li>
+<li><p><strong>自豪地为你的作品签名</strong></p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Random Thoughts</category>
+        <category>2019</category>
+      </categories>
+      <tags>
+        <tag>Essay</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Random-Thoughts</title>
+    <url>/2019/08/01/Random%20Thoughts/2019/2019-08/</url>
+    <content><![CDATA[<p>酒醒只在花前坐，酒醉还来花下眠</p>
+<p>半醒半醉日复日，花落花开年复年</p>
+<span id="more"></span>
+
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-08-01</span><br></pre></td></tr></table></figure>
+
+<h2 id="青年在选择职业时的考虑"><a href="#青年在选择职业时的考虑" class="headerlink" title="青年在选择职业时的考虑"></a>青年在选择职业时的考虑</h2><p>普鲁士王国莱因省特里尔镇特里尔中学 卡尔·马克思（17 岁）</p>
+<p>自然本身给动物规定了它应该遵守的活动范围，动物也就安分地在这个范围内活动，而不试图越出这个范围，甚至不考虑有其它范围存在。神也给人指定了共同的目标──使人类和他自己趋于高尚，但是，神要人自己去寻找可以达到这个目标的手段；神让人在社会上选择一个最适合于他、最能使他和社会变得高尚的地位。</p>
+<p>　　这种选择是人比其它创造物远为优越的地方，但同时也是可能毁灭人的一生、破坏他的一切计划并使他陷于不幸的行为。因此，认真地权衡这种选择，无疑是开始走上生活道路而又不愿在最重要的事情上听天由命的青年的首要责任。</p>
+<p><strong>每个人眼前都有一个目标，这个目标至少在他本人看来是伟大的，而且如果最深刻的信念，即内心深处的声音，认为这个目标是伟大的，那它实际上也是伟大的</strong>，因为神决不会使世人完全没有引导者；神轻声地但坚定地作启示。</p>
+<p>　　但是，这声音很容易被淹没；我们认为是热情的东西可能倏忽而生，同样可能倏忽而逝。也许，我们的幻想蓦然迸发，我们的感情激动起来，我们的眼前浮想联翩，我们狂热地追求我们以为是神本身给我们指出的目标；但是，我们梦寐以求的东西很快就使我们厌恶，于是，我们便感到自己的整个存在遭到了毁灭。</p>
+<p>　　因此，我们应当认真考虑：<strong>我们对所选择的职业是不是真的怀有热情？发自我们内心的声音是不是同意选择这种职业？我们的热情是不是一种迷误？我们认为是神的召唤的东西是不是一种自我欺骗？不过，如果不对热情的来源本身加以探究，我们又怎么能认清这一切呢？</strong></p>
+<p>　　伟大的东西是闪光的，闪光会激发虚荣心，虚荣心容易使人产生热情或者一种我们觉得是热情的东西；但是，被名利迷住了心窍的人，理性是无法加以约束的，于是他一头栽进那不可抗拒的欲念召唤他去的地方；他的职业已经不再是由他自己选择，而是由偶然机会和假象去决定了。</p>
+<p>　　我们的使命决不是求得一个最足以炫耀的职业，因为它不是那种可能由我们长期从事，但始终不会使我们感到厌倦、始终不会使我们劲头低落、始终不会使我们的热情冷却的职业，相反，我们很快就会觉得，我们的愿望没有得到满足，我们的理想没有实现，我们就将怨天尤人。</p>
+<p>　　但是，不仅虚荣心能够引起对某种职业的突然的热情，而且我们也许会用自己的幻想把这种职业美化，把它美化成生活所能提供的至高无上的东西。我们没有仔细分析它，没有衡量它的全部分量，即它加在我们肩上的重大责任；我们只是从远处观察它，而从远处观察是靠不住的。</p>
+<p>　　在这里，我们自己的理性不能给我们充当顾问，因为当它被感情欺骗，受幻想蒙蔽时，它既不依靠经验，也不依靠更深入的观察。然而，我们的目光应该投向谁呢？当我们丧失理性的时候，谁来支持我们呢？</p>
+<p>　　是我们的父母，他们走过了漫长的生活道路，饱尝了人世辛酸。──我们的心这样提醒我们。</p>
+<p>如果我们经过冷静的考察，认清了所选择的职业的全部分量，了解它的困难以后，仍然对它充满热情，仍然爱它，觉得自己适合于它，那时我们就可以选择它，那时我们既不会受热情的欺骗，也不会仓促从事。</p>
+<p>　　但是，我们并不总是能够选择我们自认为适合的职业；我们在社会上的关系，还在我们有能力决定它们以前就已经在某种程度上开始确立了。</p>
+<p>　　我们的体质常常威胁我们，可是任何人也不敢藐视它的权利。</p>
+<p>　　诚然，我们能够超越体质的限制，但这么一来，我们也就垮得更快；在这种情况下，我们就是冒险把大厦建筑在残破的废墟上，我们的一生也就变成一场精神原则和肉体原则之间的不幸的斗争。但是，一个不能克服自身相互斗争的因素的人，又怎能抗御生活的猛烈冲击，怎能安静地从事活动呢？然而只有从安静中才能产生出伟大壮丽的事业，安静是唯一能生长出成熟果实的土壤。</p>
+<p><strong>尽管我们由于体质不适合我们的职业，不能持久地工作，而且很少能够愉快地工作，但是，为了克尽职守而牺牲自己幸福的思想激励着我们不顾体弱去努力工作。如果我们选择了力不胜任的职业，那么我们决不能把它做好，我们很快就会自愧无能，就会感到自己是无用的人，是不能完成自己使命的社会成员。由此产生的最自然的结果就是自卑。还有比这更痛苦的感情吗？还有比这更难于靠外界的各种赐予来补偿的感情吗？自卑是一条毒蛇，它无尽无休地搅扰、啃啮我们的胸膛，吮吸我们心中滋润生命的血液，注入厌世和绝望的毒液。</strong></p>
+<p><strong>如果我们错误地估计了自己的能力，以为能够胜任经过较为仔细的考虑而选定的职业，那么这种错误将使我们受到惩罚。即使不受到外界的指责，我们也会感到比外界指责更为可怕的痛苦。</strong></p>
+<p><strong>如果我们把这一切都考虑过了，如果我们的生活条件容许我们选择任何一种职业，那么我们就可以选择一种使我们获得最高尊严的职业，一种建立在我们深信其正确的思想上的职业，一种能给我们提供最广阔的场所来为人类工作，并使我们自己不断接近共同目标即臻于完美境界的职业，而对于这个共同目标来说，任何职业都只不过是一种手段。</strong></p>
+<p>　　尊严是最能使人高尚、使他的活动和他的一切努力具有更加崇高品质的东西，是使他无可非议、受到众人钦佩并高出于众人之上的东西。</p>
+<p><strong>但是，能给人以尊严的只有这样的职业，在从事这种职业时我们不是作为奴隶般的工具，而是在自己的领域内独立地进行创造；这种职业不需要有不体面的行动（哪怕只是表面上不体面的行动），甚至最优秀的人物也会怀着崇高的自豪感去从事它。最合乎这些要求的职业，并不总是最高的职业，但往往是最可取的职业。</strong></p>
+<p>　　但是，正如有失尊严的职业会贬低我们一样，那种建立在我们后来认为是错误的思想上的职业也一定会成为我们的沉重负担。</p>
+<p>　　这里，我们除了自我欺骗，别无解救办法，而让人自我欺骗的解救办法是多么令人失望啊！</p>
+<p>　　那些主要不是干预生活本身，而是从事抽象真理的研究的职业，对于还没有确立坚定的原则和牢固的、不可动摇的信念的青年是最危险的，当然，如果这些职业在我们心里深深地扎下了根，如果我们能够为它们的主导思想而牺牲生命、竭尽全力，这些职业看来还是最高尚的。</p>
+<p>　　这些职业能够使具有合适才干的人幸福，但是也会使那些不经考虑、凭一时冲动而贸然从事的人毁灭。</p>
+<p>　　相反，重视作为我们职业的基础的思想，会使我们在社会上占有较高的地位，提高我们自己的尊严，使我们的行为不可动摇。</p>
+<p>　　一个选择了自己所珍视的职业的人，一想到他可能不称职时就会战战兢兢──这种人单是因为他在社会上所处的地位是高尚的，他也就会使自己的行为保持高尚。</p>
+<p><strong>在选择职业时，我们应该遵守的主要指针是人类的幸福和我们自身的完美。不应认为，这两种利益会彼此敌对、互相冲突，一种利益必定消灭另一种利益；相反，人的本性是这样的：人只有为同时代人的完美、为他们的幸福而工作，自己才能达到完美。</strong></p>
+<p>　　如果一个人只为自己劳动，他也许能够成为著名的学者、伟大的哲人、卓越的诗人，然而他永远不能成为完美的、真正伟大的人物。</p>
+<p>　　历史把那些为共同目标工作因而自己变得高尚的人称为最伟大的人物；经验赞美那些为大多数人带来幸福的人是最幸福的人；宗教本身也教诲我们，人人敬仰的典范，就曾为人类而牺牲自己──有谁敢否定这类教诲呢？</p>
+<p><strong>如果我们选择了最能为人类而工作的职业，那么，重担就不能把我们压倒，因为这是为大家作出的牺牲；那时我们所享受的就不是可怜的、有限的、自私的乐趣，我们的幸福将属于千百万人，我们的事业将悄然无声地存在下去，但是它会永远发挥作用，而面对我们的骨灰，高尚的人们将洒下热泪。</strong></p>
+<p>本文原入选苏教版《语文·必修一》，高考改革后，2015年新版教材已删去本文。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-08-11</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">Clark，在我求学的时候，我看到了很多比我优秀的人才，无论是智力还是背景，但是你知道吗，我不觉得没钱没背景就是平庸，那是别人贴给你标签。唯有你自己内心的平庸，才是毁掉你人生的平庸。你内心的平庸，就是你失去追求卓越信念的那个瞬间。(Your internal mediocrity is the moment when you lost the faith of being excellent.) 你以后会遇到很多机遇，但你的平庸会毁掉它们。当你觉得自己做的还不错的时候，你已经杀死了那个能够让你做的更好的自己。(When you get the feeling that your work is OK, you have got killed another &#x27;you&#x27; who can make it much better.)</span><br></pre></td></tr></table></figure>
+
+<p>为了写博士论文，自学了Scrivener。</p>
+<p>为了画博士论文的图，自学了OmniGraffle。</p>
+<p>为了能画出图中城市的地理位置，自学了QGIS和谷歌地图制作。</p>
+<p>为了能整理访谈数据，自学了NVivo。</p>
+<p>为了能看论文做笔记，自学了Marginnote。</p>
+<p>为了能写出好的英语句子，自学了利用正则表达式搜索语料数据库。</p>
+<p>为了能整理文献，自学了Papers和DEVONthink。</p>
+<p>为了能画思维导图，自学了Scapple和Tinderbox。</p>
+<p>为了能背诵单词，自学了Anki。</p>
+<p>在如今这个年代，砍柴都是集团化作业，刀磨得再快也架不住别人用人海战术堆出来的高效率。</p>
+<p>英语没有学霸一说，因为语言知识工具，熟练到一定程度后就够了，最后它体现的还是语言运用者自己的思维。</p>
+<p><strong>哪怕是做到一件小事，背后也需要持之以恒的付出</strong>。玩英文游戏，看英文新闻等等这些日常的小事，背后其实也是成年累月坚持不懈的付出。它们一点也不高上大，但我们绝不该假设它们很容易。</p>
+<p>哪怕对于 native speaker来说，英语都是要青少年在记忆里最好的年龄段花上至少四、五年去学习的科目，一个非 native speaker又如何能几个月就掌握它？说穿了，所谓几个月就掌握，是指掌握在中国考英语的技巧，而非这门语言在日常生活中的应用。</p>
+<p>摆脱字典看懂英文社科著作，摆脱字典通读经济学人和纽约时报。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-08-11</span><br></pre></td></tr></table></figure>
+
+<p>不要让过去的自己，成为今天的敌人。要让过去的自己，成为今天的战友。</p>
+<p>一个人最可怕的敌人，就是自己，因为我们总可以找到无数理由去解释自己为什么被别人击败，但真的很难面对自己被自己击败。多少成年人一生都无法面对，更何况高中生？你能来帮帮我吗？你能接受我吗，</p>
+<p>我自己成为一支队伍，一个过去的我，支持现在的我的队伍。这支队伍是我的全部，会犯错，会偷懒，会能力不足，但至少今天面前之有一个敌人。</p>
+<p>互联网世界处在一个巨大的矛盾中：一方面是信息数量的爆炸，一方面是信息质量的萎缩。而我更发现，如今对于信息的寻找不再是难题，对于信息的甄别却是一个大难题。于是我们人生中可能会碰到那种什么都懂一点但仍然做不出好的决策的人——他们就是被信息数量钝化了判断力的人。</p>
+<p>比如说中国历史，除了中国自己出版的各种版本，同时还有英国人出版的《剑桥中国史》，美国人出版的《哈佛中国史》，美籍华人徐中约写的《中国近代史》等等，这些书的基本质量都是教科书级别的，因此能够保证信息的真实性，但同时他们记载的内容和侧重的视角又有所不同，能过扩展你的思考维度，同时也让你从记载的区别中体察出当今社会运行的一些特质。</p>
+<p>后退一步的类比体验法也许是回答这个问题的关键。简单地说，当我们在中文语境下思考表达能力的问题时，也许会因为“身在此山中”而“云深不知处”。那么此时倘若我们后退一步，在英语语境下类比思考这个问题，也许就能看到和抓住关键的矛盾。</p>
+<p>我们的认知以为我们可以表达得更好时，现实却很可能是自己根本连最基础的语言能力都没有。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-08-22</span><br></pre></td></tr></table></figure>
+
+<p>别人中文表达很厉害时，由于我们对中文母语天然的理解能力，因此并不会觉得说出这些词这些句子真的厉害的——我也会说嘛！然而，当我们将自己带入到英文语境下时，就会更深刻地体验到当别人能在当下说出一个可能你认识但就是死活憋不出来的词或句子时，别人和自己真正的能力差距在哪里——就是那些我们平时以为自己已经掌握但其实根本没有掌握的基础能力：背了很多遍但仍然背不下来的单词，练了很多遍但仍然写不出来的句子。</p>
+<p>中文语境下思考表达能力问题时，我们绝大部分人的自尊心和脸皮死活不会让自己承认基础语言能力的欠缺——我们都是成年人了，中文说了这么多年，怎么可能还缺乏这些小学生练习的初级东西？我们内心期待的答案是更高上大的那一套：一定是因为某种“高级”方法没了解，“高级”技能没学到，“高级”书籍没阅读，“高级”思维没掌握。于是我们的眼珠一边追索着“高级”解决方案——如题主所言哲学书籍——一边嘴里还在抱怨：为什么没效果呢？到底缺了什么呢？</p>
+<p>切换到英文语境下思考表达能力问题时，由于挣脱了自尊心和面子的桎梏，一切反而豁然开朗，清楚明白——就是说不出来嘛！</p>
+<p>还能怎么样，多读多听多说多背多练呗！</p>
+<p>对于「实事求是」的原则的彻底抛弃。</p>
+<p>这年头还有谁学理化生啊，靠能力吃饭就数学英语计算机，</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-08-30</span><br></pre></td></tr></table></figure>
+
+<p>学生物的都知道，生物巨型化是进化的死胡同，巨型化的生物甚至不可能上陆地。因为自己会被自己压垮。</p>
+<p>学机械的都知道，越庞大的机械系统，就越容易被一丁点的设计上的误差搞崩。因为它会被自己压垮。</p>
+<p>学经济的都知道，边际效用在任何系统中都是存在的。庞大的经济系统本身消耗的成本会把自己压垮。</p>
+<p>学计算机工程的都知道，人月神话的道理。一个团队无限加人不能提高效能，因为成员合作沟通需要花费的成本成几何级数增长。团队大到一定程度，就会被自己内部的摸鱼人压垮。</p>
+<p>上完了本科，leetcode easy题都不会，读了编译原理连正则表达式都不懂得如何实现，那跟没上过本科又有什么区别？既然没上过，那就大家都不要上好了，生活还开心。本科让喜欢学术的人去读，直接直博。</p>
+]]></content>
+      <categories>
+        <category>Random Thoughts</category>
+        <category>2019</category>
+      </categories>
+      <tags>
+        <tag>Essay</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Random-Thoughts</title>
+    <url>/2019/05/01/Random%20Thoughts/2019/2019-05/</url>
+    <content><![CDATA[<p>这个世界需要英雄,</p>
+<p>知道今日事未毕,自然晚睡.</p>
+<p>不知明日事何去,自然晚起。</p>
+<span id="more"></span>
+
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-05-01</span><br></pre></td></tr></table></figure>
+
+<p>test-first</p>
+<ol>
+<li>Unit tests prove that your code actually works</li>
+<li>You get a low-level regression-test suite</li>
+<li>You can improve the design without breaking it</li>
+<li>It’s more fun to code with them than without</li>
+<li>They demonstrate concrete progress</li>
+<li>Unit tests are a form of sample code</li>
+<li>It forces you to plan before you code</li>
+<li>It reduces the cost of bugs</li>
+<li>It’s even better than code inspections</li>
+<li>It virtually eliminates coder’s block</li>
+<li>Unit tests make better designs</li>
+<li>It’s faster than writing code without tests</li>
+</ol>
+<p>编写代码的同时编写结构化测试的习惯，测试优先</p>
+<p>主要是要有写单元测试的意识</p>
+<p>朝正确方向迈出的每一步总部没有好，</p>
+<p>确实从这方面说，我只需要按照大师们的路程走就行了</p>
+<p>人不能事事亲为，吸纳前人经验教训，学习历史当是捷径，每种文化和职业必须有理想，有偶像，代码是不是已背离理想标准–，错误总是在没有考查过的地方出现- 不然你早就找到错误所在，理想标准是什么</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-05-06</span><br></pre></td></tr></table></figure>
+
+<p>不会雇佣一个不懂写作的程序员，如果你擅长写，就很容易找到工作，技术规格文档，不一定要求网络日志 但要每天练习写作课程，正向地循环激励，使用C来交流用一个学期来接近机器，是用高级语言写出高效的代码，有机会写编译器或者操作系统。为大项目设计架构，如果不能解释为什么。</p>
+<p>了解什么是供给和需求，什么是竞争优势，什么是净现值，什么是折扣和边际效用， 商业是如何运作的话，理解商业基本规律的程序员对商业街来说是宝贵的程序员，代码中坚持某些疯狂的设计，理解商业基本规律的程序员，动态逻辑，计算机科学和软件开发不一样，你付给耶鲁学费就是为了学习如何写循环语句吗？你把耶鲁当成什么地方了？Java速成班吗？哼。学的是计算机科学而不是软件开发，没得选择了 明智的招聘者知道热爱编程的人初中就为当地的牙医写数据库程序，高中就在计算机夏令营教课，为校报规划网站，在某个软件公司做实习，他们找的就是这样的人。喜欢编程，容易犯的最大错误就是“有活就接”，拥有一种特殊技能，不要浪费它，编码 开发 商业</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-05-11</span><br></pre></td></tr></table></figure>
+
+<p>时代不一样了，不是当年刚恢复高考时大家不论年龄谁都能考的时代了，如今中国大学大量扩招和高度程式化的特点决定了即使你考取了理想的大学，你的心态，气场，思维方式都使你无法被那个远比你年轻的集体所接受。而你想从985大学学习到的知识，也不能弥补你作为异类战战兢兢地在大学里损失掉的四年时光。从你踏入校园的那一刻起，入住寝室、军训、开班会、上课、自习、吃食堂、小组作业、考试、做毕设，无数个场景都会向你暗示一个信息：you do not belong here。是的，你的年龄和经历，已经无法让你和年轻人一样度过正常的大学时光了。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-05-16</span><br></pre></td></tr></table></figure>
+
+<p>大学是教书育人的地方，知识就不该是秘密</p>
+<p>一个高校的理科水平，说到底取决于它的数学水平；一个高校的工科水平，说到底取决于它的计算机水平。</p>
+<p>不论你是物理还是化学，做到最后就是做数学，数学就是天花板，数学水平上不去，理科整体就上不去。</p>
+<p>同理，所有工科，不论你是哪个方向，最后都要殊途同归回到计算机，计算机水平上不去，工科整体就上不去。</p>
+<p>不是说其他专业一无是处，敲代码编程跟英语一样是一个必须掌握的工具，不论我是做机械的、材料的还是通信的，没有计算机我如何实现我的想法和我设计的功能呢？</p>
+<p>如果你不需要使用英文写论文，那你就只能发低水平的中文期刊。如果你的科研项目不需要涉及计算机编程，那只能说明你的科研层级很低。</p>
+<p>本科绩点不行，就得拿别的去弥补，你不会计算机不懂外语，就没法看文献写文章证明你的科研实力。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-05-21</span><br></pre></td></tr></table></figure>
+
+<p>have a good feel for the elements of style and the esthetic of programming.所教授和利用的技术是所有工程设计的共同的点</p>
+<p>计算机改变思维，改变了表达方式，程序认识论–从命令式的观点研究知识的结构，而不是陈述性的观点 ，强调了工程设计的原则</p>
+<p>计算提供了一种表达方式，用于探索思想，学生编写和修改程序的能力提供了一种强大的媒介，使探索成为一种自然的活动。</p>
+<p>一般来说英美传统中的“科学”，是具有高度逻辑严密性的实证知识体系，既有严密的逻辑性，能自圆其说，又能接受观察和实验的检验：德国的科学概念 往往泛指一切体系化的知识，凡是人们通过系统研究后形成的比较完备的知识体系，不管是否呈现自然科学般的规律性</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-05-26</span><br></pre></td></tr></table></figure>
+
+<p>学问如同美酒，因岁月而成熟，对该领域的历史发展了如指掌，但思维极为可能变得僵化，了解整个领域是怎么发展起来的，比单纯从最新发表的论文中获得一些对当前知识的简单印象要重要的多。之前的方法相比，研究领域的结构，在有搜索引擎之前，我们是怎么做的引用文献的结构，信息与知识的区别，计算机获取的内容都只是信息，只是却只能在专业读者的脑中构建出来的产物，如今，信息都是可以即刻获得，知识仍要多年专注地学习才能获取，想象一下，一场突发意外使正在参加某次会议的领域专家全部罹难，重建专业知识，恢复该领域的发展需要多长时间？可能需要好几年，科学电视纪录片的节目制作人是怎么调研一个课题，它们不是去读文献，而是访问专家，这么做很正确，因为这才是知识的唯一存在之处——学者的脑中。文献综述主观性极强，回顾历史，研究演绎推理的中心方式建立在一个框架，参考文献是为了某种目的或论证而准备的。科学不是简单地收集事实，综述也不仅仅是总结和记录证据，有目的的写，有目的地读。文献综述中的关键概念就是结构。，三个层次的方式：章——节——目。章为学术论文或书籍，综述，只需节和目两个层次。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-05-30</span><br></pre></td></tr></table></figure>
+
+<p>要成为一名作家，就要向最好的作家学习。同样，想要拥有高雅的谈吐，就要向最好的演说家学习。想要学习正确地说话，就一定要去模仿公众演讲的大师。认真观察谈话大师，听听他们是如何进行表达的。去听最热门的讲座、演讲和课程，无须模仿演讲技巧，这些演讲技巧是练习过程中自然形成的，而非刻意营造。你该关注的不是演说家如何表达自己，而应该关注他所使用的语言和语言的使用方式。你是否听过今日大师的演讲？过去也有很多演讲大师，但他们现在已化作尘土，人们只能通过文字来欣赏他们的雄辩口才。不过，你可以做的就是去听听当今的演讲大师的演讲。对于许多人来说，还是前人的影响更为深远。当谈到演讲的精髓时，我们总是会去听前人的声音。也许你一直为比彻尔和塔尔梅奇的言谈感到着迷，两位的言谈都发人深省，他们用自己的声音征服了千万人的心。</p>
+<p>从他们整理蜡笔小新中我觉得我应该转换下思路了，视频重要又不重要，更为重要的是将信息，转化为知识。</p>
+]]></content>
+      <categories>
+        <category>Random Thoughts</category>
+        <category>2019</category>
+      </categories>
+      <tags>
+        <tag>Essay</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Random-Thoughts</title>
+    <url>/2019/09/01/Random%20Thoughts/2019/2019-09/</url>
+    <content><![CDATA[<p>既要…也要…又要…还要…</p>
+<span id="more"></span>
+
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-09-01</span><br></pre></td></tr></table></figure>
+
+<p>知识的学习一般都分为两个阶段：第一阶段是原理概念框架的学习，这阶段可能需要刷刷题巩固下基本概念；第二阶段是知识实践，需要自己亲自去把第一阶段学到的知识用起来，不断踩坑不断摸索才能内化成自己的东西。网络能给我们的往往是第一阶段的知识资源，告诉我们知识框架和知识体系，指明了<code>财富密码</code>的藏宝图。但我们离到达真正的财富还需要自己去摸索很长的路，这条路是只能自己走，没人可以扶着你前进。</p>
+<p>就像一节钢琴课，老师永远只花很少的时间教你一些基本的乐理和乐曲弹奏技巧，剩下的大部分时间永远是让你自己不停地练习。换在网络资源学习的时候，如果你仅仅把老师教的乐理知识看完，不去动手弹琴，哪怕你反复把乐理知识琢磨地再透彻那你最多也就知道个弹钢琴是怎么回事，而学不会真正的钢琴演奏。这个演奏练习的过程就是你从老师那里学来的音乐知识实践的过程，这个过程再好的老师都没办法代你完成，必须你把双手放在琴键上不断地去自己体会。</p>
+<p>一个合格的商科学生永远要遵循理性和实事求是，重视数据与逻辑，对市场和经济规律要有基本的认知，最重要的是要有十足的冲动和热情应用自己学到的知识去解剖和认识商业现象</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-09-10</span><br></pre></td></tr></table></figure>
+
+<h2 id="谷歌找经济数据"><a href="#谷歌找经济数据" class="headerlink" title="谷歌找经济数据"></a>谷歌找经济数据</h2><p>任何事件的分析离不开，三要素：<strong>事件、动因和证据链</strong></p>
+<p>对证据链的要求是尽可能拿到有明确签章的一手资料：<strong>比如带有红章的公司公告、财务报表、部门函件、权威网站发布的公文、裁决书，其次才是选择可靠媒体发布的具有来源引用的资料（并对其作一定交叉验证）。</strong></p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-09-30</span><br></pre></td></tr></table></figure>
+
+<p>说个笑话</p>
+<p>“现在所有资源网上都有，谁还买硬盘存东西啊。”</p>
+<p>如果你用<a href="www.google.com">google</a>、<a href="https://stackoverflow.com/">stackoverflow</a>、<a href="https://github.com/">github</a>、<a href="https://askubuntu.com/">askubuntu</a>、<a href="https://stackexchange.com/">stackexchange</a>、<a href="https://www.reddit.com/">reddit</a>、<a href="https://www.youtube.com/">youtube</a>、<a href="https://www.wikipedia.org/">wikipedia</a>、<a href="https://www.geeksforgeeks.org/">geeksforgeeks</a>、<a href="https://www.coursera.org/">coursera</a>、<a href="https://leetcode.com/">leetcode</a>、<a href="https://medium.com/">medium</a>，那么你可以很轻松地输入——搜索——定位——排序你所需要看的网页，然后点进去轻松看到你所要解决的所有问题。</p>
+<p>你用着<a href="https://www.zhihu.com/explore">知乎</a>、<a href="baidu.com">百度</a>、<a href="https://www.csdn.net/">csdn</a>、<a href="https://www.cnblogs.com/">博客园</a>、<a href="https://www.bilibili.com/">bilibili</a>、<a href="https://weibo.com/login.php">新浪微博</a>、<a href="https://zhidao.baidu.com/">百度知道</a>这些**，企图在里面寻找“技术干货”，那么你只能从信息检索结果中寻找到[额]——你寻思寻思，你用的这些垃圾平台、看着垃圾运营管理者们随心所欲地推送他们认为赚钱的内容，设定他们认为正确的标准——你成天用这些玩意儿配得上“计算机编程氛围”吗？</p>
+<p>语言相关的排版技术就是一种无法国际化的东西，需要一个语言一个语言去做。回过头来，我们说这个激光照排这个技术以及之后的方正系排版软件，由于这些东西是封闭的，即使凭借现有的资料来看，技术并不算一流，比如吹得天花乱坠的那个字体技术，随便翻开70年代的计算机图形学论文总会找出几篇论文可以看看是不是有类似的东西。就这个意义上，其实王选的技术最直接的意义只是把东西做了出来，但是做的并不是最好的。最简单来说，铅字时代那些丰富的经验在这个系统里面其实都被丢掉了，也是从他那个时代开始，一直持续到现在，我们所看的书的排版大部分都是糟糕得不行的。这个帽子必须要扣到他们那一代的头上。</p>
+<p><strong>他的那个时代早就结束了。这个时代里面，他的那套东西也早过时了（****不是这个系统不重要，只是它已经老了）。</strong></p>
+]]></content>
+      <categories>
+        <category>Random Thoughts</category>
+        <category>2019</category>
+      </categories>
+      <tags>
+        <tag>Essay</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Random-Thoughts</title>
+    <url>/2019/06/01/Random%20Thoughts/2019/2019-06/</url>
+    <content><![CDATA[<p>唯有躺平，方解此愁。</p>
+<span id="more"></span>
+
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-06-01</span><br></pre></td></tr></table></figure>
+
+<p>具有期刊、报纸及图书全文检索功能的数据库越来越多了，但是重要的问题在于，在任何研究型图书馆里，绝大多数图书与期刊根本没有数字化，主要障碍，包括成本，版权，保存，以及格式问题，读者获取大量重要图书的最佳途径（不仅在物理意义上，也在认知意义上）永远存在于研究型图书馆的大门之内。通过什么途径可以让我获得最有用的信息，检索图书馆印刷型文献，</p>
+<p>一些重要的研究资源，不会呈现在网上供用户免费使用，这些资源无法在任何地方、任何时间供任何人随意使用。空间限制</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-06-01</span><br></pre></td></tr></table></figure>
+
+<p>本质上还是放羊-娶媳妇-生娃-让娃放羊，无非是找个青草更多的山头、羊更多的村子罢了。</p>
+<p>在<a href="https://social.technet.microsoft.com/Forums/zh-CN/home">technet英文版</a>、<a href="https://docs.microsoft.com/en-us/">msdn论坛英文版</a>、<a href="https://reddit.com/">reddit</a>几个码农版和<a href="https://stackoverflow.com/">stack overflow</a>上就几乎没有看到互相攻击的情况。</p>
+<p>可能是语言让我们富有攻击性（大雾）</p>
+<p>二十一世纪了，连资本家都知道创造需求才是正道了，</p>
+<p>蛀虫们还在那里一个劲满足别人的需求赚钱，</p>
+<p>一边把所有能看到的需求都抢着满足了让别人赚不到钱，还一边说自己这叫勤劳……</p>
+<p>高端技术岗位严重不足，而廉价劳动力却还需要很多。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-06-06</span><br></pre></td></tr></table></figure>
+
+<p>书呆子是书看的太多，而跟现实交流太少。但其实他们有跟写书的先贤大能交流，所以他们不但有思想，还与众不同，有跨时代的，也有复古的，古今中外，天文地理，包罗万象。书呆子往往是可爱的人，其实跟他们交流是很有意思的事情，不过需要你对于他们的世界有所了解。</p>
+<p>而做题家是其实连跟书的交流也不多，他们整天交流的对象是题，他们人生的意义是做题，他们对万事万物的态度是做题式思维。一切皆可内卷，一切皆是刷题。连耍个女朋友，也像做题一样。</p>
+<p>这个公司朝九晚五，基本不加班，但是他要求每个人完成自己能力范围内的工作，你的能力决定你的等级和报酬，同时你的等级也决定你每天要完成的工作量。公司完善的管理制度，会帮助你进行定位，帮你找到你最佳的平衡点，既让你不太闲，又不会让你一直处于焦虑状态，说白了，公司和员工双赢。</p>
+<p>同样是绩效考核制度，但是公司的出发点是公司与员工双赢。不但挖掘了员工的潜力，让员工高效率工作，同时让其工作得没有太大压力，找到一个平衡。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-06-06</span><br></pre></td></tr></table></figure>
+
+<p>忍一时越想越气，退一步步步紧逼[哈哈]</p>
+<p>如果一个社会不愿意付出智慧应得的价值，那社会就永远得不到智慧带来的优质产品。整个社会创新乏力，和智慧产出得不到认可有很大关系。如果你愿意为之付出价值，从业人员自然会用心去做出优质的产品，否则，他们就会得过且过，敷衍了事。</p>
+<p>售后差。更新能力不行。用着用着就崩溃了。<br>我们公司那套管理系统（每周每月统计实际数据和计划，分析报表之类的），开发时候说有多牛逼。<br>从来不更新，走个流程有时候几个小时在哪里转圈圈。<br>找了几家公司想做新系统，发现尼玛不兼容旧数据。<br>用户体验极差。<br>去年开始，我们一帮人都用手动Excel来做报表，很讨厌那套系统。<br>领导想开发新系统，旧数据又不兼容。<br>不开发吧，Excel都比他好用，就是很浪费人力。<br>简直是食之无味，弃之可惜。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-06-12</span><br></pre></td></tr></table></figure>
+
+<p>宣王召大臣而谋曰：“蚤救孰与晚救？”驺忌子曰：“不如勿救。”田忌曰：“弗救，则韩且折而入於魏，不如蚤救之。”孙子曰：“夫韩、魏之兵未弊而救之，是吾代韩受魏之兵，顾反听命於韩也。且魏有破国之志，韩见亡，必东面而愬於齐矣。吾因深结韩之亲而晚承魏之弊，则可重利而得尊名也。”宣王曰：“善。”乃阴告韩之使者而遣之。</p>
+<p>三晋韩赵魏之间本就有仇，齐燕之间也多次大打出手，齐楚之间、晋楚之间，哪个诸侯之间没有过血海深仇？秦逼得狠了，六国也许能暂时放下仇恨，只要秦略一放松，六国必定刀兵相向，血流成河。</p>
+<p>苏秦靠一张嘴纵横天下，携合纵之策而使得“<strong>秦兵不敢窥函谷关十五年</strong>”，但犀首简单几句话，就使得六国合纵之策瓦解：</p>
+<p>其後秦使犀首欺齐、魏，与共伐赵，欲败从约。齐、魏伐赵，赵王让苏秦。苏秦恐，请使燕，必报齐。苏秦去赵而从约皆解。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-06-18</span><br></pre></td></tr></table></figure>
+
+<p>一件事情臻于完善，其实反面意思就是这种结构已经没有调整的空间，它已经去除了一切杂拌，一切枝蔓。如果事物继续沿着预定的轨道前进，那没问题；但如果突然出现岔道，那这种模式翻车就是必然的。</p>
+<p>登上绝顶，风景固然很美，可往哪一个方向走，就都是下坡了。</p>
+<p>大概意思如此。</p>
+<p>秦王扫六合，固然武功臻于极盛，但衰落也是必然的，只是没想到那么快。</p>
+<p>但每一个行业巨头倒下，原因其实都只有一个，它为了它的目标它的地位做了过度的优化，秦国如此，诺基亚等都是如此。</p>
+<p>为了达成这个目标，人员、组织机构、制度通通围绕它做最大程度的优化，一切有碍于达成目标的枝枝蔓蔓全部优化掉，裁剪掉，所有杂草通通消灭。</p>
+<p>秦帝国更是如此。为了达成一统天下的目标，整个国家成了一架战争机器。军队以人头为目标，财政为军事服务，农业更是一切为了战争。要知道最后秦灭楚的时候，秦始皇给王翦的军队超过60万。</p>
+<p>屠睢任嚣赵佗征岭南军队50万，蒙恬对付匈奴的军队30余万。</p>
+<p>足足140万军队！</p>
+<p>这可是秦朝。人口也就两千万左右，而后勤保障交通条件又如此之差。即使是今天，保障这么一支庞大的军队的需要，压力也是极大的。百姓的负担可想而知。</p>
+<p>所以到了这个时候，必须要改了。因为以前是打天下，现在则是坐天下了。</p>
+<p>但一下子改过来，谈何容易。秦国的官吏何曾有过和平治国的经验！他们只会“军管”。</p>
+<p>军管可以简单粗暴，但和平治国肯定不行，更需要和风细雨，抽丝剥茧，耐心行事。</p>
+<p>这样的简单粗暴，可能老秦国还好点，新征服的六国根本接受不能。简单粗暴对上忍无可忍，火星四溅。</p>
+<p>强改的话，必然崩盘。不是有这么一句俗话么，“人若改常，非病则亡”。人是如此，国家同样如此。</p>
+<p>读史可以明鉴,知古可以鉴今.</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-06-24</span><br></pre></td></tr></table></figure>
+
+<p>最牛的独立APP，微信，更不会鸟百度了。</p>
+<p>必须掌握linux因为这是开源且免费的。</p>
+<p>The Single Most Important Fact About Encodings</p>
+<p>If you completely forget everything I just explained, please remember one extremely important fact. It does not make sense to have a string without knowing what encoding it uses. You can no longer stick your head in the sand and pretend that “plain” text is ASCII.</p>
+<p>CS是证明（递归），算法（递归），语言（lambda演算），操作系统（指针），编译器（lambda演算）—因此，最重要的是，一个不会教C且不会教的JavaSchool Scheme也不是真正的计算机科学教学。尽管函数递归的概念对现实世界可能毫无用处，但它显然是CS研究生学校的先决条件。我不明白为什么CS学校课程委员会的教授们将他们的程序愚弄到这样的程度：不仅他们不能产生<em>工作的程序员</em>，而且他们甚至不能产生可能获得博士学位的CS研究生。并竞争他们的工作。等一下。没关系。也许我明白。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-06-30</span><br></pre></td></tr></table></figure>
+
+<p>与其说看什么书，不如说你要以一种什么样的心态去学习。编程最重要的是练习，学习理论知识是为了让你写出高质量的程序。如果你仅仅是为了写出程序，那根本不需要学习那些东西，自己瞎折腾就好了。</p>
+<p>看书虽然重要，但那是为了编程服务的。妄图通过学习什么就可以变成一个合格的程序员那只是一种幻想。</p>
+<p>影响最大的是两类书。第一类告诉我如何测试我的代码，第二类告诉我怎样的engineering是错误的。这些大学基本都没教，你们最好自己弄来看。</p>
+<p>I was <a href="http://webword.com/interviews/spolsky.html">interviewed</a> by WebWord.com: “If your software is going to be popular, you are going to have to deal with a million other things: writing manuals, creating good looking icons if you have a GUI, testing, recruiting good programmers, making a product that people want, usability testing, dealing with Norman the Cranky Tester, and about 100 other things that take up most of your time”</p>
+]]></content>
+      <categories>
+        <category>Random Thoughts</category>
+        <category>2019</category>
+      </categories>
+      <tags>
+        <tag>Essay</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Random-Thoughts</title>
+    <url>/2019/07/01/Random%20Thoughts/2019/2019-07/</url>
+    <content><![CDATA[<p>诉衷肠 · 赠周恩来</p>
+<p>当年忠贞为国酬，何曾怕断头？如今天下红遍，江山靠谁守？</p>
+<p>业未就，身躯倦，鬓已秋。你我之辈，忍将夙愿，付与东流？</p>
+<span id="more"></span>
+
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-07-01</span><br></pre></td></tr></table></figure>
+
+<p>根本原因在于制度不鼓励人们在初中和高中就探索自己未来的专业。程序员本来就是一个10年周期学完才能进场干活的工种，搞成这样还不能怨他们。</p>
+<p>设计落后、质量缺陷、社区文化幼稚、物业管理幼稚，让多数房产放不几十年要么落后于现代生活方式，要么需要大修，要么需要大修但是组织不起来，直接导致贬值。这还有更硬核的土地使用权的续期问题，</p>
+<p>哪还有什么传统文化啊</p>
+<ul>
+<li>刷题，进大厂的最重要旁系技能；</li>
+<li>英语，摆脱996的关键旁系技能;</li>
+<li>体力，在计算机行业最缺乏的能力；</li>
+<li>管理能力，往上走最重要的能力；</li>
+</ul>
+<p>「最珍贵的知识和观点，都是免费且自由传播的」的观点。我曾经也是持有这样的观点的，而且我还跟 Andrew Ng 聊过教学内容成本会无限趋近于零的观点，但他不同意。我现在能猜到为什么他不同意了，当然我猜的不代表他的真实想法。</p>
+<p>信息是免费的，但容易消化的知识可以存在附加值。</p>
+<p>能读懂论文你可以自己去读啊，很多信息在 Wikipedia 上面也有啊，只是你自己读不下去而已，这不能怪别人啊。你去 Coursera 付钱听 Andrew Ng 讲课，是因为他能把复杂的信息变成易于消化的知识，而且还通过小测、作业等手段保证你成功消化他讲课的内容，这就是附加值存在的地方，也是他能赚钱的基石。</p>
+<p>理论上，你要学习的理论知识在 FAA（美国联邦航空管理局）手册里面都有啊，为什么你不去读手册呢？因为你读两页就睡着了啊！所以你付钱去买人家充满冷笑话的教学视频，就是为了好消化。</p>
+<p>信息是免费存在的，但有很多复杂的知识晦涩难懂，如果有人能够把这些知识变得易于消化，再把教学过程变得富有娱乐性，那自然可以拿来卖钱。这里卖的不是信息不对称，至少不完全是。如果这一条不成立，那知乎作为一个商业公司存在的基石就不存在了啊，赶紧学 Wikipedia 变身成非营利性机构吧。如果这一条不成立，那知乎上各位大 V 的身价也就不存在啦。你想想我们作为大 V 卖的是什么？卖的是信息不对称的话别人为什么不去看论文看 Wikipedia 啊？这个你自己心中不清楚吗？别自欺欺人了。</p>
+<p>国内很多土生土长的服务，刚刚开始是支持邮箱注册的，大到一定程度就只允许手机注册了，这就意味着有关部门找上门来了。作为服务平台，一开始你没办法把用户真实身份挖出来还可能能够塘塞过去，你越做越大，你的责任就越来越大，最终你还是要对有关部门负责任的。</p>
+<p>为什么同样是程序员，湾区大厂的福利就这么好？因为一波又一波的湾区创业公司要抢人，所以福利必须要往上提。美国劳动法其实是非常落后的，只要求雇主提供 12 周无薪产假，并且没有定义年假。只要能招到人，资本家可以非常剥削，不提供任何年假，只提供 12 周无薪产假。但这个「只要能招到人」在湾区完全不成立。</p>
+<p>为什么现在湾区程序员普遍有 20 天左右的年假？因为当年 Sean Parker 制定 Facebook 公司章程时问 Mark Zuckerberg 多少天年假，Mark 想的是 15 天说的是三周，结果 Sean 理解为 21 天就写进公司章程了。在 Facebook 之后的创业公司不得不按照这个标准来做，否则不可能招到跟 Facebook 相似资质的程序员。</p>
+<p>为什么同样是 Facebook，在伦敦的收入就比在美国各大城市的要低很多？因为在伦敦的雇主间竞争不激烈啊，大厂就只能在 Google 和 Facebook 这两者之间选一个，那相当于市寡头市场。这两家都没有兴趣往上竞价，于是就保持着整个市场的低收入。</p>
+<p>最优秀的人必须在实习阶段抢到，然后才是校招，最后是社招。按现今标准，最优秀的学生应该有几个 GitHub repo 和几千分的 StackOverflow。这种人很有可能大一就开始实习，到他大三实习时那家公司会想方设法留住他，他如果愿意的话根本不会进入校招市场。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-07-11</span><br></pre></td></tr></table></figure>
+
+<p>“写作是一项艰苦的工作。清晰的句子可不是意外所得。只有少数句子一次能够写好，大多数句子三遍能写好就不错了。当你绝望的时候，就这么想吧。如果你觉得写作很难，那是因为它本来就很难。”</p>
+<p>——威廉 • 辛瑟，《谈写作》</p>
+<p>1975年时，毛主席经过20年的坚持，“罢工自由”才首次写入当时的宪法当中。1982年，“罢工自由”被从宪法中移出</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-07-22</span><br></pre></td></tr></table></figure>
+
+<p>因为科技是第一生产力，生产力决定生产关系.</p>
+<p>从农业国升级为工业国，但核心解决方案只有一个：土地改革</p>
+<p>英国圈地运动、美国南北战争、苏联集体农庄、日本明治维新</p>
+<p>没有土地改革，农民生产力无法解放，农业人口无法转变为城市工业人口，工业化一纸空谈</p>
+<p>《中国社会各阶层分析》和《湖南农民运动考察报告》</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2019-07-30</span><br></pre></td></tr></table></figure>
+
+<p>1928年，北伐战争结束，中国迎来了所谓的“黄金十年”。当时所有人都相信，推翻帝制、历经混乱而再度统一以后的新中国，必将释放出强大的能量</p>
+<p>然而，本以为是开始没想到已是巅峰。随着918事变、中日战争全面爆发，中国看似迅猛的发展势头被轻轻松松地毁于一旦</p>
+<p>十年时间太短了、更何况还有外部势力的干涉</p>
+<p>可是我党1935年被各路军阀逼到遵义城下时、只剩不到4万人，却在10多年后夺取了全国政权</p>
+<p>1861年威廉一世登基、普鲁士还只是一个小邦国，10年后却打得法国人割地赔款、一统德意志</p>
 ]]></content>
       <categories>
         <category>Random Thoughts</category>
@@ -1230,6 +1872,7 @@
 <p>每天抽出时间看看数学相关的wiki</p>
 <p>微软日本</p>
 <p>GRE</p>
+<p>英语博客</p>
 ]]></content>
       <categories>
         <category>Random Thoughts</category>
@@ -1238,6 +1881,21 @@
       <tags>
         <tag>想法</tag>
         <tag>一切可能</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>design-document</title>
+    <url>/2019/03/15/professional/design-document/design-document/</url>
+    <content><![CDATA[<p>或许在某一刻才真正发觉到，一个合格的技术员，代码只占其中一部分，技术文档的编写和代码真的是相同重要的。</p>
+<span id="more"></span>
+]]></content>
+      <categories>
+        <category>professional</category>
+        <category>design-document</category>
+      </categories>
+      <tags>
+        <tag>writing</tag>
+        <tag>skill</tag>
       </tags>
   </entry>
   <entry>
@@ -1272,51 +1930,6 @@
       </tags>
   </entry>
   <entry>
-    <title>design-document</title>
-    <url>/2019/03/15/professional/design-document/design-document/</url>
-    <content><![CDATA[<p>或许在某一刻才真正发觉到，一个合格的技术员，代码只占其中一部分，技术文档的编写和代码真的是相同重要的。</p>
-<span id="more"></span>
-]]></content>
-      <categories>
-        <category>professional</category>
-        <category>design-document</category>
-      </categories>
-      <tags>
-        <tag>writing</tag>
-        <tag>skill</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Mathmatics</title>
-    <url>/2021/03/26/professional/math/Mathmatics/</url>
-    <content><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Mathematics">Mathmatic</a></p>
-<span id="more"></span>]]></content>
-      <categories>
-        <category>professional</category>
-        <category>math</category>
-      </categories>
-      <tags>
-        <tag>logic</tag>
-        <tag>learn</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>线性代数</title>
-    <url>/2021/03/26/professional/math/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</url>
-    <content><![CDATA[<p> <a href="https://en.wikipedia.org/wiki/Linear_algebra">Linear algebra</a></p>
-<span id="more"></span>
-
-<h2 id="用途与应用"><a href="#用途与应用" class="headerlink" title="用途与应用"></a>用途与应用</h2><p>几乎在所有数学领域中得到使用，因此几乎在所有使用数学的科学领域中都具有线性代数的意义。这些应用程序可以分为几大类。</p>
-<h3 id="周围空间的几何形状"><a href="#周围空间的几何形状" class="headerlink" title="周围空间的几何形状"></a>周围空间的几何形状</h3><h3 id="功能分析"><a href="#功能分析" class="headerlink" title="功能分析"></a>功能分析</h3><h3 id="复杂系统研究"><a href="#复杂系统研究" class="headerlink" title="复杂系统研究"></a>复杂系统研究</h3><h3 id="科学计算"><a href="#科学计算" class="headerlink" title="科学计算"></a>科学计算</h3>]]></content>
-      <categories>
-        <category>professional</category>
-        <category>math</category>
-      </categories>
-      <tags>
-        <tag>思维，逻辑</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Git tutorial</title>
     <url>/2021/03/25/professional/effience/git%20tutorial/</url>
     <content><![CDATA[<p> 提高效率</p>
@@ -1348,32 +1961,35 @@ git checkout v0.10.48
       </tags>
   </entry>
   <entry>
-    <title>机型电气系统</title>
-    <url>/2020/09/15/professional/%E6%9C%AC%E4%B8%93%E4%B8%9A%E5%90%A7/%E6%9C%BA%E5%9E%8B%E7%94%B5%E6%B0%94%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[<span id="more"></span>
+    <title>读史明智</title>
+    <url>/2021/03/31/professional/effience/%E8%AF%BB%E5%8F%B2%E6%98%8E%E6%99%BA/</url>
+    <content><![CDATA[<p>剑桥中国史</p>
+<p>哈佛中国史</p>
+<p>中国近代史</p>
+<span id="more"></span>
+
+<h2 id="剑桥中国秦汉史"><a href="#剑桥中国秦汉史" class="headerlink" title="剑桥中国秦汉史"></a>剑桥中国秦汉史</h2><p>P46</p>
 ]]></content>
       <categories>
         <category>professional</category>
-        <category>本专业吧</category>
+        <category>effience</category>
       </categories>
       <tags>
-        <tag>skill</tag>
+        <tag>thinking</tag>
       </tags>
   </entry>
   <entry>
-    <title>飞机环境控制系统</title>
-    <url>/2020/10/15/professional/%E6%9C%AC%E4%B8%93%E4%B8%9A%E5%90%A7/%E9%A3%9E%E6%9C%BA%E7%8E%AF%E5%A2%83%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Environmental_control_system">Environmental control system</a></p>
-<span id="more"></span>
-
-<p>专业课内容也不要拉下，计划制作相关模型。</p>
-]]></content>
+    <title>Mathmatics</title>
+    <url>/2021/03/26/professional/math/Mathmatics/</url>
+    <content><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Mathematics">Mathmatic</a></p>
+<span id="more"></span>]]></content>
       <categories>
         <category>professional</category>
-        <category>本专业吧</category>
+        <category>math</category>
       </categories>
       <tags>
-        <tag>skill</tag>
+        <tag>logic</tag>
+        <tag>learn</tag>
       </tags>
   </entry>
   <entry>
@@ -1445,6 +2061,51 @@ git checkout v0.10.48
       <tags>
         <tag>skill</tag>
         <tag>demo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>机型电气系统</title>
+    <url>/2020/09/15/professional/%E6%9C%AC%E4%B8%93%E4%B8%9A%E5%90%A7/%E6%9C%BA%E5%9E%8B%E7%94%B5%E6%B0%94%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[<span id="more"></span>
+]]></content>
+      <categories>
+        <category>professional</category>
+        <category>本专业吧</category>
+      </categories>
+      <tags>
+        <tag>skill</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>线性代数</title>
+    <url>/2021/03/26/professional/math/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</url>
+    <content><![CDATA[<p> <a href="https://en.wikipedia.org/wiki/Linear_algebra">Linear algebra</a></p>
+<span id="more"></span>
+
+<h2 id="用途与应用"><a href="#用途与应用" class="headerlink" title="用途与应用"></a>用途与应用</h2><p>几乎在所有数学领域中得到使用，因此几乎在所有使用数学的科学领域中都具有线性代数的意义。这些应用程序可以分为几大类。</p>
+<h3 id="周围空间的几何形状"><a href="#周围空间的几何形状" class="headerlink" title="周围空间的几何形状"></a>周围空间的几何形状</h3><h3 id="功能分析"><a href="#功能分析" class="headerlink" title="功能分析"></a>功能分析</h3><h3 id="复杂系统研究"><a href="#复杂系统研究" class="headerlink" title="复杂系统研究"></a>复杂系统研究</h3><h3 id="科学计算"><a href="#科学计算" class="headerlink" title="科学计算"></a>科学计算</h3>]]></content>
+      <categories>
+        <category>professional</category>
+        <category>math</category>
+      </categories>
+      <tags>
+        <tag>思维，逻辑</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>飞机环境控制系统</title>
+    <url>/2020/10/15/professional/%E6%9C%AC%E4%B8%93%E4%B8%9A%E5%90%A7/%E9%A3%9E%E6%9C%BA%E7%8E%AF%E5%A2%83%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Environmental_control_system">Environmental control system</a></p>
+<span id="more"></span>
+
+<p>专业课内容也不要拉下，计划制作相关模型。</p>
+]]></content>
+      <categories>
+        <category>professional</category>
+        <category>本专业吧</category>
+      </categories>
+      <tags>
+        <tag>skill</tag>
       </tags>
   </entry>
   <entry>
@@ -1920,7 +2581,25 @@ git checkout v0.10.48
 
 <p>摸鱼插件 qwerty-learner</p>
 <p><a href="https://www.britannica.com/biography/Hippocrates">希波克拉底誓言</a></p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2021-03-230</span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2021-03-30</span><br></pre></td></tr></table></figure>
+
+<p>整理往期的内容。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">date: 2021-03-31</span><br></pre></td></tr></table></figure>
+
+<p>改变可能只需要一个念头就够了。</p>
+<p>不可思议我竟然做到了。</p>
+<ul>
+<li><a href="BAMagazine.com">《B&amp;A 设计杂志》</a></li>
+<li><a href="Canva.com">Canva</a></li>
+<li><a href="InDesignMag.com">InDesign</a></li>
+</ul>
+<p>mcwade.com/TheGrid</p>
+<p>CreativeMarket.com</p>
+<p>MyFonts.com</p>
+<p>Font Squirrel.com</p>
+<p>CreateSpace.com</p>
+<p>CafePress.com</p>
+<p>PrintPlace.com</p>
 ]]></content>
       <categories>
         <category>Random Thoughts</category>
