@@ -28,7 +28,7 @@
 <meta property="og:description" content="事情较多 两周实习">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-04-01T00:31:48.000Z">
-<meta property="article:modified_time" content="2021-04-01T13:36:39.012Z">
+<meta property="article:modified_time" content="2021-04-02T09:39:53.141Z">
 <meta property="article:author" content="Weiyu">
 <meta property="article:tag" content="Essay">
 <meta name="twitter:card" content="summary">
@@ -223,10 +223,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2021-04-01 08:31:48 / 修改时间：21:36:39" itemprop="dateCreated datePublished" datetime="2021-04-01T08:31:48+08:00">2021-04-01</time>
+              <time title="创建时间：2021-04-01 08:31:48" itemprop="dateCreated datePublished" datetime="2021-04-01T08:31:48+08:00">2021-04-01</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-04-02 17:39:53" itemprop="dateModified" datetime="2021-04-02T17:39:53+08:00">2021-04-02</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -247,14 +253,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>355</span>
+              <span>2.2k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
+              <span>4 分钟</span>
             </span>
 
         </div>
@@ -275,6 +281,85 @@
 <p>利益之线清晰可见：任何控制你数据的人就能控制整个数字未来，过去几年，载运储存和分享数据已经成为一种可谓普遍存在的习惯。传统的观点认为基于云端的存储是一项商品业务，一个数字文件柜。不过，云端存储潜力更像是一个可移动办公室。”你的整个计算环境必须跟着你，”可以解释”包括你的财政记录、健康信息、音乐播放列表。任何我的东西即个人活动所产生的信息，并且必须能与这个移动办公室中所有东西进行天衣无缝的互动，和同事一起制作文档，发送邮件，输入库存等等。”可笑啊”能用存储做什么？”</p>
 <p>我们的劳动力越来越独立、流动和灵活，工作与家庭之间的界限只会越来越模糊。传统计算机设备并不适合现代工作方式</p>
 <p>简单首创方便预安装，是否对解决数字世界的麻烦充满热情。<strong>逐渐学会提出问题，依赖别人想出答案</strong></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">date: 2021-04-01</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>查询的识别(Query Identification)</li>
+</ul>
+<p>需要不同的数字类型目的是为了节省数据库存储空间和效率，为表的每列选择最合适的数据<br>类型可以为表瘦身，还可以使数据操作更为快速。</p>
+<ul>
+<li>保持数据库连接稳定(Stable Database Connections)</li>
+</ul>
+<p>尽量减少分别连接数据库次数的重要，性能会有显著提升。再进一步优化，建立一组处理程序（handler)分别负责一个数据库连接，每个数据库只连接一次，性能进一步提高。效率飞速提升。，上述基础上，更新的数据填入数据，尽可能减少程序和数据库核心间的交互次数，性能飞跃。每次插入几行数据的做法，使数据的总处理能力增加5倍</p>
+<p>数据库连接是很‘重’的操作，消耗资源很多。</p>
+<p>简单连接操作，首先客户端与远程服务器监听（listener program）建立联系；监听程序创建一个进程或线程执行数据库核心程序，或直接或间接把客户请求传递已存在的服务器进程，取决于服务器是否为共享服务器。除此之外还需为每次session建立新环境，跟踪它的行为。连接池(connection pooling)保持永久数据库连接的技术对性能很重要。</p>
+<ul>
+<li><p>战略优先于战术(Strategy Before Tactics)<br>程序和数据库之间交互有开销。验证优化之后的结果集，局外思考(think outside the box)的能力，优化太关注问题本身而收到了干扰。需要大胆的思维，从大局角度看待问题，尤其是关键问题：写存储过程之前，已有哪些数据？希望存储过程返回什么结果，大胆思维，思考问题的答案，就能得到一个性能大幅提升的处理方式了。</p>
+</li>
+<li><p>先定义问题，再解决问题(Problem Definition Before Solution</p>
+</li>
+</ul>
+<p>所有技术方案，都只是达到目标的手段。没有经验的开发者误把新技术本身当成了目标。</p>
+<p>先打基础，再赶时髦：摆弄新工具之前，先把手艺学好。</p>
+<ul>
+<li>直接操作实际数据(Operations Against Actual Data)</li>
+</ul>
+<p>永久表(permanent table)可以设置非常复杂的存储选项，而临时表不能</p>
+<p>暂时工作表意味着以不太合理的方式存储更多信息。</p>
+<ul>
+<li>用SQL处理集合(Set Processing in SQL)</li>
+</ul>
+<p>必须先精确定义出要处理的记录集合。将一次“大批量数据的处理”分割成多次“”小块处理“是个坏主意。方法低效：</p>
+<ul>
+<li>占用过多的空间保存原始数据，以备事务(transaction)回滚(roolback)之需；</li>
+<li>万一修改失败，回滚消耗过长的实践。</li>
+</ul>
+<p>严格从实践角度来讲,”从头开始重做”比”确定失败发生的时间和位置，接着已提交部分重做”要容易得多、简单得多、也快的多。</p>
+<p>日志大小，规模较小的”每周或每日更新“</p>
+<p>几千个语句，借助游标(cursor)不断循环，很慢。换成几个语句，处理同样的数据，还是较慢，换成一个语句，解决上述问题，最好。</p>
+<ul>
+<li>动作丰富的SQL语句(Action-Packed SQL Statements)</li>
+</ul>
+<p>尽可能多把事情交给数据库优化器来处理。</p>
+<ul>
+<li>充分利用每次数据库访问(Profitable Database Accesses)</li>
+</ul>
+<p>合理范围，利用每次数据库访问完成尽量多的工作。</p>
+<ul>
+<li>接近DBMS核心(Closeness to the DBMS Kernel)</li>
+</ul>
+<p>自带函数执行效率高得多，</p>
+<ul>
+<li>只做必须做的(Doing Only What Is Required)</li>
+</ul>
+<p>测试是否存在，没必要编程实现那些数据库隐含实现的功能。</p>
+<ul>
+<li>SQL语句反应业务逻辑(SQL Statements Mirror Business Logic)</li>
+</ul>
+<p>检查数据库活动，看它是否与当时正进行的业务活动保持合理的一致性。</p>
+<ul>
+<li>简洁的SQL(Succinct SQL)</li>
+</ul>
+<p>声明性语言(declarative language),所以设法你的代码超越业务过程的规格说明。</p>
+<ul>
+<li>SQL的进攻式编程(Offensive Coding with SQL)</li>
+</ul>
+<ul>
+<li>掌握SQL艺术的五大要素</li>
+</ul>
+<p>Five Factors Govering the Art of SQL</p>
+<ol>
+<li>获得结果集所需访问的数据量</li>
+<li>定义结果集所需的查询条件</li>
+<li>结果集的大小</li>
+<li>获得结果集所涉及的表的数量</li>
+<li>多少用户会同时修改这些数据</li>
+</ol>
+<p>内存中普遍的集合的操作也是很常见的，查询表达式和Enumerable中的扩展方法对其支持得很好。</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Vmware workstation</span><br><span class="line"></span><br><span class="line">16：ZF3R0-FHED2-M80TY-8QYGC-NPKYF</span><br><span class="line">15：FC7D0-D1YDL-M8DXZ-CYPZE-P2AY6</span><br><span class="line">12：ZC3TK-63GE6-481JY-WWW5T-Z7ATA</span><br><span class="line">10：1Z0G9-67285-FZG78-ZL3Q2-234JG</span><br></pre></td></tr></table></figure>
+
+
+
 
     </div>
 
@@ -373,16 +458,16 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">47</span>
+          <span class="site-state-item-count">49</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
-        <span class="site-state-item-count">21</span>
+        <span class="site-state-item-count">22</span>
         <span class="site-state-item-name">分类</span>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">25</span>
+        <span class="site-state-item-count">29</span>
         <span class="site-state-item-name">标签</span>
       </div>
   </nav>
@@ -427,12 +512,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站点总字数">99k</span>
+    <span title="站点总字数">104k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">3:01</span>
+    <span title="站点阅读时长">3:09</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>

@@ -6,7 +6,7 @@
   <link href="http://muxueweiyu.github.io/atom.xml" rel="self"/>
   
   <link href="http://muxueweiyu.github.io/"/>
-  <updated>2021-04-01T14:09:12.581Z</updated>
+  <updated>2021-04-02T09:20:37.292Z</updated>
   <id>http://muxueweiyu.github.io/</id>
   
   <author>
@@ -15,6 +15,58 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>random</title>
+    <link href="http://muxueweiyu.github.io/2021/04/02/Program/code%20practice/random/"/>
+    <id>http://muxueweiyu.github.io/2021/04/02/Program/code%20practice/random/</id>
+    <published>2021-04-02T07:10:06.000Z</published>
+    <updated>2021-04-02T09:20:37.292Z</updated>
+    
+    <content type="html"><![CDATA[<p>Repeat practice practice practice </p><span id="more"></span><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> System;</span><br><span class="line"><span class="keyword">public</span> Static <span class="keyword">class</span> <span class="title">NullUtil</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="built_in">bool</span> <span class="title">IsNull</span>(<span class="params"><span class="keyword">this</span> <span class="built_in">object</span> x</span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"></span><br><span class="line"><span class="keyword">return</span> x == <span class="literal">null</span>;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Test</span> </span><br><span class="line">&#123;</span><br><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Main</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="built_in">object</span> y = <span class="literal">null</span>;</span><br><span class="line">Console.writeLine(y.IsNull());</span><br><span class="line">y= <span class="keyword">new</span> <span class="built_in">object</span>();</span><br><span class="line">Console.WriteLine(y.IsNull());</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>1-1</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> squeezable(random_text varchar2(<span class="number">50</span>))</span><br><span class="line"><span class="operator">/</span></span><br><span class="line"><span class="keyword">declare</span></span><br><span class="line"></span><br><span class="line">ibinary_integer;</span><br><span class="line">jbinary_integer;</span><br><span class="line">lbinary_integer;</span><br><span class="line">v_string varchar2(<span class="number">50</span>);</span><br><span class="line"><span class="keyword">begin</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="number">1</span> .. <span class="number">10000</span></span><br><span class="line">loop</span><br><span class="line">j :<span class="operator">=</span>dbms_random.value(<span class="number">1</span>,<span class="number">100</span>);</span><br><span class="line">v_string :<span class="operator">=</span>dbms_random.string(<span class="string">&#x27;U&#x27;</span>,<span class="number">50</span>);</span><br><span class="line">while(j<span class="operator">&lt;</span>length(v_string))</span><br><span class="line">loop</span><br><span class="line">k :<span class="operator">=</span>dbms_random.value(<span class="number">1</span>,<span class="number">3</span>);</span><br><span class="line">v_string :<span class="operator">=</span>substr(substr(v_string,<span class="number">1</span>,j)<span class="operator">||</span>rpad(<span class="string">&#x27;&#x27;</span>,k)</span><br><span class="line"><span class="operator">||</span>substr(v_string,j<span class="operator">+</span><span class="number">1</span>),<span class="number">1</span>,<span class="number">50</span>);</span><br><span class="line">j :<span class="operator">=</span>dbms_random.value(<span class="number">1</span>,<span class="number">100</span>);</span><br><span class="line"><span class="keyword">end</span> loop;</span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> squeezable</span><br><span class="line"><span class="keyword">values</span>(v_string);</span><br><span class="line"><span class="keyword">end</span> loop;</span><br><span class="line"><span class="keyword">commit</span>;</span><br><span class="line"><span class="keyword">end</span>;</span><br><span class="line"><span class="operator">/</span></span><br></pre></td></tr></table></figure><p>1-2</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">update accounts</span><br><span class="line"><span class="keyword">set</span> balance <span class="operator">=</span> balance <span class="operator">-</span> purchased_amount</span><br><span class="line"><span class="keyword">where</span> balance <span class="operator">&gt;=</span> purchased_amount</span><br><span class="line"><span class="keyword">and</span> credit_limit <span class="operator">&gt;=</span> purchased_amount</span><br><span class="line"><span class="keyword">and</span> expiry_date <span class="operator">&gt;</span> today()</span><br><span class="line"><span class="keyword">and</span> customer_id <span class="operator">=</span> provided_id</span><br><span class="line"><span class="keyword">and</span> card_num <span class="operator">=</span> provided_cardnum</span><br><span class="line"></span><br><span class="line"><span class="keyword">select</span> c.customer_id,a.card_num,a.expiry_date,</span><br><span class="line">a.credit_limit,a.balance</span><br><span class="line"><span class="keyword">from</span> customers c</span><br><span class="line"><span class="keyword">left</span> <span class="keyword">outer</span> <span class="keyword">join</span> accounts a</span><br><span class="line"><span class="keyword">on</span> a.customer_id <span class="operator">=</span> c.customer_id</span><br><span class="line"><span class="keyword">and</span> a.card_num <span class="operator">=</span> provided_cardnum</span><br><span class="line"><span class="keyword">where</span> c.customer_id <span class="operator">=</span> provied_id</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">​```<span class="keyword">SQL</span></span><br><span class="line"><span class="keyword">select</span> custname</span><br><span class="line"><span class="keyword">from</span> customers</span><br><span class="line"><span class="keyword">where</span> city <span class="operator">=</span><span class="string">&#x27;GOTHAM&#x27;</span></span><br><span class="line"><span class="keyword">and</span> custid <span class="keyword">in</span></span><br><span class="line">(<span class="keyword">select</span> o.custid</span><br><span class="line"><span class="keyword">from</span> orders o,</span><br><span class="line">(<span class="keyword">select</span> <span class="keyword">distinct</span> od.ordid <span class="keyword">from</span> orderdetail od,</span><br><span class="line">articles a</span><br><span class="line"><span class="keyword">where</span> a.artname<span class="operator">=</span><span class="string">&#x27;BATMOBILE&#x27;</span></span><br><span class="line"><span class="keyword">and</span> a.artid <span class="operator">=</span> od.artid)x</span><br><span class="line"><span class="keyword">where</span> o.ordered <span class="operator">&gt;=</span> somefunc</span><br><span class="line"><span class="keyword">and</span> x.ordid <span class="operator">=</span> o.ordid)</span><br></pre></td></tr></table></figure><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">INSERT</span> INFO your_table(column_namel,column_name2,...)</span><br><span class="line"><span class="keyword">VALUES</span>(<span class="string">&#x27;value1&#x27;</span>,<span class="string">&#x27;value2&#x27;</span>,...)</span><br><span class="line"></span><br><span class="line"><span class="number">1</span><span class="number">-1</span></span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> my_contacts</span><br><span class="line">(last_name,first_name,email,gender,birthday,professional,location,status,interests,seeking)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">(<span class="string">&#x27;Anderson&#x27;</span>,<span class="string">&#x27;Jillian&#x27;</span>,<span class="string">&#x27;jill_anderson@breakneckpizza.com&#x27;</span>,<span class="string">&#x27;F&#x27;</span>,<span class="string">&#x27;1980-09-05&#x27;</span>,<span class="string">&#x27;Technical Writer&#x27;</span>,<span class="string">&#x27;PaloAlto,CA&#x27;</span>, <span class="string">&#x27;Single&#x27;</span>,<span class="string">&#x27;Kayaking, Reptiles&#x27;</span>,<span class="string">&#x27;Relationship,Friends&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="number">1</span><span class="number">-2</span></span><br><span class="line">var query <span class="operator">=</span> <span class="keyword">from</span> <span class="keyword">user</span> <span class="keyword">in</span> SampleData.AllUsers</span><br><span class="line"><span class="keyword">from</span> project <span class="keyword">in</span> SampleData.AllProjects</span><br><span class="line">select new &#123; User = user,Project = project&#125;;</span><br><span class="line">foreach (var pair <span class="keyword">in</span> query)</span><br><span class="line">&#123;</span><br><span class="line">Console.WriteLine(&quot;&#123;0&#125;/&#123;1&#125;&quot;,</span><br><span class="line">pair.User.Name,</span><br><span class="line">pair.Project.Name)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="number">1</span><span class="number">-3</span></span><br><span class="line">var query <span class="operator">=</span> <span class="keyword">from</span> defect <span class="keyword">in</span> SampleData.AllDefects</span><br><span class="line"><span class="keyword">where</span> defect.AssignedTo <span class="operator">!=</span> <span class="keyword">null</span></span><br><span class="line"><span class="keyword">group</span> defect <span class="keyword">by</span> defect.AssignedTo;</span><br><span class="line"></span><br><span class="line">foreach (var entry <span class="keyword">in</span> query)</span><br><span class="line">&#123;</span><br><span class="line">Console.WriteLine(entry.Key.Name);</span><br><span class="line">foreach (var defect <span class="keyword">in</span> entry)</span><br><span class="line">&#123;</span><br><span class="line">Console.WriteLine(&quot; (&#123;0&#125;) &#123;1&#125;&quot;,</span><br><span class="line">defect.Severity, defect.Summary);</span><br><span class="line">&#125;</span><br><span class="line">Console.WriteLine();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Repeat practice practice practice &lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Program" scheme="http://muxueweiyu.github.io/categories/Program/"/>
+    
+    <category term="code practice" scheme="http://muxueweiyu.github.io/categories/Program/code-practice/"/>
+    
+    
+    <category term="program" scheme="http://muxueweiyu.github.io/tags/program/"/>
+    
+    <category term="code" scheme="http://muxueweiyu.github.io/tags/code/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>D5000系统</title>
+    <link href="http://muxueweiyu.github.io/2021/04/02/professional/%E5%B7%A5%E4%BD%9C/D5000%E7%B3%BB%E7%BB%9F/"/>
+    <id>http://muxueweiyu.github.io/2021/04/02/professional/%E5%B7%A5%E4%BD%9C/D5000%E7%B3%BB%E7%BB%9F/</id>
+    <published>2021-04-02T01:41:45.000Z</published>
+    <updated>2021-04-02T06:00:14.964Z</updated>
+    
+    <content type="html"><![CDATA[<p>基于数据库管理的D5000系统数据管理技术</p><span id="more"></span><p>以特高压、三华联网[1]为代表的智能电网飞速发展，国家电网公司集约化、扁平化管理[2]的快速推进，计算机、通信技术的长足进步[3—5]，推动了智能电网调度控制系统简称“D5000系统”</p><p>D5000系统评价指标体系</p><p>建立服务器硬件健康度评价指标体系时：首先，需要对硬盘、内存、网卡、CPU等众多影响服务器健康状态的因素进行分析；其次，应该按照评价指标选取的一般原则对影响服务器健康状态的众多因素进行筛选，初步确定服务器的硬件健康度评价指标体系；最后，借鉴相关专家经验，对初步确定的评价指标体系进行修改完善，确定最终的评价指标体系。</p><p>建立D5000系统中每个业务特有的业务健康度评价指标体系时：首先，需要分析每个业务由哪些进程组成，根据进程重要程度找到每个业务的关键进程；其次，需要找出进程状态、进程占用内存、进程占用CPU等全部影响进程运行健康状态的因素；然后，按照评价指标选取的一般原则对影响进程运行状态的众多因素进行初步筛选，初步确定每个进程的评价指标体系，同时，借鉴专家经验，确定最终的进程评价指标体系；最后，业务下所有关键进程的评价指标体系构成该业务的业务健康度评价指标体系。</p><p>SCADA系统是以计算机为基础的生产过程控制与调度自动化系统。</p><p>1.C# 学习熟悉查询表达式和 LINQ to Object<br>2.了解地理信息导航系统内容<br>3.练习数据库使用</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;基于数据库管理的D5000系统数据管理技术&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="professional" scheme="http://muxueweiyu.github.io/categories/professional/"/>
+    
+    <category term="工作" scheme="http://muxueweiyu.github.io/categories/professional/%E5%B7%A5%E4%BD%9C/"/>
+    
+    
+    <category term="1" scheme="http://muxueweiyu.github.io/tags/1/"/>
+    
+    <category term="2" scheme="http://muxueweiyu.github.io/tags/2/"/>
+    
+    <category term="3" scheme="http://muxueweiyu.github.io/tags/3/"/>
+    
+  </entry>
   
   <entry>
     <title>writing</title>
@@ -68,9 +120,9 @@
     <link href="http://muxueweiyu.github.io/2021/04/01/Random%20Thoughts/2021/2021-04/"/>
     <id>http://muxueweiyu.github.io/2021/04/01/Random%20Thoughts/2021/2021-04/</id>
     <published>2021-04-01T00:31:48.000Z</published>
-    <updated>2021-04-01T13:36:39.012Z</updated>
+    <updated>2021-04-02T09:39:53.141Z</updated>
     
-    <content type="html"><![CDATA[<p>事情较多</p><p>两周实习</p><span id="more"></span><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">date: 2021-04-01</span><br></pre></td></tr></table></figure><p>利益之线清晰可见：任何控制你数据的人就能控制整个数字未来，过去几年，载运储存和分享数据已经成为一种可谓普遍存在的习惯。传统的观点认为基于云端的存储是一项商品业务，一个数字文件柜。不过，云端存储潜力更像是一个可移动办公室。”你的整个计算环境必须跟着你，”可以解释”包括你的财政记录、健康信息、音乐播放列表。任何我的东西即个人活动所产生的信息，并且必须能与这个移动办公室中所有东西进行天衣无缝的互动，和同事一起制作文档，发送邮件，输入库存等等。”可笑啊”能用存储做什么？”</p><p>我们的劳动力越来越独立、流动和灵活，工作与家庭之间的界限只会越来越模糊。传统计算机设备并不适合现代工作方式</p><p>简单首创方便预安装，是否对解决数字世界的麻烦充满热情。<strong>逐渐学会提出问题，依赖别人想出答案</strong></p>]]></content>
+    <content type="html"><![CDATA[<p>事情较多</p><p>两周实习</p><span id="more"></span><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">date: 2021-04-01</span><br></pre></td></tr></table></figure><p>利益之线清晰可见：任何控制你数据的人就能控制整个数字未来，过去几年，载运储存和分享数据已经成为一种可谓普遍存在的习惯。传统的观点认为基于云端的存储是一项商品业务，一个数字文件柜。不过，云端存储潜力更像是一个可移动办公室。”你的整个计算环境必须跟着你，”可以解释”包括你的财政记录、健康信息、音乐播放列表。任何我的东西即个人活动所产生的信息，并且必须能与这个移动办公室中所有东西进行天衣无缝的互动，和同事一起制作文档，发送邮件，输入库存等等。”可笑啊”能用存储做什么？”</p><p>我们的劳动力越来越独立、流动和灵活，工作与家庭之间的界限只会越来越模糊。传统计算机设备并不适合现代工作方式</p><p>简单首创方便预安装，是否对解决数字世界的麻烦充满热情。<strong>逐渐学会提出问题，依赖别人想出答案</strong></p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">date: 2021-04-01</span><br></pre></td></tr></table></figure><ul><li>查询的识别(Query Identification)</li></ul><p>需要不同的数字类型目的是为了节省数据库存储空间和效率，为表的每列选择最合适的数据<br>类型可以为表瘦身，还可以使数据操作更为快速。</p><ul><li>保持数据库连接稳定(Stable Database Connections)</li></ul><p>尽量减少分别连接数据库次数的重要，性能会有显著提升。再进一步优化，建立一组处理程序（handler)分别负责一个数据库连接，每个数据库只连接一次，性能进一步提高。效率飞速提升。，上述基础上，更新的数据填入数据，尽可能减少程序和数据库核心间的交互次数，性能飞跃。每次插入几行数据的做法，使数据的总处理能力增加5倍</p><p>数据库连接是很‘重’的操作，消耗资源很多。</p><p>简单连接操作，首先客户端与远程服务器监听（listener program）建立联系；监听程序创建一个进程或线程执行数据库核心程序，或直接或间接把客户请求传递已存在的服务器进程，取决于服务器是否为共享服务器。除此之外还需为每次session建立新环境，跟踪它的行为。连接池(connection pooling)保持永久数据库连接的技术对性能很重要。</p><ul><li><p>战略优先于战术(Strategy Before Tactics)<br>程序和数据库之间交互有开销。验证优化之后的结果集，局外思考(think outside the box)的能力，优化太关注问题本身而收到了干扰。需要大胆的思维，从大局角度看待问题，尤其是关键问题：写存储过程之前，已有哪些数据？希望存储过程返回什么结果，大胆思维，思考问题的答案，就能得到一个性能大幅提升的处理方式了。</p></li><li><p>先定义问题，再解决问题(Problem Definition Before Solution</p></li></ul><p>所有技术方案，都只是达到目标的手段。没有经验的开发者误把新技术本身当成了目标。</p><p>先打基础，再赶时髦：摆弄新工具之前，先把手艺学好。</p><ul><li>直接操作实际数据(Operations Against Actual Data)</li></ul><p>永久表(permanent table)可以设置非常复杂的存储选项，而临时表不能</p><p>暂时工作表意味着以不太合理的方式存储更多信息。</p><ul><li>用SQL处理集合(Set Processing in SQL)</li></ul><p>必须先精确定义出要处理的记录集合。将一次“大批量数据的处理”分割成多次“”小块处理“是个坏主意。方法低效：</p><ul><li>占用过多的空间保存原始数据，以备事务(transaction)回滚(roolback)之需；</li><li>万一修改失败，回滚消耗过长的实践。</li></ul><p>严格从实践角度来讲,”从头开始重做”比”确定失败发生的时间和位置，接着已提交部分重做”要容易得多、简单得多、也快的多。</p><p>日志大小，规模较小的”每周或每日更新“</p><p>几千个语句，借助游标(cursor)不断循环，很慢。换成几个语句，处理同样的数据，还是较慢，换成一个语句，解决上述问题，最好。</p><ul><li>动作丰富的SQL语句(Action-Packed SQL Statements)</li></ul><p>尽可能多把事情交给数据库优化器来处理。</p><ul><li>充分利用每次数据库访问(Profitable Database Accesses)</li></ul><p>合理范围，利用每次数据库访问完成尽量多的工作。</p><ul><li>接近DBMS核心(Closeness to the DBMS Kernel)</li></ul><p>自带函数执行效率高得多，</p><ul><li>只做必须做的(Doing Only What Is Required)</li></ul><p>测试是否存在，没必要编程实现那些数据库隐含实现的功能。</p><ul><li>SQL语句反应业务逻辑(SQL Statements Mirror Business Logic)</li></ul><p>检查数据库活动，看它是否与当时正进行的业务活动保持合理的一致性。</p><ul><li>简洁的SQL(Succinct SQL)</li></ul><p>声明性语言(declarative language),所以设法你的代码超越业务过程的规格说明。</p><ul><li>SQL的进攻式编程(Offensive Coding with SQL)</li></ul><ul><li>掌握SQL艺术的五大要素</li></ul><p>Five Factors Govering the Art of SQL</p><ol><li>获得结果集所需访问的数据量</li><li>定义结果集所需的查询条件</li><li>结果集的大小</li><li>获得结果集所涉及的表的数量</li><li>多少用户会同时修改这些数据</li></ol><p>内存中普遍的集合的操作也是很常见的，查询表达式和Enumerable中的扩展方法对其支持得很好。</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Vmware workstation</span><br><span class="line"></span><br><span class="line">16：ZF3R0-FHED2-M80TY-8QYGC-NPKYF</span><br><span class="line">15：FC7D0-D1YDL-M8DXZ-CYPZE-P2AY6</span><br><span class="line">12：ZC3TK-63GE6-481JY-WWW5T-Z7ATA</span><br><span class="line">10：1Z0G9-67285-FZG78-ZL3Q2-234JG</span><br></pre></td></tr></table></figure>]]></content>
     
     
     <summary type="html">&lt;p&gt;事情较多&lt;/p&gt;
@@ -92,9 +144,9 @@
     <link href="http://muxueweiyu.github.io/2021/03/31/professional/effience/%E8%AF%BB%E5%8F%B2%E6%98%8E%E6%99%BA/"/>
     <id>http://muxueweiyu.github.io/2021/03/31/professional/effience/%E8%AF%BB%E5%8F%B2%E6%98%8E%E6%99%BA/</id>
     <published>2021-03-31T14:33:04.000Z</published>
-    <updated>2021-03-31T15:16:24.096Z</updated>
+    <updated>2021-04-01T14:58:10.758Z</updated>
     
-    <content type="html"><![CDATA[<p>剑桥中国史</p><p>哈佛中国史</p><p>中国近代史</p><span id="more"></span><h2 id="剑桥中国秦汉史"><a href="#剑桥中国秦汉史" class="headerlink" title="剑桥中国秦汉史"></a>剑桥中国秦汉史</h2><p>P46</p>]]></content>
+    <content type="html"><![CDATA[<p>剑桥中国史</p><p>哈佛中国史</p><p>中国近代史</p><span id="more"></span><h2 id="剑桥中国秦汉史"><a href="#剑桥中国秦汉史" class="headerlink" title="剑桥中国秦汉史"></a>剑桥中国秦汉史</h2><p>P46-P60</p>]]></content>
     
     
     <summary type="html">&lt;p&gt;剑桥中国史&lt;/p&gt;
@@ -449,56 +501,6 @@
     <category term="Efficiency" scheme="http://muxueweiyu.github.io/tags/Efficiency/"/>
     
     <category term="Summary" scheme="http://muxueweiyu.github.io/tags/Summary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>TDD</title>
-    <link href="http://muxueweiyu.github.io/2021/03/21/professional/design-document/TDD/"/>
-    <id>http://muxueweiyu.github.io/2021/03/21/professional/design-document/TDD/</id>
-    <published>2021-03-21T11:04:10.000Z</published>
-    <updated>2021-03-21T16:00:37.678Z</updated>
-    
-    <content type="html"><![CDATA[<ul><li>学习<a href="http://www.agiledata.org/essays/tdd.html">Introduction to Test Driven Development (TDD)</a>文档结构。</li><li>学习文档结构<a href="https://www.vogella.com/tutorials/JUnit/article.html">Unit Testing with JUnit 5 - Tutorial</a></li><li><a href="http://www.agilemodeling.com/essays/agileDocumentation.htm">Agile/Lean Documentation: Strategies for Agile Software Development</a></li></ul><span id="more"></span><h4 id="Table-of-Contents"><a href="#Table-of-Contents" class="headerlink" title="Table of Contents"></a>Table of Contents</h4><ul><li><a href="#What-is-TDD%EF%BC%9F">What is TDD?</a></li><li><a href="#TDD-and-traditional-testing">TDD and traditional testing</a></li><li><a href="#TDD-and-documentation">TDD and documentation</a></li><li><a href="#Test-driven-database-development">Test-driven database development</a></li><li><a href="#Scalling-TDD-via-Agile-Model-Driven-Development-(AMDD)">Scaling TDD via Agile Model-Driven Development (AMDD)</a></li><li><a href="#Why-TDD?">Why TDD?</a></li><li><a href="#Myths-and-misconeptions">Myths and misconceptions</a></li><li><a href="#Who-is-actually-doing-this?">Who is actually doing this?</a></li><li><a href="#Summary">Summary</a></li><li><a href="#Tools">Tools</a></li></ul><h2 id="What-is-TDD"><a href="#What-is-TDD" class="headerlink" title="What is TDD?"></a>What is TDD?</h2>]]></content>
-    
-    
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;学习&lt;a href=&quot;http://www.agiledata.org/essays/tdd.html&quot;&gt;Introduction to Test Driven Development (TDD)&lt;/a&gt;文档结构。&lt;/li&gt;
-&lt;li&gt;学习文档结构&lt;a href=&quot;https://www.vogella.com/tutorials/JUnit/article.html&quot;&gt;Unit Testing with JUnit 5 - Tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.agilemodeling.com/essays/agileDocumentation.htm&quot;&gt;Agile/Lean Documentation: Strategies for Agile Software Development&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    
-    
-    
-    <category term="professional" scheme="http://muxueweiyu.github.io/categories/professional/"/>
-    
-    <category term="design-document" scheme="http://muxueweiyu.github.io/categories/professional/design-document/"/>
-    
-    
-    <category term="writing" scheme="http://muxueweiyu.github.io/tags/writing/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Java实战01</title>
-    <link href="http://muxueweiyu.github.io/2021/03/18/Program/Java/Java/"/>
-    <id>http://muxueweiyu.github.io/2021/03/18/Program/Java/Java/</id>
-    <published>2021-03-18T13:14:49.000Z</published>
-    <updated>2021-03-21T16:00:05.674Z</updated>
-    
-    <content type="html"><![CDATA[<p>程序设计由编程语言来表现，Java可能会是借此所找到的第一份工作</p><span id="more"></span>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;程序设计由编程语言来表现，Java可能会是借此所找到的第一份工作&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Program" scheme="http://muxueweiyu.github.io/categories/Program/"/>
-    
-    <category term="Java" scheme="http://muxueweiyu.github.io/categories/Program/Java/"/>
-    
-    
-    <category term="program" scheme="http://muxueweiyu.github.io/tags/program/"/>
     
   </entry>
   
