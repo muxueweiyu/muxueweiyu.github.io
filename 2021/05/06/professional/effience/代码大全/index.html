@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"muxueweiyu.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="预览">
+<meta property="og:type" content="article">
+<meta property="og:title" content="代码大全">
+<meta property="og:url" content="http://muxueweiyu.github.io/2021/05/06/professional/effience/%E4%BB%A3%E7%A0%81%E5%A4%A7%E5%85%A8/index.html">
+<meta property="og:site_name" content="ning_qiuyu blog">
+<meta property="og:description" content="预览">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-05-06T14:58:07.000Z">
+<meta property="article:modified_time" content="2021-05-06T15:15:17.157Z">
+<meta property="article:author" content="Weiyu">
+<meta property="article:tag" content="软件">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://muxueweiyu.github.io/2021/05/06/professional/effience/%E4%BB%A3%E7%A0%81%E5%A4%A7%E5%85%A8/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>代码大全 | ning_qiuyu blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="ning_qiuyu blog" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">ning_qiuyu blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">要…下雨了</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-commonweal">
+
+    <a href="/404/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>公益 404</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://muxueweiyu.github.io/2021/05/06/professional/effience/%E4%BB%A3%E7%A0%81%E5%A4%A7%E5%85%A8/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="Weiyu">
+      <meta itemprop="description" content="A new start in life experience">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ning_qiuyu blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          代码大全
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-05-06 22:58:07 / 修改时间：23:15:17" itemprop="dateCreated datePublished" datetime="2021-05-06T22:58:07+08:00">2021-05-06</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/professional/" itemprop="url" rel="index"><span itemprop="name">professional</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/professional/effience/" itemprop="url" rel="index"><span itemprop="name">effience</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>1.5k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>3 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p> 预览</p>
+<span id="more"></span>
+
+<h2 id="欢迎进入软件创建世界"><a href="#欢迎进入软件创建世界" class="headerlink" title="欢迎进入软件创建世界"></a>欢迎进入软件创建世界</h2><p>开发计算机软件是一项非常复杂的工作，在过去的十五年中，研究者们指出了这项工作所<br>包括的主要方面，包括：</p>
+<ul>
+<li><p>问题定义</p>
+</li>
+<li><p>需求分析</p>
+</li>
+<li><p>实现计划</p>
+</li>
+<li><p>总体设计</p>
+</li>
+<li><p>详细设计</p>
+</li>
+<li><p>创建即实现</p>
+</li>
+<li><p>系统集成</p>
+</li>
+<li><p>单元测试</p>
+</li>
+<li><p>系统测试</p>
+</li>
+<li><p>校正性的维护</p>
+</li>
+<li><p>功能强化</p>
+</li>
+<li><p>验证基础工作已经完成，可以进行创建工作</p>
+</li>
+<li><p>设计和编写子程序与模块</p>
+</li>
+<li><p>创立数据类型并命名变量</p>
+</li>
+<li><p>选择控制结构并组织语句块</p>
+</li>
+<li><p>找出并修正错误</p>
+</li>
+<li><p>评审其它小组的细节设计和代码，同时接受其它小组评审</p>
+</li>
+<li><p>通过仔细地格式化和征集意见改进编码</p>
+</li>
+<li><p>对分别完成的软件单元进行综合</p>
+</li>
+<li><p>调整编码使其更小、更快</p>
+</li>
+<li><p>创建活动是开发软件的重要组成部分。</p>
+</li>
+<li><p>创建活动在软件开发中处于枢纽地位。</p>
+</li>
+<li><p>把主要精力集中于创建活动，可以极大地提高程序员的生产效率。</p>
+</li>
+<li><p>创建活动的产品，源代码，往往是软件的唯一精确描述。</p>
+</li>
+<li><p>创建活动是唯一一项必不可少的工作。</p>
+</li>
+<li><p>创建活动是总体设计和系统测试之间承上启下的工作。</p>
+</li>
+<li><p>创建活动主要包括：详细设计、编码、调试和单元测试。</p>
+</li>
+<li><p>关于创建活动的其它称谓有：实现、编程等。</p>
+</li>
+<li><p>创建活动质量对软件质量有潜在影响。</p>
+</li>
+<li><p>在最后的分析中，对创建活动理解的好坏，决定了一个程序员素质的高低，这将在<br>本书其余部分论述。</p>
+</li>
+</ul>
+<h2 id="利用隐喻对编程进行更深刻的理解"><a href="#利用隐喻对编程进行更深刻的理解" class="headerlink" title="利用隐喻对编程进行更深刻的理解"></a>利用隐喻对编程进行更深刻的理解</h2><p>在当时，数据处理正从以计算机为中心向以数据库为中心进行转变。Bachman 指出，在旧的处理模式中，数据被当成是一个连续流过计算机的卡片流（以计算机为中心）；而在新的模式中，数据好比是一个水池，而计算机则偶尔涉足其中（以数据库为中心）。</p>
+<p>如果一旦看了新的模型，我们便说：“哦，当然正确的模型更有用，其余的都是错误的”，那只会降低模型的作用。因为这太偏激了。科学史并不是由一系列从“错误”模型到“正确”模型开关组成的，而是逐渐由“坏的”模型变为“较好”的模型，从包含面较窄到包含面较宽，从覆盖领域较少到覆盖领域较多。</p>
+<p>软件科学是一门比其它学科年轻得多的学科，还很不成熟，远未形成一套标准的模型。所以，现在拥有的是大量相互矛盾的模型。这其中有些很好，有些则很差。因此，对这些模型理解得好坏，便决定了你对软件开发理解的好坏。</p>
+<p>软件隐喻更像是一束搜索灯光，而不是一张地图，它并不会告诉你到哪里去寻找答案；它只给你以启发，教你如何寻找答案，而不是像数学算法一样硬性规定出到哪里找出答案。</p>
+<p>Paul Heekel 说这就像电影《白雪公主与七个小矮人》。David Gries 说这是科学，Donald Knuth 则说这是门艺术，Watts Hamphrey 则说这是一个过程，Peter Freeman 说这是个系统，Harlan Mills 认为这就像解数学题、做外科手术、或者是宰一条狗，Mark Spinrad 和 Curt Abraham 说这更像是开发西部、在冰水中洗澡或者围着营火吃豆子。</p>
+<ul>
+<li>软件书写：写代码（Writing Code)</li>
+</ul>
+<p>开发软件最原始的隐喻出自“写代码”一词。这个写的隐喻说明开发一个程序就像随便写封信，你准备好纸、笔和墨水，坐下从头写到尾就算完成了。这不需要任何正式计划，你只是把你要说的都写出来。许多想法都源于写隐喻。Jon Beitle 说，你应该准备好一杯白兰地，一支上等雪茄，与你喜欢的猎狗一同坐在火边，像一个优秀小说家一样享受一次“自由编程”。Brian 和 Kernighan 把写隐喻风格的书称为《风格要素》（《The Elements of Style》）之后，把他们编程风格的书称作《编程风格要素》（《The Elements of Programming Style》），程序员们则经常谈论程序的“可读性”。</p>
+<ul>
+<li><p>软件播种：生成系统（Growing a System）</p>
+</li>
+<li><p>软件珍珠培植法：系统积累(System Accretion)</p>
+</li>
+<li><p>软件创建：建造软件（building software）</p>
+</li>
+</ul>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E8%BD%AF%E4%BB%B6/" rel="tag"># 软件</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/05/03/People%20that%20affect%20me/hanselman/" rel="prev" title="Hanselman">
+      <i class="fa fa-chevron-left"></i> Hanselman
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%AC%A2%E8%BF%8E%E8%BF%9B%E5%85%A5%E8%BD%AF%E4%BB%B6%E5%88%9B%E5%BB%BA%E4%B8%96%E7%95%8C"><span class="nav-number">1.</span> <span class="nav-text">欢迎进入软件创建世界</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%A9%E7%94%A8%E9%9A%90%E5%96%BB%E5%AF%B9%E7%BC%96%E7%A8%8B%E8%BF%9B%E8%A1%8C%E6%9B%B4%E6%B7%B1%E5%88%BB%E7%9A%84%E7%90%86%E8%A7%A3"><span class="nav-number">2.</span> <span class="nav-text">利用隐喻对编程进行更深刻的理解</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Weiyu"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">Weiyu</p>
+  <div class="site-description" itemprop="description">A new start in life experience</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">80</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">27</span>
+        <span class="site-state-item-name">分类</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">44</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/muxueweiyu" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;muxueweiyu" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:tantaiweiyu@gmail.com" title="E-Mail → mailto:tantaiweiyu@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 2018 – 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Weiyu</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="站点总字数">247k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">7:28</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/pjax/pjax.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '.languages',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.dataset.pjax !== undefined) {
+      script.dataset.pjax = '';
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="pjax">
+  
+
+  
+
+    </div>
+</body>
+</html>

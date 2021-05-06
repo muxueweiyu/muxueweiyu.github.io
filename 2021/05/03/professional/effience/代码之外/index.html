@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"muxueweiyu.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="预览">
+<meta property="og:type" content="article">
+<meta property="og:title" content="代码之外">
+<meta property="og:url" content="http://muxueweiyu.github.io/2021/05/03/professional/effience/%E4%BB%A3%E7%A0%81%E4%B9%8B%E5%A4%96/index.html">
+<meta property="og:site_name" content="ning_qiuyu blog">
+<meta property="og:description" content="预览">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-05-03T03:07:45.000Z">
+<meta property="article:modified_time" content="2021-05-06T14:57:18.344Z">
+<meta property="article:author" content="Weiyu">
+<meta property="article:tag" content="有趣">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://muxueweiyu.github.io/2021/05/03/professional/effience/%E4%BB%A3%E7%A0%81%E4%B9%8B%E5%A4%96/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>代码之外 | ning_qiuyu blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="ning_qiuyu blog" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">ning_qiuyu blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">要…下雨了</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-commonweal">
+
+    <a href="/404/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>公益 404</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://muxueweiyu.github.io/2021/05/03/professional/effience/%E4%BB%A3%E7%A0%81%E4%B9%8B%E5%A4%96/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="Weiyu">
+      <meta itemprop="description" content="A new start in life experience">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ning_qiuyu blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          代码之外
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-05-03 11:07:45" itemprop="dateCreated datePublished" datetime="2021-05-03T11:07:45+08:00">2021-05-03</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-05-06 22:57:18" itemprop="dateModified" datetime="2021-05-06T22:57:18+08:00">2021-05-06</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/professional/" itemprop="url" rel="index"><span itemprop="name">professional</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/professional/effience/" itemprop="url" rel="index"><span itemprop="name">effience</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>7.9k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>14 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p> 预览</p>
+<span id="more"></span>
+
+<h2 id="迥然不同"><a href="#迥然不同" class="headerlink" title="迥然不同"></a>迥然不同</h2><p>确保写出的代码不至于让你的后继维护者恨不得驾起他们的小汽车从你身上碾过……</p>
+<p>你所能犯的最大错误就是相信自己是在为别人工作。这样一来你对工作的安全感已然尽失。职业发展的驱动力一定是来自个体本身。记住：工作是属于公司的，而职业生涯却是属于你自己的。</p>
+<p>——厄尔•南丁格尔</p>
+<h2 id="非同凡响"><a href="#非同凡响" class="headerlink" title="非同凡响"></a>非同凡响</h2><p>成为专业人士是一种心态。如果我们总是与恐惧、自毁、拖延和自我怀疑作斗争，那么问题就是：我们正在像外行那样思考问题。外行毫不起眼，外行人废话连篇，外行屈从于逆境。专业人士可不这么想。不管怎样，他引人注目，他恪尽职守，他始终如一。</p>
+<p><a target="_blank" rel="noopener" href="http://www.rleonardi.com/interactive-resume/">interactive-resume</a></p>
+<p>在做Java项目的那几年里，我学到的东西比之前工作中学到的都多。突然之间，我有了一个巨大的装满各式工具的工具箱，能用来解决任何问题，我再也不像以前那样死守着少数几个被过度使用的工具。</p>
+<p>如果你想成功，你必须要学会收起自己脆弱的自尊心，勇敢走出去，别害怕让自己出丑。每一位著名的演员、音乐家、专业运动员和公共演说家都曾有过表现不佳的时候，他们自觉地选择了走出困境，尽力而为。成功终将会来。你不可能专注做某件事而毫无长进，你只要坚持足够长的时间就会有收获。你的生存之道就是不必太在意。别害怕被人看作傻瓜。</p>
+<p>在我的职业生涯中，我一共错失了9 000多次投篮，输掉了近300场比赛。我本来有26次绝杀的机会却投球不进。我失败了一次又一次。这就是我能够成功的原因。</p>
+<p>——迈克尔·乔丹</p>
+<p>教育的首要目标，并不在于“知”而在于“行”。</p>
+<p>——赫伯特·斯宾塞</p>
+<p>可以换个角度思考一下这个问题：你可能看遍了教你如何正确骑车的书，也可能看过别人骑自行车的视频，我也可以给你培训正确骑车的机械原理，但是，如果你从来没有骑过自行车，那么当你第一次骑的时候你一定会摔倒。你可能对自行车无所不知，熟悉骑车的机械原理，知道哪种自行车最好，但是直到你将自己所学的东西用于实践，你才算真正学会了骑自行车。</p>
+<p>同理，许多软件开发人员拿起一本关于编程语言或框架的技术书，从头到尾地读上一遍，就想奢望他们能够吸收其中的所有信息吗？最好的情况可能是借助这种方法，你能快速积累该主题的全部信息，但你仍然没有真正学会它。</p>
+<p>如果你想学习一些东西，你应该做什么？好了，刚才我们讲过了，最好的方法就是付诸于实践，如果你也能承担将自己所学的内容教给别人的任务，那么你会理解得更深刻。所以，你在自我教育方面的努力，应该聚焦在如何让自己切实参与，并且尽早付诸实践。</p>
+<p>我觉得学习知识的最好方式就是立即将其用于实践，即使你还不知道自己在做什么。如果关于某个主题你能够获得足够的知识能够操作，你就可以发挥自己心灵深处强大的创造力和好奇心。当我们能够在一件事情上尽情发挥的时候，我们的内心就更倾向于吸收更多的信息，思考更有意义的问题。</p>
+<p>在你阅读某个主题的书之前，大致浏览后就开始实践。不用担心自己是否知道自己在做什么。乐在其中，你就会发现随着自己的实验和探索，自己在哪些方面发现了问题。</p>
+<p>一旦你已经实践过，并积累了各式各样的问题，立刻回到书本当中。当你回去重读这些参考资料的时候，你有强烈的冲动去消化吸收其中的内容。因为你已经积攒了很多想要找到答案的问题，你对哪些内容更重要早已了然于胸。</p>
+<p>然后，你可以把自己学到的新知识重新应用于实践。看看你学到的新方法是否能解决你已有的问题。你可以继续探索新领域，发现需要解决的新问题。以解决实践过程中发现的问题为目标，在向着知识前进的道路上重复这个循环，周而复始。通过这种方式获得的信息对你才是有意义的——“纸上得来终觉浅”啊。</p>
+<p>最后，你可以将自己所学的打包教给别人。这一点是画龙点睛之笔，你应该随时准备与有兴趣倾听的人分享你新学到的知识，你会为自己的发现激动不已——玩儿的力量就是这么巨大。教导他人也很容易，它可以简单到你与配偶之间就自己学到的新东西进行的一次对话，也可以是写一篇博客文章。关键在于，你要用自己的语言将这些信息组织起来，把你的思想表述给别人。</p>
+<p>学习始终是一项棘手的任务，因为在开始学习某些东西的时候，你对自己到底要学什么理解得并不透彻。美国前国防部长唐纳德·拉姆斯菲尔德曾说过“未知之未知”（unknown unknowns），即你根本不知道自己不知道。</p>
+<p>大多数开发人员在打开一本新书开始阅读的时候，他们对自己所不知的一无所知。他们将“未知之未知”留到后面去发现。这一方法的问题在于，你要么学非所需，要么力所不及。在深入探究某个主题之前至少要对其有所了解，这一点非常重要。这样你才能弄清自己到底要学什么，找出最好的学习方式。</p>
+<p>在这一步，你要做的就是了解自己将要学习的主题的全局。这个主题宏观上什么样？你能从中学到足够丰富的知识以了解自己所不知道的吗？以及自己所不知道的有多少？</p>
+<p>你告诉我的，我都忘了。你教会我的，我都记得。让我乐在其中，我就一定能学会。</p>
+<p>任何你所做的重复性工作都值得彻查一番，看看是否有自己不理解的地方，如果你这样做了，可能会提高你的工作效率。想想键盘快捷键。你一直重复使用某个应用，但是并没那么高效，原因是你不得不手动在屏幕上拖曳鼠标并点击。键盘快捷键可能就是你的知识短板。花点儿时间学习每天会用几个小时的应用（提示：你的IDE编程环境）的快捷键，一周能给你节约好几个小时的时间。</p>
+<p>外行静坐等待灵感，其他人则唤起激情努力工作。</p>
+<p>——斯蒂芬•金，《写作这回事：创作生涯回忆录》（On Writing: A Memoir of the Craft）</p>
+<p>专注非常重要，因为它可以让我们在处理任务的时候不必一遍又一遍地重复基础部分。我们的思维模式是这样的：花一些时间先把所有的事务在脑子里过一遍，然后才能达到思维高峰以完成任务。你可以把这个过程想象为汽车在高速公路上行驶时的提速过程。车子在进入高速行驶之前需要更换几个挡位。如果你总是不断地起步停车，那么你的整体速度就会很慢很慢。要让车回到高速，换到五挡，需要花点儿时间。但是，一旦你开到五挡，那就能轻松巡航了。</p>
+<p>我确信你有过这样的状态，你全心工作，感觉毫不费力。要想进入这种状态常常需要费点儿时间，但是一旦找到这种状态，你就能在短期内完成很多任务（除非你为了找出一个难以找到的bug在原地打转）。</p>
+<p>我必须得征服它，强迫自己的手指必须要继续打字。现在我已经进入了可以连续打字数个小时（有时候也许是数个半小时[1]）的状态。关键在于，我不得不坐下来，强迫自己进入专注模式。</p>
+<p>每人每天能够专注地、富有成效地工作的时间是有上限的。你的时间只有这么多，要怎么利用你自己说了算。</p>
+<p>我刚开始在家工作的时候，我曾打算早起工作，然而我却没有——当时我并不是偷懒，只是不习惯对自己负责。我已经习惯了由外部因素来左右自己的行为。当由我自己决定是否工作的时候，我选择了不工作。这是人之常情。</p>
+<p>这种做法暴露了我在职业道德方面的一个致命缺陷，极大地降低了我的生产力。我受外部动机所左右而非内部动机。对雇主负责让我处于被监督的状态，然而一旦自己能做主，我就没有发自内心的责任感来控制自己的行为。</p>
+<p>培养出在没有人监督自己的时候也能高效工作的自我责任感非常重要。你也可以把这称为是具有一种性格或者具有一种素质，它们都是同一个概念。如果缺乏对自己的责任感，你将永远依赖外部动机来驱使你努力工作。你容易折服于一根胡萝卜的诱惑，也容易屈从于一根大棒的威胁（如果你胆敢越轨）。</p>
+<p>自我控制是一门自我激励的艺术，而自我激励的核心则是自我责任感。如果你想不再依赖别人的影响，获得稳定、可预测的结果，你就要学会对自己负责。</p>
+<p>成就我们的恰恰就是那些不断重复做的事情。因此，优秀不是一种行为，而是一种习惯。</p>
+<p>——亚里士多德</p>
+<p>我们每个人都有习惯，有好有坏。好习惯能够推动我们前进，帮助我们成长；坏习惯则阻止我们前进，阻碍我们成长。培养和养成良好的习惯可以让你不需要刻意努力就保持很高的生产效率。如同惯例可以帮我们缓慢而坚定地每次只砌好一块砖，最终建起一面巨大的墙一样，习惯也可以通过日积月累的努力，让我们前进或者后退。二者最大的区别在于，惯例是我们可以控制的，而习惯却不受我们控制。</p>
+<p>金钱只是一种工具。它会带你去往任何你想去的地方，但不会取代你成为司机。</p>
+<p>——爱思•然德（Ayn Rand）</p>
+<p>游戏化的健身应用</p>
+<p><a target="_blank" rel="noopener" href="https://habitica.com/static/front">Habitica</a><br><a target="_blank" rel="noopener" href="https://www.superbetter.com/">Super Better</a><br><a target="_blank" rel="noopener" href="https://www.fitocracy.com/">Fitocracy</a><br><a target="_blank" rel="noopener" href="https://www.zombiesrungame.com/">Zombies, Run!</a></p>
+<p>人类的身体具有令人惊讶的适应性。如果你用手抓住粗糙的东西，手掌上会生出老茧来保护双手；如果你长跑，你的心血管系统会产生适应性，让长跑变得更轻松；如果你举重，你的身体会长出更大的肌肉。</p>
+<p>在开始跑步之前，最重要的就是下定决心。如果不能坚持一周跑3次，即使你一开始就实行Couch-to-5K计划，也不会有任何实际进展。如果你不能坚持跑步，你不仅不会进步反而会退步。锻炼耐力需要时间，而失去耐力却不需要太多时间。</p>
+<p>如果你不征服自己，你就会被自己征服。</p>
+<p>——拿破仑•希尔</p>
+<p>我们有选择的自由，我们有自由的意志。</p>
+<p>信念决定思想，</p>
+<p>思想决定言语，</p>
+<p>言语决定行动，</p>
+<p>行动决定习惯，</p>
+<p>习惯决定价值，</p>
+<p>价值决定命运。</p>
+<p>——圣雄甘地</p>
+<p>做一个绝望的、缺乏自信的人，你可能会发现自己真的孤立无援。如果你发现你面试的对象就像大街上一个垂死挣扎的乞丐一样祈求你施舍给他工作岗位，你也会觉得他很惹人生厌。</p>
+<p>人很奇怪。他们喜欢各种各样的东西。只需要在网上搜索一下，就会出现一些奇谈怪论证明这是真的。我为什么要这么说呢？因为这说明无论你看起来有多奇特，无论你觉得自己有怎样的缺陷，即使你没有完美的笑容，没有轮廓分明的腹肌，也可能会有很多人喜欢你。事实上，在这个广袤的世界里，可能会有很多非常适合你的潜在人选，他们或许跟你一样奇特，又或许和你一点儿都不一样。</p>
+<p>这就意味着，所有的一切无非就是一场数字游戏。太多人会犯这样的错误——挑选一个人，然后把他/她当作理想人选放在神龛上，时刻想念着那个能让他们觉得“开心”的完美女生或者男生。假设只有这么一个完美的人，这种想法不但荒谬而且缺乏策略。如果扩大搜索范围，你的机会更好。</p>
+<p>刚开始工作的时候，我花了大量的时间阅读软件开发类的书籍。现在，我会花更多的时间读更广泛适用的书。</p>
+<p>我养成了一个习惯，我会请与我见过面的那些获得巨大成功或者非常著名的人士推荐一本每个人都应该阅读的书。通过这一探索，我发现了很多很有效的书，这些书真正改变了我的生活。</p>
+<h2 id="书单"><a href="#书单" class="headerlink" title="书单"></a>书单</h2><p>Steven Pressfield的The War of Art［Black Irish Books，2002］</p>
+<p>Dale Carnegie的《人性的弱点》（How to Win Friends and Influence People）［Gallery Books，1998再版］</p>
+<p>Napoleon Hill的 《思考致富》 （Think and Grow Rich） ［Wilder Publications，2007］</p>
+<p>Maxwell Maltz的《心理控制方法》（Psycho-Cybernetics）［Pocket Books，1989再版］</p>
+<p>Norman Vincent Peale的《积极思考就是力量》（The Power of Positive Thinking）［Touchstone，2003再版］</p>
+<p>Ayn Rand的《阿特拉斯耸耸肩》（Atlas Shrugged）［Signet，2005再版］</p>
+<h2 id="软件开发类图书"><a href="#软件开发类图书" class="headerlink" title="软件开发类图书"></a>软件开发类图书</h2><p>Steve McConnell的 《代码大全》 （Code Complete） ［Microsoft Press，2004］</p>
+<p>Robert Martin的《代码整洁之道》（Clean Code: A Handbook of Agile Software Craftmanship）［Prentice Hall，2008］</p>
+<p>Eric Freeman、Elisabeth Robson、Bert Bates和Kathy Sierra的 《Head First设计模式》（Head First Design Patterns）［O’Reilly Media，2004］</p>
+<h2 id="投资类图书"><a href="#投资类图书" class="headerlink" title="投资类图书"></a>投资类图书</h2><p>Gary Keller的The Millionaire Real Estate Investor［McGraw-Hill，2005］</p>
+<p>Robert Kiyosaki的《富爸爸，穷爸爸》（Rich Dad,Poor Dad）［Demco Media，2000］</p>
+<p>Kerry Given的No-Hype Options Trading: Myths, Realities, and Strategies That Really__Work［Wiley，2011］</p>
+<p>跌倒七次，爬起来八次。</p>
+<p>——日本谚语</p>
+<p>在生活中，也许你能学会让你更成功的所有技能，但是如果你缺少持之以恒这个重要的技能，一切都将是毫无意义的，因为那样的话刚一遇到麻烦你就会放弃——生活中我们都会面对很多麻烦。</p>
+<p>另一方面，你的专业知识可能严重不足，你可能缺乏社交技能和金融知识，但是只要你能坚持到底，我相信你最终会找到自己的出路。</p>
+<p>作为一名软件开发人员，这种特质对你来说特别重要，因为在你的生活和事业中你很可能面对大量的困难。开发软件就是很难的——很可能这就是它吸引你的原因之一。在本章中，我们将讨论坚持的重要性以及为什么培养面对困难无所畏惧的能力至关重要。</p>
+<p>如果非要我猜猜为什么大多数人如此害怕失败，我不得不说这可能是基于保护脆弱的自尊的想法。或许我们害怕失败就是因为我们太过将失败归咎于个人，我们认为在特定领域下的失败是个人价值的流逝。</p>
+<p>我认为，对“失败”性质的误解还会助长这种对个人价值伤害的恐惧感。我们都被告之，并且倾向于认为，失败是一件不好的事情。我们没有看到，失败的阴影中暗含着一线曙光，我们只把失败看作是终点—— 失败这个词本身暗示着死胡同、绝望的终点，而不是通往成功之路上的一个暂时壁垒。在我们的脑海中想象这样一个画面：在一个岛上，一群人被困住了。他们无望地坐在沙滩上，没有获救的希望，他们的生活是失败的，他们是失败者。</p>
+<p>即使我们知道失败并不是终点，我们似乎也能感受到这一点。我们往往太过较真，把失败看得太重。因为我们接受过把失败看作通往成功道路——很多情况下这也是唯一的一条道路——的训练，所以我们不惜任何代价地避免失败。</p>
+<p>失败不同于被打败。失败是暂时的，被打败是永恒的。失败是那些碰巧发生在你身上的——你不能完全控制它。被打败却是你可以选择的——是对失败的某种程度的接受。</p>
+<p>要实现不畏惧失败，第一步就是真正意识到失败不是终点——除非你选择把它看作是终点。生活不易，你随时都会被击垮，但是否要重新站起来却完全取决于你自己。它取决于你是否决定为自己最值得拥有的东西战斗，取决于你是否要享受获得成功后的喜悦和乐趣，大多数情况下，它来自于战胜困难的成就感。</p>
+<p>你是否玩过一个很难通关的电子游戏？还记得自己打败最后那个大怪时的那种成就感吗？一路走来你可能失败了很多次，但取得成功以后是多么喜悦啊！同样难度的电子游戏，如果你输入了通关码，有无数条命或者变成无敌手，即使通关又有什么乐趣呢？你会拥有成功后的那份喜悦吗？</p>
+<p>还是电子游戏的例子，如果在第一次受挫败被打死的时候你就扔掉了控制器，会发生什么？某种程度上，从很多次失败中获得的经验反而让你最终获得了成功的体验，这是不是更令你乐在其中？如果是这样，你为什么要把失败当作是一种永恒的状态而逃避生活中的失败呢？你不能指望拿起电玩遥控器，不经历掉下陷阱或者被火球烧焦就能通关，那么你为什么要指望一生不经历失败呢？</p>
+<p>不要畏惧失败，要拥抱失败。不只是因为失败和被打败不同，还因为失败是通往成功的必经之路。生活中所有值得拥有、值得去完成的事情都需要经历失败。</p>
+<p>在现实世界里，当你在某件事上失败的时候，你从中学到了经验并且有可能成长。我们的大脑就是被这样训练的。如果你曾经试过学习如何玩杂耍，或者打篮球，或者其他需要相互配合的体育活动，你会知道在成功前会失败很多次。</p>
+<p>我需要做的就是不断尝试——首先不要害怕去尝试。</p>
+<p>重申一遍，我必须要说，即使你在本书中什么都没有学到，那也要记下下面这条建议：学会拥抱失败、期待失败、接受失败，并准备直面失败。</p>
+<p>只是不畏惧失败还不够，还要主动寻觅失败。想成长就必须把自己放在保证会失败的环境中。我们常常会因为停止做那些对我们有挑战或者危险的事情而停滞不前。我们寻找生活中的温室，关上小屋的门，拉上窗户，任凭外面狂风暴雨，我们绝不冲到雨中。</p>
+<p>但是，有时候你需要被淋湿，有时候你需要把自己放到一个不舒服的环境下强迫自己成长，有时候你需要积极地走出去寻找这样的环境，要知道，你越将你的船驶向失败，将你吹向失败的另外一面（成功）的风就会越强。</p>
+<p>要如何拥抱失败？要如何说服自己跳入波涛汹涌的大海？从接受失败是生活的一部分开始。你必须明白，在生活中你要面对很多失败，很多是不可避免的，任何事情第一次做都不可能做到完美，你会犯错。</p>
+<p>你还要明白，就算失败也没关系。犯错也没关系。你可以尝试避免犯错，但是不要因为害怕伤害自尊而以付出错失良机为代价。一旦你意识到失败是好事，失败并不能定义你的价值而你对待失败的态度恰恰才能说明你的价值，你才会真正学会对失败无所畏惧。</p>
+<p>最后，我还是要建议你将自己暴露在失败的环境里。去做那些让你不舒服的事情。在本书的前面我们讨论过不要害怕看起来像个傻瓜，对待失败我也要说一样的话。事实上，这两个观点是紧密相连的。走出去，有目的地去把自己放在那些不可避免地会导致某种失败的困境中。但关键是不要放弃——让失败点亮通往成功的道路。去经历尽可能多的失败吧，畏惧失败本身才会让你失去克服困难的能力。</p>
+<p>“大多数伟大的人取得的最大成功与他们所经历的最大失败只有一步之遥。”</p>
+<h2 id="在线资源"><a href="#在线资源" class="headerlink" title="在线资源"></a>在线资源</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">“Simple Programmer”博客：http://simpleprogrammer.com</span><br><span class="line">在这里你会看到与本书里许多话题都相关的海量博客文章，它也是与我本人联络的最佳方式。每周我都会在这里免费发布一些有用信息（当你浏览博客的时候，确保你注册了我的邮件列表，这样你就可以获得各式各样的赠品和我每周创建的别的好东西）。</span><br><span class="line"></span><br><span class="line">我在YouTube上的自建频道：http://youtube.com/jsonmez</span><br><span class="line">在这里你将会看到与本书里许多话题相关的视频材料，全都是免费的。如果你对我在本书中讲述的某个话题感兴趣，试着搜索一下YouTube中我的自建频道——十有八九你都能找到我上传的相关视频材料。</span><br><span class="line"></span><br><span class="line">“软件开发人员如何营销自我”课程：http://devcareerboost.com/m</span><br><span class="line">如果你对本书中“如何自我营销”这一章特别感兴趣，可以到这个网站上购买全套课程，深入了解如何构建个人品牌使你自己在软件行业中占有一席之地。到目前为止，这是我的著作中最受欢迎的部分。因为你已经购买本书，所以我要给予你特别折扣——使用代码SOFTSKILLS将获得100美元的抵扣。</span><br><span class="line"></span><br><span class="line">“十步快速学习法”课程：http://simpleprogrammer.com/ss-10steps</span><br><span class="line">这是另外一门深入课程，探讨我在本书“学习”篇中教你的方法之细节。如果你对这一篇内容深感兴趣，想更加深入地了解该主题，关注这个课程，可以发现更多内容。</span><br><span class="line"></span><br><span class="line">“Entreprogrammers”网站：http://entreprogrammers.com</span><br><span class="line">如果你立志成为一名企业家，或者已经开始创业了，可以关注这个免费的每周播客，这是我和其他3位开发者/企业家（或曰：开发者企业家）联合开发的。</span><br><span class="line"></span><br><span class="line">-“Get Up and CODE”网站：http://getupandcode.com</span><br><span class="line"></span><br><span class="line">最后，如果“健身”篇令你眼前一亮的话，那你也会喜欢这个免费播客。这是我为软件开发人员和IT专业人士专门准备的。</span><br></pre></td></tr></table></figure>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%9C%89%E8%B6%A3/" rel="tag"># 有趣</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/05/02/Program/C++/C++/" rel="prev" title="C++编程思想">
+      <i class="fa fa-chevron-left"></i> C++编程思想
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2021/05/03/People%20that%20affect%20me/hanselman/" rel="next" title="Hanselman">
+      Hanselman <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BF%A5%E7%84%B6%E4%B8%8D%E5%90%8C"><span class="nav-number">1.</span> <span class="nav-text">迥然不同</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%9D%9E%E5%90%8C%E5%87%A1%E5%93%8D"><span class="nav-number">2.</span> <span class="nav-text">非同凡响</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B9%A6%E5%8D%95"><span class="nav-number">3.</span> <span class="nav-text">书单</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%B1%BB%E5%9B%BE%E4%B9%A6"><span class="nav-number">4.</span> <span class="nav-text">软件开发类图书</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8A%95%E8%B5%84%E7%B1%BB%E5%9B%BE%E4%B9%A6"><span class="nav-number">5.</span> <span class="nav-text">投资类图书</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9C%A8%E7%BA%BF%E8%B5%84%E6%BA%90"><span class="nav-number">6.</span> <span class="nav-text">在线资源</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Weiyu"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">Weiyu</p>
+  <div class="site-description" itemprop="description">A new start in life experience</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">80</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">27</span>
+        <span class="site-state-item-name">分类</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">44</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/muxueweiyu" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;muxueweiyu" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:tantaiweiyu@gmail.com" title="E-Mail → mailto:tantaiweiyu@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 2018 – 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Weiyu</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="站点总字数">247k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">7:28</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/pjax/pjax.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '.languages',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.dataset.pjax !== undefined) {
+      script.dataset.pjax = '';
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="pjax">
+  
+
+  
+
+    </div>
+</body>
+</html>
